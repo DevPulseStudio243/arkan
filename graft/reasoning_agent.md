@@ -1,0 +1,34 @@
+# reasoning_agent.py
+
+- AgentStep · class · L33-L39 — class AgentStep
+- AgentResult · class · L43-L52 — class AgentResult
+- tool_search_documents · function · L57-L79 — def tool_search_documents(query: str, discipline: str = "") -> str
+- tool_search_keywords · function · L82-L113 — def tool_search_keywords(query: str) -> str
+- tool_query_lightrag · function · L116-L134 — def tool_query_lightrag(question: str, mode: str = "hybrid") -> str
+- tool_query_knowledge_graph · function · L138-L189 — def tool_query_knowledge_graph(entity: str = "", query: str = "") -> str
+- tool_get_project_equipments · function · L191-L285 — def tool_get_project_equipments(project_name: str = "", project: str = "") -> str
+- tool_analyze_impact_neo4j · function · L287-L319 — def tool_analyze_impact_neo4j(tag: str = "", entity: str = "", query: str = "", depth: str = "2") -> str
+- tool_compute_evm · function · L322-L382 — def tool_compute_evm(BAC: str, BCWP: str, BCWS: str, ACWP: str) -> str
+- tool_analyze_planning_risk · function · L385-L462 — def tool_analyze_planning_risk(schedule_delay_days: str, cost_overrun_pct: str, phase: str) -> str
+- tool_generate_diagram · function · L466-L522 — def tool_generate_diagram(title: str, sections) -> str
+- tool_analyze_engineering_pdf · function · L526-L554 — def tool_analyze_engineering_pdf(file_path: str = "", path: str = "", filename: str = "") -> str
+- tool_analyze_image_vision · function · L556-L597 — def tool_analyze_image_vision(image_name: str = "", image: str = "", image_path: str = "", file_path: str = "") -> str
+- tool_query_traceability_db · function · L600-L633 — def tool_query_traceability_db(sql_query: str) -> str
+- tool_inspect_codebase_architecture · function · L636-L700 — def tool_inspect_codebase_architecture(symbol: str = "", domain: str = "") -> str
+- ReActStep · class · L854-L860 — class ReActStep(BaseModel)
+- ReasoningAgent · class · L864-L1283 — class ReasoningAgent
+- __init__ · method · L870-L879 — def __init__(self, model: str = AGENT_MODEL, max_iterations: int = AGENT_MAX_ITERATIONS)
+- _refresh_tools · method · L881-L891 — def _refresh_tools(self)
+- _get_client · method · L893-L896 — def _get_client(self) -> httpx.Client
+- _build_tools_description · method · L898-L903 — def _build_tools_description(self) -> str
+- _build_system_prompt · method · L905-L909 — def _build_system_prompt(self) -> str
+- _call_llm · method · L911-L935 — def _call_llm(self, messages: list[dict]) -> str
+- _parse_json_step · method · L937-L961 — def _parse_json_step(self, text: str) -> Optional[dict]
+- _parse_action · method · L963-L981 — def _parse_action(self, text: str) -> tuple[str, dict]
+- _parse_thought · method · L983-L986 — def _parse_thought(self, text: str) -> str
+- _parse_answer · method · L988-L1001 — def _parse_answer(self, text: str) -> str
+- _parse_final_answer · method · L1003-L1008 — def _parse_final_answer(self, text: str) -> str
+- _execute_tool · method · L1010-L1026 — def _execute_tool(self, tool_name: str, params: dict) -> str
+- run · method · L1028-L1283 — def run(self, query: str, discipline: str = "") -> AgentResult
+- get_reasoning_agent · function · L1291-L1303 — def get_reasoning_agent()
+- reason · function · L1307-L1309 — def reason(query: str, discipline: str = "") -> AgentResult

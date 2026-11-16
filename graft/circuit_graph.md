@@ -1,0 +1,24 @@
+# circuit_graph.py
+
+- _role_tag · function · L39-L42 — def _role_tag(tag: str) -> str
+- Symbol · class · L46-L54 — class Symbol
+- _UF · class · L57-L70 — class _UF
+- __init__ · method · L58-L59 — def __init__(self, n: int)
+- find · method · L61-L65 — def find(self, a: int) -> int
+- union · method · L67-L70 — def union(self, a: int, b: int) -> None
+- split_at_junctions · function · L73-L108 — def split_at_junctions(segments: Sequence[Tuple[Pt, Pt]], tol: float, max_rounds: int = 4) -> List[Tuple[Pt, Pt]]
+- _dist_point_segments · function · L111-L116 — def _dist_point_segments(p: Pt, A: np.ndarray, B: np.ndarray) -> Tuple[np.ndarray, np.ndarray]
+- CircuitGraph · class · L119-L396 — class CircuitGraph
+- __init__ · method · L120-L129 — def __init__(self, segments: Sequence[Tuple[Pt, Pt]], symbols: Iterable[Symbol] = (), labels: Iterable[Dict[str, Any]] = (), snap_tol: float = 1.0, bridge_margin: float = 4.0, label_radius: float = 60.0, arrow_tol: float = 8.0, equipment_margin: float = 2.0)
+- _build · method · L132-L192 — def _build(self, bridge_margin: float, eq_margin: float) -> None
+- _is_passthrough · method · L194-L195 — def _is_passthrough(self, node: int) -> bool
+- _assign_chains · method · L197-L241 — def _assign_chains(self, labels: List[Dict[str, Any]], label_radius: float, arrow_tol: float) -> None
+- _order_chain · method · L243-L274 — def _order_chain(self, cid: int, members: List[int]) -> Dict[str, Any]
+- _end_info · method · L276-L282 — def _end_info(self, node: int) -> Dict[str, str]
+- _orient · method · L284-L320 — def _orient(self, chain: Dict[str, Any], arrow_tol: float) -> None
+- _score · method · L323-L336 — def _score(chain: Dict[str, Any]) -> None
+- _assign_circuits · method · L338-L349 — def _assign_circuits(self) -> None
+- chain_at · method · L352-L358 — def chain_at(self, x: float, y: float, pick_radius: float = 10.0) -> Optional[Dict[str, Any]]
+- trace · method · L360-L368 — def trace(self, x: float, y: float, mode: str = "line", pick_radius: float = 10.0) -> Optional[Dict[str, Any]]
+- to_line_entries · method · L370-L388 — def to_line_entries(self, filename: str = "drawing.pdf") -> List[Dict[str, Any]]
+- to_dict · method · L390-L396 — def to_dict(self) -> Dict[str, Any]

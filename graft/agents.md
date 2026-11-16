@@ -1,0 +1,59 @@
+# agents.py
+
+- Discipline · class · L16-L29 — class Discipline(Enum)
+- AgentContext · class · L33-L41 — class AgentContext
+- AgentResponse · class · L45-L52 — class AgentResponse
+- AgentResult · class · L56-L63 — class AgentResult
+- DisciplineAgent · class · L66-L163 — class DisciplineAgent
+- __init__ · method · L72-L77 — def __init__(self, discipline: Discipline)
+- enrich_query · method · L79-L111 — def enrich_query(self, query: str, equipment_tags: list[str] = None) -> AgentContext
+- validate_answer · method · L113-L140 — def validate_answer(self, query: str, answer: str, context: str) -> AgentResponse
+- _compute_relevance · method · L142-L155 — def _compute_relevance(self, query: str) -> float
+- _get_related_terms · method · L157-L159 — def _get_related_terms(self, term: str) -> list[str]
+- _check_units · method · L161-L163 — def _check_units(self, answer: str, warnings: list[str])
+- PipingAgent · class · L166-L214 — class PipingAgent(DisciplineAgent)
+- __init__ · method · L167-L196 — def __init__(self)
+- _get_related_terms · method · L198-L207 — def _get_related_terms(self, term: str) -> list[str]
+- _check_units · method · L209-L214 — def _check_units(self, answer: str, warnings: list[str]): # Check for mixed unit systems
+- ProcessAgent · class · L217-L254 — class ProcessAgent(DisciplineAgent)
+- __init__ · method · L218-L245 — def __init__(self)
+- _get_related_terms · method · L247-L254 — def _get_related_terms(self, term: str) -> list[str]
+- InstrumentationAgent · class · L257-L293 — class InstrumentationAgent(DisciplineAgent)
+- __init__ · method · L258-L284 — def __init__(self)
+- _get_related_terms · method · L286-L293 — def _get_related_terms(self, term: str) -> list[str]
+- MechanicalAgent · class · L296-L336 — class MechanicalAgent(DisciplineAgent)
+- __init__ · method · L297-L327 — def __init__(self)
+- _get_related_terms · method · L329-L336 — def _get_related_terms(self, term: str) -> list[str]
+- ElectricalAgent · class · L339-L369 — class ElectricalAgent(DisciplineAgent)
+- __init__ · method · L340-L369 — def __init__(self)
+- HSEAgent · class · L372-L403 — class HSEAgent(DisciplineAgent)
+- __init__ · method · L373-L403 — def __init__(self)
+- CivilAgent · class · L406-L430 — class CivilAgent(DisciplineAgent)
+- __init__ · method · L407-L430 — def __init__(self)
+- DiagramAgent · class · L433-L465 — class DiagramAgent(DisciplineAgent)
+- __init__ · method · L438-L444 — def __init__(self)
+- generate_mermaid · method · L446-L458 — def generate_mermaid(self, context: str, query: str) -> str
+- _compute_relevance · method · L460-L465 — def _compute_relevance(self, query: str) -> float: # Boost relevance if diagram-related words are present
+- PlanningCostAgent · class · L474-L661 — class PlanningCostAgent(DisciplineAgent)
+- __init__ · method · L488-L578 — def __init__(self)
+- _get_related_terms · method · L580-L593 — def _get_related_terms(self, term: str) -> list[str]
+- _compute_relevance · method · L595-L609 — def _compute_relevance(self, query: str) -> float
+- compute_evm_metrics · method · L611-L646 — def compute_evm_metrics(self, BAC: float, BCWP: float, BCWS: float, ACWP: float) -> dict
+- get_planning_context_prompt · method · L648-L661 — def get_planning_context_prompt(self, query: str) -> str
+- ConsistencyVerificationAgent · class · L664-L669 — class ConsistencyVerificationAgent(DisciplineAgent)
+- __init__ · method · L665-L669 — def __init__(self)
+- ComplianceVerificationAgent · class · L671-L676 — class ComplianceVerificationAgent(DisciplineAgent)
+- __init__ · method · L672-L676 — def __init__(self)
+- PlanDrawingVerificationAgent · class · L678-L682 — class PlanDrawingVerificationAgent(DisciplineAgent)
+- __init__ · method · L679-L682 — def __init__(self)
+- AgentOrchestrator · class · L685-L873 — class AgentOrchestrator
+- __init__ · method · L691-L707 — def __init__(self)
+- execute · method · L709-L749 — def execute(self, query: str, documents: list, knowledge_graph_context: str, entities_context: str, query_type: str) -> AgentResult
+- route_query · method · L751-L788 — def route_query(self, query: str, detected_disciplines: list[str] = None) -> list[DisciplineAgent]
+- enrich_query · method · L790-L805 — def enrich_query(self, query: str, equipment_tags: list[str] = None, detected_disciplines: list[str] = None) -> list[AgentContext]
+- validate_answer · method · L807-L823 — def validate_answer(self, query: str, answer: str, context: str, detected_disciplines: list[str] = None) -> list[AgentResponse]
+- merge_agent_keywords · method · L825-L837 — def merge_agent_keywords(self, contexts: list[AgentContext]) -> list[str]
+- merge_agent_norms · method · L839-L850 — def merge_agent_norms(self, contexts: list[AgentContext]) -> list[str]
+- format_warnings · method · L852-L865 — def format_warnings(self, responses: list[AgentResponse]) -> str
+- get_agent · method · L867-L873 — def get_agent(self, discipline: str) -> Optional[DisciplineAgent]
+- get_orchestrator · function · L880-L886 — def get_orchestrator() -> AgentOrchestrator

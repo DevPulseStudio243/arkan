@@ -1,0 +1,38 @@
+# planning_multiagent_engine.py
+
+- PlanningNLUAgent · class · L30-L290 — class PlanningNLUAgent
+- _query_llm_semantic_understanding · method · L33-L82 — async def _query_llm_semantic_understanding(self, prompt: str) -> Optional[Dict[str, Any]]
+- _fallback_heuristic_analysis · method · L84-L257 — def _fallback_heuristic_analysis(self, p: str, request: PlanningGenerationRequest) -> Dict[str, Any]
+- analyze · method · L259-L290 — async def analyze(self, request: PlanningGenerationRequest) -> Dict[str, Any]
+- PlanningWBSAgent · class · L293-L1099 — class PlanningWBSAgent
+- _generate_llm_dynamic_wbs · method · L296-L352 — async def _generate_llm_dynamic_wbs(self, nlu: Dict[str, Any], req: PlanningGenerationRequest) -> List[Dict[str, Any]]
+- _build_level2_macro_wbs · method · L354-L450 — def _build_level2_macro_wbs(self, raw_wbs: List[Dict[str, Any]], nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _build_level4_detailed_wbs · method · L452-L624 — def _build_level4_detailed_wbs(self, raw_wbs: List[Dict[str, Any]], nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _apply_wbs_granularity · method · L626-L636 — def _apply_wbs_granularity(self, raw_wbs: List[Dict[str, Any]], wbs_level: int, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- decompose · method · L639-L760 — async def decompose(self, nlu_result: Dict[str, Any], request: PlanningGenerationRequest) -> List[Dict[str, Any]]
+- _generate_tgbt_electrical_wbs · method · L764-L780 — def _generate_tgbt_electrical_wbs(self, nlu: Dict[str, Any], nb_cellules: int) -> List[Dict[str, Any]]
+- _generate_instrumentation_dcs_wbs · method · L783-L797 — def _generate_instrumentation_dcs_wbs(self, nlu: Dict[str, Any], nb_units: int) -> List[Dict[str, Any]]
+- _generate_shutdown_wbs · method · L800-L813 — def _generate_shutdown_wbs(self, nlu: Dict[str, Any], nb_equipements: int) -> List[Dict[str, Any]]
+- _generate_machinery_wbs · method · L816-L828 — def _generate_machinery_wbs(self, nlu: Dict[str, Any], nb_machines: int) -> List[Dict[str, Any]]
+- _generate_civil_wbs · method · L831-L843 — def _generate_civil_wbs(self, nlu: Dict[str, Any], surf_m2: float) -> List[Dict[str, Any]]
+- _generate_pipeline_wbs · method · L846-L866 — def _generate_pipeline_wbs(self, nlu: Dict[str, Any], longueur_ml: float, diam_p: int, nb_joints: int, total_di: int) -> List[Dict[str, Any]]
+- _generate_building_hangar_wbs · method · L869-L882 — def _generate_building_hangar_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_wellhead_wbs · method · L885-L899 — def _generate_wellhead_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_manifold_wbs · method · L902-L917 — def _generate_manifold_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_wellhead_and_manifold_wbs · method · L920-L939 — def _generate_wellhead_and_manifold_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_fiber_optic_telecom_wbs · method · L942-L962 — def _generate_fiber_optic_telecom_wbs(self, nlu: Dict[str, Any], longueur_ml: float) -> List[Dict[str, Any]]
+- _generate_cathodic_protection_wbs · method · L965-L986 — def _generate_cathodic_protection_wbs(self, nlu: Dict[str, Any], longueur_ml: float) -> List[Dict[str, Any]]
+- _generate_fire_protection_wbs · method · L989-L1001 — def _generate_fire_protection_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_solar_pv_wbs · method · L1004-L1017 — def _generate_solar_pv_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_flare_wbs · method · L1020-L1032 — def _generate_flare_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_basin_pond_wbs · method · L1035-L1048 — def _generate_basin_pond_wbs(self, nlu: Dict[str, Any], volume_m3: float) -> List[Dict[str, Any]]
+- _generate_tank_wbs · method · L1051-L1065 — def _generate_tank_wbs(self, nlu: Dict[str, Any]) -> List[Dict[str, Any]]
+- _generate_skid_wbs · method · L1068-L1080 — def _generate_skid_wbs(self, nlu: Dict[str, Any], longueur: float, diam_p: int) -> List[Dict[str, Any]]
+- _generate_piping_wbs · method · L1083-L1099 — def _generate_piping_wbs(self, nlu: Dict[str, Any], longueur: float, diam_p: int, nb_joints: int, total_di: int) -> List[Dict[str, Any]]
+- PlanningYieldAndCrewAgent · class · L1102-L1373 — class PlanningYieldAndCrewAgent
+- process_task · method · L1105-L1373 — async def process_task(self, raw_task: Dict[str, Any]) -> TachePlanning
+- PlanningDCMAAgent · class · L1376-L1413 — class PlanningDCMAAgent
+- audit_schedule · method · L1379-L1413 — def audit_schedule(self, taches: List[TachePlanning], critical_path: List[str], total_duration: float) -> Tuple[Dict[str, Any], List[str]]
+- PlanningMultiagentSwarm · class · L1416-L1488 — class PlanningMultiagentSwarm
+- __init__ · method · L1419-L1423 — def __init__(self)
+- generate_planning · method · L1425-L1488 — async def generate_planning( self, request: PlanningGenerationRequest, stream_callback: Optional[Callable[[Dict[str, Any]], None]] = None ) -> PlanningResponse

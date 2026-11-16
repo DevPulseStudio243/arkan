@@ -1,0 +1,46 @@
+# piping_topology_tracer.py
+
+- ComponentType · class · L32-L47 — class ComponentType(Enum)
+- EquipmentRole · class · L50-L53 — class EquipmentRole(Enum)
+- decode_gcb_pipe_spec · function · L132-L159 — def decode_gcb_pipe_spec(spec_code: str) -> Dict[str, str]
+- _parse_strict_line_tag · function · L194-L242 — def _parse_strict_line_tag(tag_clean: str) -> Optional[Dict[str, str]]: # 1. Existing pipeline (e.g. ROK1 34" EXISTANT)
+- parse_line_tag · function · L245-L341 — def parse_line_tag(tag_str: str) -> Optional[Dict[str, str]]
+- Point2D · class · L345-L350 — class Point2D
+- as_tuple · method · L349-L350 — def as_tuple(self)
+- Node · class · L354-L361 — class Node
+- Edge · class · L365-L371 — class Edge
+- UnionFind · class · L374-L388 — class UnionFind
+- __init__ · method · L375-L376 — def __init__(self)
+- find · method · L378-L383 — def find(self, x)
+- union · method · L385-L388 — def union(self, a, b)
+- TopologyBuilder · class · L391-L435 — class TopologyBuilder
+- __init__ · method · L392-L394 — def __init__(self, gap_tolerance_mm: float = 30.0)
+- register_endpoint · method · L396-L397 — def register_endpoint(self, x: float, y: float, endpoint_id: str, source_entity=None)
+- merge_disjoint_endpoints · method · L399-L423 — def merge_disjoint_endpoints(self) -> dict[str, str]
+- build_graph · method · L425-L435 — def build_graph(self, nodes: list[Node], edges_raw: list[Edge]) -> nx.MultiGraph
+- FlowDirectionEngine · class · L438-L509 — class FlowDirectionEngine
+- __init__ · method · L439-L440 — def __init__(self, graph: nx.MultiGraph)
+- _direction_from_arrow · method · L443-L447 — def _direction_from_arrow(edge_data: Edge)
+- _direction_from_check_valve · method · L450-L454 — def _direction_from_check_valve(node: Node)
+- _role · method · L457-L458 — def _role(node: Node) -> EquipmentRole
+- _nozzle_role · method · L461-L469 — def _nozzle_role(node: Node)
+- resolve_source_and_sink · method · L471-L502 — def resolve_source_and_sink(self, line_subgraph: nx.MultiGraph)
+- bfs_path · method · L505-L509 — def bfs_path(source, sink, line_subgraph)
+- _polyline_length · function · L512-L516 — def _polyline_length(points: list[Point2D]) -> float
+- _project_point_on_polyline · function · L519-L534 — def _project_point_on_polyline(point: Point2D, polyline: list[Point2D]) -> float
+- CurvilinearProjector · class · L537-L548 — class CurvilinearProjector
+- __init__ · method · L538-L541 — def __init__(self, path_nodes: list[Node], path_polyline: list[Point2D])
+- ordered_sequence · method · L543-L548 — def ordered_sequence(self) -> list[tuple[float, Node]]
+- OPCStitcher · class · L551-L579 — class OPCStitcher
+- __init__ · method · L552-L553 — def __init__(self, opc_alias_map: dict[str, str] | None = None)
+- _normalize · method · L555-L557 — def _normalize(self, label: str) -> str
+- stitch · method · L559-L579 — def stitch(self, graphs_by_sheet: dict[str, nx.MultiGraph]) -> nx.MultiGraph
+- PipingTopologyTracer · class · L582-L1112 — class PipingTopologyTracer
+- __init__ · method · L584-L593 — def __init__(self, tolerance: float = 30.0, box_tolerance: float = 50.0, opc_alias_map: dict | None = None, inline_component_radius: float = 120.0, label_proximity_radius: float = 300.0, fallback_search_radius: float = 150.0)
+- _point_dist · method · L595-L596 — def _point_dist(self, p1: Tuple[float, float], p2: Tuple[float, float]) -> float
+- _dist_to_segment · method · L598-L607 — def _dist_to_segment(self, px: float, py: float, x1: float, y1: float, x2: float, y2: float) -> float
+- _get_obj_coords · method · L609-L622 — def _get_obj_coords(self, obj: Dict[str, Any]) -> Tuple[float, float]
+- trace_drawing · method · L624-L1112 — def trace_drawing( self, segments: List[Tuple[Tuple[float, float], Tuple[float, float], Dict[str, Any]]], labels: List[Dict[str, Any]], blocks: List[Dict[str, Any]], opcs: List[Dict[str, Any]], filename: str = "drawing.dxf" ) -> List[Dict[str, Any]]
+- get_point_id · function · L636-L641 — def get_point_id(p: Tuple[float, float]) -> int
+- stitch_project_line_lists · function · L1115-L1140 — def stitch_project_line_lists(drawings_lines: List[List[Dict[str, Any]]]) -> List[Dict[str, Any]]
+- validate_line_nomenclature · function · L1143-L1175 — def validate_line_nomenclature(line_entry: Any, project_pattern: str = None) -> List[str]

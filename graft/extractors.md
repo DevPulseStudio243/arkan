@@ -1,0 +1,28 @@
+# extractors.py
+
+- SQLiteVisionCache · class · L41-L136 — class SQLiteVisionCache
+- __init__ · method · L45-L49 — def __init__(self, db_path: str)
+- _init_db · method · L51-L65 — def _init_db(self)
+- _migrate_json · method · L67-L91 — def _migrate_json(self): # The old JSON path is self.db_path with .db replaced by .json
+- __contains__ · method · L93-L103 — def __contains__(self, key: str) -> bool
+- __getitem__ · method · L105-L119 — def __getitem__(self, key: str) -> str
+- __setitem__ · method · L121-L130 — def __setitem__(self, key: str, value: str)
+- get · method · L132-L136 — def get(self, key: str, default=None)
+- _load_vision_cache · function · L141-L146 — def _load_vision_cache()
+- _save_vision_cache · function · L149-L151 — def _save_vision_cache(cache): # Already saved automatically in SQLite, no-op
+- _is_pid_document · function · L216-L239 — def _is_pid_document(file_path: str, text_sample: str = "") -> bool
+- _extract_vectorial_spatial · function · L244-L322 — def _extract_vectorial_spatial(file_path: str) -> str
+- extract_pdf · function · L327-L481 — def extract_pdf(file_path: str) -> dict
+- _ocr_pdf_pages · function · L484-L595 — def _ocr_pdf_pages(file_path: str, reader, is_pid: bool = False) -> str
+- _tile_and_ocr · function · L598-L646 — def _tile_and_ocr(img_bytes: bytes, width: int, height: int, is_pid: bool = True) -> list
+- _call_vision_model_b64 · function · L653-L697 — def _call_vision_model_b64(b64_image: str, context: str = "", is_pid: bool = False) -> str
+- _call_vision_model · function · L700-L714 — def _call_vision_model(image_data, context: str = "", is_pid: bool = False) -> str
+- extract_docx · function · L719-L754 — def extract_docx(file_path: str) -> dict
+- extract_xlsx · function · L759-L786 — def extract_xlsx(file_path: str) -> dict
+- extract_pptx · function · L791-L823 — def extract_pptx(file_path: str) -> dict
+- extract_html · function · L828-L895 — def extract_html(file_path: str) -> dict
+- extract_dxf · function · L900-L1008 — def extract_dxf(file_path: str) -> dict
+- add_to_layer · function · L953-L960 — def add_to_layer(layer: str, text_val: str)
+- _extract_dwg_via_vision · function · L1011-L1060 — def _extract_dwg_via_vision(file_path: str) -> dict
+- extract_text · function · L1066-L1079 — def extract_text(file_path: str) -> dict
+- extract_file · function · L1108-L1127 — def extract_file(file_path: str) -> dict

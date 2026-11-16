@@ -1,0 +1,47 @@
+[
+  {
+    "id": "exp_001",
+    "question": "Quelle est la différence principale entre une pompe centrifuge selon la norme API 610 et une pompe standard ASME B73.1 ?",
+    "answer": "Les pompes API 610 sont conçues spécifiquement pour l'industrie pétrolière et gazière, supportant des pressions et températures beaucoup plus élevées, avec des corps radiaux (centerline mounted) pour compenser la dilatation thermique. Les pompes ASME B73.1 sont des pompes chimiques standard (foot mounted) pour des applications moins sévères.",
+    "rating": "good",
+    "grounding_ratio": 1.0,
+    "discipline": "mechanical",
+    "timestamp": "2026-04-27T10:00:00"
+  },
+  {
+    "id": "exp_002",
+    "question": "Quels sont les paramètres critiques pour dimensionner une soupape de sécurité (PSV) sur un ballon séparateur triphasique ?",
+    "answer": "Le dimensionnement selon l'API 520/521 requiert d'identifier le scénario le plus défavorable (fire case, blocked discharge, tube rupture). Les paramètres clés sont : la pression de tarage (set pressure), la contre-pression (superimposed et built-up), l'état du fluide (gaz, liquide ou biphasique), le débit massique de soulagement et les propriétés thermodynamiques (Z, k, MW).",
+    "rating": "good",
+    "grounding_ratio": 1.0,
+    "discipline": "process",
+    "timestamp": "2026-04-27T10:05:00"
+  },
+  {
+    "id": "exp_003",
+    "question": "Pourquoi utilise-t-on de l'acier inoxydable Duplex (22Cr) pour les tuyauteries d'eau de mer plutôt que du 316L ?",
+    "answer": "L'acier inoxydable Duplex (ex: UNS S31803) offre une bien meilleure résistance à la corrosion par piqûres et caverneuse dans les environnements riches en chlorures (eau de mer) par rapport au 316L, tout en ayant une limite d'élasticité presque deux fois supérieure, permettant de réduire l'épaisseur des parois.",
+    "rating": "good",
+    "grounding_ratio": 0.95,
+    "discipline": "piping",
+    "timestamp": "2026-04-27T10:10:00"
+  },
+  {
+    "id": "exp_004",
+    "question": "Quelles sont les distances de sécurité (spacing) recommandées entre une unité de compression de gaz et les torchères ?",
+    "answer": "Selon les directives API STD 2A et les standards internes (ex: DEP Shell ou Total GS), la distance minimale entre les compresseurs de gaz (zone potentiellement explosive) et une torche ou une source d'ignition permanente est typiquement de 60 à 90 mètres (200-300 ft), dépendant des calculs de radiation thermique (API 521, limite de 1.5 kW/m² ou 4.73 kW/m² selon le niveau d'exposition).",
+    "rating": "good",
+    "grounding_ratio": 0.90,
+    "discipline": "hse",
+    "timestamp": "2026-04-27T10:15:00"
+  },
+  {
+    "id": "exp_005",
+    "question": "Quel est le but d'un système ESD (Emergency Shutdown) de niveau SIL 3 ?",
+    "answer": "Un système ESD classé SIL 3 (Safety Integrity Level 3 selon l'IEC 61508/61511) est conçu pour ramener un processus industriel à un état sûr lors d'un événement critique, avec une probabilité de défaillance sur sollicitation (PFD) extrêmement faible (entre 10^-3 et 10^-4). Il nécessite généralement une redondance matérielle (ex: architecture 1oo2 ou 2oo3).",
+    "rating": "good",
+    "grounding_ratio": 1.0,
+    "discipline": "instrumentation",
+    "timestamp": "2026-04-27T10:20:00"
+  }
+]

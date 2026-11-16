@@ -1,0 +1,22 @@
+# tests/test_corrections.py
+
+- make_pid · function · L23-L65 — def make_pid(path: Path) -> Path
+- parsed · function · L69-L73 — def parsed(tmp_path_factory)
+- test_load_config_ne_mute_pas_la_config_par_defaut · function · L79-L85 — def test_load_config_ne_mute_pas_la_config_par_defaut(tmp_path)
+- test_layer_role_pas_de_faux_positif_de_sous_chaine · function · L88-L92 — def test_layer_role_pas_de_faux_positif_de_sous_chaine()
+- test_instrument_recompose_depuis_les_attributs · function · L95-L99 — def test_instrument_recompose_depuis_les_attributs(parsed)
+- test_fraction_empilee_mtext_normalisee · function · L102-L105 — def test_fraction_empilee_mtext_normalisee(parsed)
+- test_blocs_imbriques_lus_recursivement · function · L108-L110 — def test_blocs_imbriques_lus_recursivement(parsed)
+- test_lignes_issues_de_la_geometrie_avec_pontage_vanne · function · L113-L124 — def test_lignes_issues_de_la_geometrie_avec_pontage_vanne(parsed)
+- test_line_entries_et_boucles_produits · function · L127-L131 — def test_line_entries_et_boucles_produits(parsed)
+- test_pas_de_valeur_inventee_dans_le_cartouche · function · L134-L137 — def test_pas_de_valeur_inventee_dans_le_cartouche(parsed)
+- test_revue_humaine_appliquee · function · L140-L149 — def test_revue_humaine_appliquee(tmp_path)
+- test_classification_tags_avec_prefixe_de_zone · function · L162-L163 — def test_classification_tags_avec_prefixe_de_zone(tag, expected)
+- test_vanne_avec_zone_n_est_plus_un_equipement_isole · function · L166-L170 — def test_vanne_avec_zone_n_est_plus_un_equipement_isole()
+- test_validate_dxf_rejette_un_dxf_tronque · function · L176-L181 — def test_validate_dxf_rejette_un_dxf_tronque(tmp_path)
+- test_conversion_sans_moteur_ne_renvoie_pas_un_ancien_dxf · function · L184-L193 — def test_conversion_sans_moteur_ne_renvoie_pas_un_ancien_dxf(tmp_path, monkeypatch)
+- test_cache_par_contenu_et_moteur_invalide · function · L196-L217 — def test_cache_par_contenu_et_moteur_invalide(tmp_path, monkeypatch)
+- fake_engine · function · L201-L203 — def fake_engine(dwg, out, version, timeout)
+- broken_engine · function · L205-L206 — def broken_engine(dwg, out, version, timeout)
+- test_exe_windows_ignore_hors_windows · function · L221-L224 — def test_exe_windows_ignore_hors_windows(monkeypatch)
+- test_cartouche_du_paperspace_et_prefixe_de_tags · function · L227-L255 — def test_cartouche_du_paperspace_et_prefixe_de_tags(tmp_path)

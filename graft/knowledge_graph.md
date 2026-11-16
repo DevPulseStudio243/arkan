@@ -1,0 +1,45 @@
+# knowledge_graph.py
+
+- Neo4jKnowledgeGraph · class · L53-L752 — class Neo4jKnowledgeGraph
+- __init__ · method · L69-L82 — def __init__( self, uri: str = NEO4J_URI, user: str = NEO4J_USER, password: str = NEO4J_PASSWORD, database: str = NEO4J_DATABASE, )
+- _connect · method · L88-L107 — def _connect(self)
+- disponible · method · L109-L111 — def disponible(self) -> bool
+- close · method · L113-L119 — def close(self)
+- initialiser_schema · method · L125-L146 — def initialiser_schema(self)
+- _normaliser_tag · method · L152-L158 — def _normaliser_tag(self, tag: str) -> str
+- ajouter_equipement · method · L160-L203 — def ajouter_equipement(self, tag: str, description: str, source: str, type_eq: str = "Inconnu", system_parent: str = "") -> bool
+- ajouter_propriete · method · L205-L227 — def ajouter_propriete(self, tag: str, relation: str, valeur: str, unite: str, source: str) -> bool
+- ajouter_conformite · method · L229-L246 — def ajouter_conformite(self, tag: str, code_norme: str, source: str) -> bool
+- ajouter_connexion · method · L248-L270 — def ajouter_connexion(self, tag_a: str, tag_b: str, relation: str, source: str) -> bool
+- ajouter_document · method · L272-L297 — def ajouter_document(self, nom: str, chemin: str = "", discipline: str = "", tags_mentionnes: list = None) -> bool
+- ajouter_projet · method · L299-L316 — def ajouter_projet(self, nom: str, site: str = "", client: str = "", phase: str = "") -> bool
+- ajouter_feedback · method · L318-L334 — def ajouter_feedback(self, question: str, rating: str, grounding_ratio: float = 0.0) -> bool
+- chercher_equipement · method · L340-L375 — def chercher_equipement(self, tag: str) -> dict
+- equipements_projet · method · L377-L391 — def equipements_projet(self, nom_projet: str) -> list
+- chemin_equipements · method · L393-L410 — def chemin_equipements(self, tag_a: str, tag_b: str, max_sauts: int = 6) -> list
+- analyser_impact · method · L412-L463 — def analyser_impact(self, tag: str, profondeur: int = 2) -> dict
+- equipements_sans_pression · method · L465-L479 — def equipements_sans_pression(self) -> list
+- build_context · method · L481-L498 — def build_context(self, question: str, timeout_s: float = 2.0) -> str
+- _build_context_internal · method · L500-L558 — def _build_context_internal(self, question: str) -> str
+- get_stats · method · L560-L574 — def get_stats(self) -> dict
+- add_document_to_graph · method · L576-L600 — def add_document_to_graph(self, source: str, text: str) -> None
+- extraire_entites_llm · method · L602-L649 — def extraire_entites_llm(self, text: str) -> dict
+- enrichir_graphe_depuis_llm · method · L651-L694 — def enrichir_graphe_depuis_llm(self, source: str, text: str, prefetched_data: dict = None) -> bool
+- vider_test · method · L696-L711 — def vider_test(self) -> None
+- migrer_depuis_json · method · L713-L752 — def migrer_depuis_json(self, json_path: str = None) -> int
+- get_neo4j_kg · function · L763-L770 — def get_neo4j_kg() -> Neo4jKnowledgeGraph
+- _copy_empty · function · L781-L782 — def _copy_empty() -> dict
+- get_project_db_path · function · L791-L811 — def get_project_db_path(project_id: Optional[str] = None) -> Path
+- _init_db · function · L813-L866 — def _init_db(project_id: Optional[str] = None) -> Path
+- _migrate_json_to_sqlite · function · L868-L931 — def _migrate_json_to_sqlite(db_path_str: str) -> None
+- load_graph · function · L933-L983 — def load_graph(project_id: Optional[str] = None) -> dict
+- save_graph · function · L985-L1041 — def save_graph(graph: dict, project_id: Optional[str] = None) -> None
+- _add_document_to_graph_json · function · L1043-L1158 — def _add_document_to_graph_json(source: str, text: str, project_id: Optional[str] = None) -> None
+- _insert_json · function · L1160-L1183 — def _insert_json(source: str, text: str, graph: dict) -> None
+- batch_mode · class · L1185-L1198 — class batch_mode
+- __enter__ · method · L1187-L1191 — def __enter__(self)
+- __exit__ · method · L1193-L1198 — def __exit__(self, exc_type, exc_val, exc_tb)
+- add_document_to_graph · function · L1204-L1210 — def add_document_to_graph(source: str, text: str, project_id: Optional[str] = None) -> None
+- query_graph · function · L1212-L1257 — def query_graph(entity: str, project_id: Optional[str] = None) -> dict
+- get_document_network · function · L1259-L1326 — def get_document_network(filename: str, project_id: Optional[str] = None) -> dict
+- build_graph_context · function · L1328-L1353 — def build_graph_context(question: str, project_id: Optional[str] = None) -> str

@@ -1,0 +1,21 @@
+# core_planning_xer_engine.py
+
+- ProjectCalendar · class · L213-L269 — class ProjectCalendar
+- __init__ · method · L214-L218 — def __init__(self, start_date: date, dpw: int = 6, hpd: int = 10, holidays: Optional[List[date]] = None)
+- is_working_day · method · L220-L233 — def is_working_day(self, d: date) -> bool
+- add_working_days · method · L235-L243 — def add_working_days(self, d: date, days: int) -> date
+- working_days_between · method · L245-L255 — def working_days_between(self, start: date, end: date) -> int
+- day_index_to_date · method · L257-L269 — def day_index_to_date(self, day_idx: int) -> date
+- LocalXerEngine · class · L276-L1347 — class LocalXerEngine
+- __init__ · method · L277-L300 — def __init__(self)
+- parse_workbook · method · L302-L521 — def parse_workbook(self, file_content: bytes)
+- _safe_float · function · L365-L371 — def _safe_float(v, default=0.0)
+- _safe_int · function · L373-L379 — def _safe_int(v, default=None)
+- _parse_date · method · L523-L537 — def _parse_date(self, val) -> Optional[date]
+- match_item · method · L539-L548 — def match_item(self, desc: str, unit: str) -> Optional[Dict[str, Any]]
+- run · method · L550-L950 — def run(self, opts: Optional[Dict[str, Any]] = None) -> Dict[str, Any]
+- to_xer · method · L955-L1197 — def to_xer(self) -> str
+- _make_taskrsrc_record · function · L1121-L1131 — def _make_taskrsrc_record(tr_id, t_id, rsrc_id, qty, qty_per_hr, cost_rate, tot_cost, st_str, fn_str, guid_val, rsrc_type="RT_Labor")
+- to_xml · method · L1202-L1233 — def to_xml(self) -> str
+- to_cashflow_xlsx_b64 · method · L1238-L1347 — def to_cashflow_xlsx_b64(self) -> str
+- convert_client_boq · function · L1354-L1503 — def convert_client_boq(file_content: bytes, pick_sheets: Optional[List[Dict[str, str]]] = None) -> Dict[str, Any]

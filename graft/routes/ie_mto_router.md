@@ -1,0 +1,24 @@
+# routes/ie_mto_router.py
+
+- output_dir · function · L54-L57 — def output_dir() -> Path
+- _router_cfg · function · L60-L61 — def _router_cfg() -> Dict[str, Any]
+- _safe_stem · function · L64-L65 — def _safe_stem(name: str, limit: int = 40) -> str
+- _new_name · function · L68-L69 — def _new_name(kind: str, stem: str, ext: str) -> str
+- purge_old_outputs · function · L72-L82 — def purge_old_outputs(ttl_hours: Optional[float] = None) -> int
+- _sniff_ok · function · L85-L92 — def _sniff_ok(path: str, suffix: str) -> bool
+- _allowed_local_path · function · L95-L121 — def _allowed_local_path(raw: str, allowed_ext: Optional[Set[str]] = None) -> Path
+- _save_upload · function · L124-L142 — def _save_upload(file: UploadFile, suffix: str) -> str
+- compute_kpis · function · L145-L223 — def compute_kpis(items: List[Dict[str, Any]], metadata: Dict[str, Any], anomalies: List[Dict[str, Any]]) -> Dict[str, Any]
+- _render_previews · function · L226-L269 — def _render_previews(path: str, filename: str, suffix: str, stem: str, warnings: List[str], inline: bool) -> Dict[str, Any]
+- calculate_ie_mto · function · L274-L349 — def calculate_ie_mto( file: Optional[UploadFile] = File(None), file_path: Optional[str] = Form(None), units: Optional[str] = Form(None), tray_convention: Optional[str] = Form(None), doc_type: Optional[str] = Form(None), inline_preview: bool = Form(False), )
+- calculate_ie_mto_batch · function · L353-L575 — def calculate_ie_mto_batch( files: Optional[List[UploadFile]] = File(None), folder_path: Optional[str] = Form(None), file_paths: Optional[str] = Form(None), units: Optional[str] = Form(None), tray_convention: Optional[str] = Form(None), doc_type: Optional[str] = Form(None), origin_tag: Optional[str] = Form("TGBT"), inline_preview: bool = Form(False), )
+- IeMtoCustomExportRequest · class · L578-L582 — class IeMtoCustomExportRequest(BaseModel)
+- export_custom_ie_mto_excel · function · L586-L597 — def export_custom_ie_mto_excel(req: IeMtoCustomExportRequest)
+- ReconcileRequest · class · L600-L607 — class ReconcileRequest(BaseModel)
+- reconcile · function · L611-L623 — def reconcile(req: ReconcileRequest)
+- CableRouteRequest · class · L626-L630 — class CableRouteRequest(BaseModel)
+- route_cables_dijkstra · function · L634-L684 — def route_cables_dijkstra(req: CableRouteRequest)
+- TriangulationActionReq · class · L687-L691 — class TriangulationActionReq(BaseModel)
+- run_ei_triangulation · function · L695-L810 — def run_ei_triangulation( plan_file: Optional[UploadFile] = File(None), plan_path: Optional[str] = Form(None), cable_schedule_file: Optional[UploadFile] = File(None), cable_schedule_path: Optional[str] = Form(None), calc_note_file: Optional[UploadFile] = File(None), calc_note_path: Optional[str] = Form(None), units: Optional[str] = Form("auto"), origin_tag: Optional[str] = Form("TGBT"), )
+- apply_triangulation_action · function · L814-L847 — def apply_triangulation_action(req: TriangulationActionReq)
+- mount_visuals · function · L851-L854 — def mount_visuals(app) -> None

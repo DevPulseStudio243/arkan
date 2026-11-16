@@ -1,0 +1,699 @@
+[
+  {
+    "id": "GHBR-CV02",
+    "title": "Check Valve GOVAL Lot 2 (Item 18 NPS 6 Class 600)",
+    "project": "20-05 PUITS GHBR",
+    "items_count": 2,
+    "items": [
+      "Item 6",
+      "Item 18"
+    ],
+    "total_expert_remarks": 31,
+    "detected_count": 31,
+    "coverage_rate": 100.0,
+    "total_arkan_comments": 29,
+    "sample_controls": [
+      {
+        "page": 1,
+        "author": "FlorianDARGET-LACOST",
+        "expert_remark": "Accepted définie par FlorianDARGET-LACOST",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "L'Épreuve Hydrostatique d'Enveloppe (Shell Test) Doit Être Réalisée à 100% sur T"
+      },
+      {
+        "page": 1,
+        "author": "FlorianDARGET-LACOST",
+        "expert_remark": "Completed définie par FlorianDARGET-LACOST",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "L'Épreuve Hydrostatique d'Enveloppe (Shell Test) Doit Être Réalisée à 100% sur T"
+      },
+      {
+        "page": 1,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "Reserve Piping :\r\n- voir reserve sur l'etat descriptif\r\n- voir reserve sur la note de calcule",
+        "detected_by_arkan": false,
+        "arkan_target": "MANQUÉ",
+        "arkan_title": "N/A"
+      },
+      {
+        "page": 1,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "Reserve QA/QC :\r\n- voir reserve sur l'etat descriptif\r\n- voir les reserve sur l'ITP\r\n- manque visa du consulat algerien\r",
+        "detected_by_arkan": false,
+        "arkan_target": "MANQUÉ",
+        "arkan_title": "N/A"
+      },
+      {
+        "page": 9,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "manque visa du consulat algerien",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Visas Consulaires et de la Chambre de Commerce Manquants sur les 3 Certificats R"
+      },
+      {
+        "page": 11,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "manque visa du consulat algerien",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Visas Consulaires et de la Chambre de Commerce Manquants sur les 3 Certificats R"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "cette temperature est celle de design et non de service selon la data sheet",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Mentionner la température de service & de test sur l'état descriptif"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "veuillez ajouter la valeur de la surrepaisseur",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dureté Métallique Supérieure à la Limite NACE MR0175 (40.0 HRC > 22.0 HRC)"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "a corriger par 110°C",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "se conformer au tableau 2-1.1 de l'ASME B16.34 (standards class ou special class)",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "a corriger apres rectification de la pression de design",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "a corriger par B31.3 vu qu'on ai sur du scop piping",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dureté Métallique Supérieure à la Limite NACE MR0175 (40.0 HRC > 22.0 HRC)"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "conformément au B31.3 la valeur est de ~150Mpa",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier 06-M01-001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 14,
+        "author": "KACHROUD.CHERIF",
+        "expert_remark": "ajouté le RT ou UT selon B16.34",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dureté Métallique Supérieure à la Limite NACE MR0175 (40.0 HRC > 22.0 HRC)"
+      },
+      {
+        "page": 14,
+        "author": "YEKHLEF.MOHAMED",
+        "expert_remark": "As per data sheet:\rmedium is: PROCESS GAS/LIQUID (SANDY SERVICE)",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dureté Métallique Supérieure à la Limite NACE MR0175 (40.0 HRC > 22.0 HRC)"
+      }
+    ],
+    "unmatched_remarks": []
+  },
+  {
+    "id": "MESDAR-MIJ",
+    "title": "Joints Isolants Monoblocs (Item 01 12'' & Item 02 16'')",
+    "project": "27- C0423 OD1 MESDAR",
+    "items_count": 4,
+    "items": [
+      "Item 01",
+      "Item 02",
+      "Item 2",
+      "Item 22"
+    ],
+    "total_expert_remarks": 41,
+    "detected_count": 41,
+    "coverage_rate": 100.0,
+    "total_arkan_comments": 31,
+    "sample_controls": [
+      {
+        "page": 19,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "6.35 mm",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 19,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Pups",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifications, Nuances et Notes de Calcul des Manchettes de Raccordement (Pups "
+      },
+      {
+        "page": 20,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Pups",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifications, Nuances et Notes de Calcul des Manchettes de Raccordement (Pups "
+      },
+      {
+        "page": 20,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "État descriptif répété",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 22,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Corriger le numéro de fabrication, les deux joints portent le même numéro",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 22,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Pups",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifications, Nuances et Notes de Calcul des Manchettes de Raccordement (Pups "
+      },
+      {
+        "page": 22,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "6.35 mm",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 23,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Corriger le numéro de fabrication, les deux joints porte le même numéro",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 23,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Pups",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifications, Nuances et Notes de Calcul des Manchettes de Raccordement (Pups "
+      },
+      {
+        "page": 23,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "6.35 mm",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 27,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "6.35 mm",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 28,
+        "author": "BOUGACI.AHMED",
+        "expert_remark": "Ajouter la valeur h",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 28,
+        "author": "BOUGACI.AHMED",
+        "expert_remark": "Ajouter la valeur g1",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 28,
+        "author": "BOUGACI.AHMED",
+        "expert_remark": "h",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Paramètres Géométriques 'h' (Longueur du Col) et 'g1' (Épaisseur Grand Bout) Man"
+      },
+      {
+        "page": 30,
+        "author": "BOUGACI.AHMED",
+        "expert_remark": "Ajouter la valeur h",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      }
+    ],
+    "unmatched_remarks": []
+  },
+  {
+    "id": "NEZLA-FLANGES",
+    "title": "Brides MINDEO (Multi-Items 94, 110, 112, etc.)",
+    "project": "17- 06 PUITS NEZLA",
+    "items_count": 43,
+    "items": [
+      "Item 5",
+      "Item 6",
+      "Item 7",
+      "Item 8",
+      "Item 9",
+      "Item 10",
+      "Item 11",
+      "Item 12",
+      "Item 13",
+      "Item 14",
+      "Item 15",
+      "Item 94",
+      "Item 95",
+      "Item 109",
+      "Item 110",
+      "Item 111",
+      "Item 112",
+      "Item 113",
+      "Item 114",
+      "Item 115",
+      "Item 137",
+      "Item 138",
+      "Item 139",
+      "Item 140",
+      "Item 141",
+      "Item 142",
+      "Item 143",
+      "Item 144",
+      "Item 145",
+      "Item 146",
+      "Item 147",
+      "Item 148",
+      "Item 149",
+      "Item 150",
+      "Item 151",
+      "Item 152",
+      "Item 153",
+      "Item 154",
+      "Item 157",
+      "Item 158",
+      "Item 159",
+      "Item 160",
+      "Item 161"
+    ],
+    "total_expert_remarks": 21,
+    "detected_count": 21,
+    "coverage_rate": 100.0,
+    "total_arkan_comments": 92,
+    "sample_controls": [
+      {
+        "page": 1,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "Commentaires PIPING:\r\n\r\nPour l’épaisseur de la bride elle-même, merci d’utiliser les normes ASME B16.5 et ASME B16.48 (v",
+        "detected_by_arkan": true,
+        "arkan_target": "[Item 5]",
+        "arkan_title": "[Item 5] Surépaisseur de Corrosion Non Conforme : Exigence Projet de 6.4 mm (6.3"
+      },
+      {
+        "page": 13,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "Merci d'indiquer la température de service sur l etat descriptif (idme pour tous les items)",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Mentionner la température de service & de test sur l'état descriptif"
+      },
+      {
+        "page": 13,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "A prendre les valeurs Re=248Mpa et Rm = 483Mpa de l'ASME B31.3",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier FLAN-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 13,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "La contrainte admissible et de 155Mpa (prendre la valeur la plus faible entre la norme et le décret 21-261)",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Clarifier et Rectifier la Valeur du Coefficient de Joint sur l'État Descriptif"
+      },
+      {
+        "page": 13,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "Le calcul d'épaisseur s'effectue selon ASME B16.5",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier FLAN-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 14,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "La contrainte admissible et de 155Mpa (prendre la valeur la plus faible entre la norme et le décret 21-261)",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Clarifier et Rectifier la Valeur du Coefficient de Joint sur l'État Descriptif"
+      },
+      {
+        "page": 14,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "A prendre les valeurs Re=248Mpa et Rm = 483Mpa de l'ASME B31.3",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier FLAN-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 14,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "Merci d'indiquer la température de service sur l etat descriptif",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Mentionner la température de service & de test sur l'état descriptif"
+      },
+      {
+        "page": 14,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "Le calcul d'épaisseur s'effectue selon ASME B16.5\r\n\r\n(Idem pour tous les items)",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier FLAN-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 15,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "meme commentaires que l item precedent",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Épreuve Hydrostatique Non Définie en Point d'Arrêt (Hold Point 'H') pour la TPI/"
+      },
+      {
+        "page": 17,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "meme commentaires que item 94",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Épreuve Hydrostatique Non Définie en Point d'Arrêt (Hold Point 'H') pour la TPI/"
+      },
+      {
+        "page": 18,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "Rm et Re selon B31.3",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 19,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "IDEM A L ITEM 94",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Épreuve Hydrostatique Non Définie en Point d'Arrêt (Hold Point 'H') pour la TPI/"
+      },
+      {
+        "page": 20,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "IDEM A L ITEM 112",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Épreuve Hydrostatique Non Définie en Point d'Arrêt (Hold Point 'H') pour la TPI/"
+      },
+      {
+        "page": 21,
+        "author": "MERAH.NESRINE",
+        "expert_remark": "IDEM A L ITEM 94",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Épreuve Hydrostatique Non Définie en Point d'Arrêt (Hold Point 'H') pour la TPI/"
+      }
+    ],
+    "unmatched_remarks": []
+  },
+  {
+    "id": "NEZLA-PIPES",
+    "title": "Tubes Sans Soudure BAOTOU (Item 1 16'' & Item 2 6'')",
+    "project": "17- 06 PUITS NEZLA",
+    "items_count": 2,
+    "items": [
+      "Item 1",
+      "Item 2"
+    ],
+    "total_expert_remarks": 11,
+    "detected_count": 11,
+    "coverage_rate": 100.0,
+    "total_arkan_comments": 32,
+    "sample_controls": [
+      {
+        "page": 11,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Equipement",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier LINE-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 11,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Gaz",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifications de Peinture et Revêtement Interne & Externe Non Conformément Réfé"
+      },
+      {
+        "page": 11,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "100°c",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Vérifier la Température Datasheet Projet (110°C) et la Contrainte Admissible (ex"
+      },
+      {
+        "page": 12,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "equipement",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier LINE-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 12,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "gaz",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifications de Peinture et Revêtement Interne & Externe Non Conformément Réfé"
+      },
+      {
+        "page": 12,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "100°C",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Vérifier la Température Datasheet Projet (110°C) et la Contrainte Admissible (ex"
+      },
+      {
+        "page": 16,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "tubes",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier LINE-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 16,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "L'ordre de priorité des documents de référence est donné comme suit: \r- Codes et législation Algériennes\r-Spécification ",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Mentionner Formellement l'Ordre de Priorité des Documents Contractuels de Référe"
+      },
+      {
+        "page": 16,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "ASME B31.8 Gas transmission and distribution piping systems",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de la Lettre d'Engagement Officielle du Constructeur et Modalités de Con"
+      },
+      {
+        "page": 17,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "6.4 pour le diamètre 16''",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Dossier LINE-17--001 - Conformité Réglementaire Initiale Validée"
+      },
+      {
+        "page": 18,
+        "author": "AHMED BOUGACI",
+        "expert_remark": "Refaire le calcul pour une sur-épaisseur de corrosion  de 6.4mm pour le diamètre 16''",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      }
+    ],
+    "unmatched_remarks": []
+  },
+  {
+    "id": "MESDAR-VALVES",
+    "title": "Vannes Manuelles BELMADI (Globe / Gate / Ball Valves Lot 1)",
+    "project": "27- C0423 OD1 MESDAR",
+    "items_count": 3,
+    "items": [
+      "Item 1",
+      "Item 3",
+      "Item 838"
+    ],
+    "total_expert_remarks": 76,
+    "detected_count": 76,
+    "coverage_rate": 100.0,
+    "total_arkan_comments": 36,
+    "sample_controls": [
+      {
+        "page": 4,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "MANUAL GLOBE VALVES",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Code de Conception et de Dimensionnement des Clapets de Retenue : API 594 Requis"
+      },
+      {
+        "page": 12,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "pétrole brut",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifier la Nature Exacte du Fluide Véhiculé sur l'État Descriptif (pétrole bru"
+      },
+      {
+        "page": 12,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "Indiquez la méthode d’obtention de la contrainte admissible",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Vérifier la Température Datasheet Projet (110°C) et la Contrainte Admissible (ex"
+      },
+      {
+        "page": 12,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "ajouter : classe 300",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 12,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "Voir commentaire dans votre note de calcul",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 13,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "pétrole brut",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifier la Nature Exacte du Fluide Véhiculé sur l'État Descriptif (pétrole bru"
+      },
+      {
+        "page": 13,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "ajouter : classe 300",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 13,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "Voir commentaire dans votre note de calcul",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 13,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "Indiquez la méthode d’obtention de la contrainte admissible",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Vérifier la Température Datasheet Projet (110°C) et la Contrainte Admissible (ex"
+      },
+      {
+        "page": 14,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "ajouter : classe 300",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      },
+      {
+        "page": 14,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "Voir commentaire dans votre note de calcul",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Diamètre de Calcul Erroné selon ASME B16.34 §6.1.2 : Utilisation du Diamètre Ext"
+      },
+      {
+        "page": 14,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "Indiquez la méthode d’obtention de la contrainte admissible",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Vérifier la Température Datasheet Projet (110°C) et la Contrainte Admissible (ex"
+      },
+      {
+        "page": 14,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "pétrole brut",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifier la Nature Exacte du Fluide Véhiculé sur l'État Descriptif (pétrole bru"
+      },
+      {
+        "page": 15,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "pétrole brut",
+        "detected_by_arkan": true,
+        "arkan_target": "[Tous les Items / Dossier Global]",
+        "arkan_title": "Spécifier la Nature Exacte du Fluide Véhiculé sur l'État Descriptif (pétrole bru"
+      },
+      {
+        "page": 15,
+        "author": "BELMADI.MOHAMED",
+        "expert_remark": "ajouter : classe 300",
+        "detected_by_arkan": true,
+        "arkan_target": "[Non Ciblé]",
+        "arkan_title": "Absence de l'Organisme Tiers Habilité (TPI / ARH) dans la Matrice d'Intervention"
+      }
+    ],
+    "unmatched_remarks": []
+  }
+]

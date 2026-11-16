@@ -1,0 +1,27 @@
+# conversation_memory.py
+
+- ConversationTurn · class · L37-L53 — class ConversationTurn
+- to_dict · method · L48-L49 — def to_dict(self) -> dict
+- from_dict · method · L52-L53 — def from_dict(cls, d: dict) -> "ConversationTurn"
+- ConversationMemory · class · L56-L390 — class ConversationMemory
+- __init__ · method · L63-L72 — def __init__(self)
+- _new_session_id · method · L76-L77 — def _new_session_id() -> str
+- new_session · method · L79-L93 — def new_session(self, title: str = "") -> str
+- load_session · method · L95-L120 — def load_session(self, session_id: str) -> bool
+- current_session_id · method · L123-L124 — def current_session_id(self) -> str
+- add_turn · method · L127-L169 — def add_turn( self, question: str, answer: str, sources: List[str] = None, query_type: str = "", grounding: float = 1.0, ) -> ConversationTurn
+- get_prompt_context · method · L172-L209 — def get_prompt_context(self, last_n: int = MAX_HISTORY_IN_PROMPT, query: str = "") -> str
+- get_session_turns · method · L211-L218 — def get_session_turns(self, session_id: str = None, limit: int = 50) -> List[ConversationTurn]
+- get_all_sessions · method · L220-L237 — def get_all_sessions(self) -> List[Dict[str, Any]]
+- get_stats · method · L239-L248 — def get_stats(self) -> dict
+- search_memory · method · L251-L256 — def search_memory(self, query: str, limit: int = 5) -> List[ConversationTurn]
+- _cross_session_search · method · L258-L296 — def _cross_session_search(self, query: str, limit: int = 5) -> List[ConversationTurn]
+- _score_relevance · method · L299-L302 — def _score_relevance(turn: ConversationTurn, query_words: set) -> int
+- _auto_summarize_if_needed · method · L305-L321 — def _auto_summarize_if_needed(self)
+- _append_to_global_history · method · L324-L330 — def _append_to_global_history(self, turn: ConversationTurn)
+- _load_sessions_meta · method · L332-L343 — def _load_sessions_meta(self)
+- _save_sessions_meta · method · L345-L352 — def _save_sessions_meta(self)
+- _load_summaries · method · L354-L361 — def _load_summaries(self)
+- _save_summaries · method · L363-L370 — def _save_summaries(self)
+- _load_turns_for_session · method · L372-L390 — def _load_turns_for_session(self, session_id: str, limit: int) -> List[ConversationTurn]
+- get_conversation_memory · function · L398-L404 — def get_conversation_memory() -> ConversationMemory

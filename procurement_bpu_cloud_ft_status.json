@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-11T17:45:48.797196",
+  "kernel_id": "adleneboulouisa/arkan-procurement-bpu-finetune",
+  "dataset_id": "adleneboulouisa/arkan-procurement-bpu-dataset",
+  "platform": "Kaggle GPU (Nvidia Tesla T4 — 16 GB VRAM)",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct (LoRA r=16, alpha=32)",
+  "dataset_examples": 948,
+  "local_cpu_usage": "0% (100% Cloud GPU)",
+  "raw_status": "adleneboulouisa/arkan-procurement-bpu-finetune has status \"KernelWorkerStatus.COMPLETE\"",
+  "is_complete": true,
+  "is_running": false,
+  "progress_pct": 100.0,
+  "current_step": 50,
+  "total_steps": 50,
+  "loss": "N/A",
+  "epoch": "0.0",
+  "adapter_local_path": "d:\\DATA BASE IA\\models\\arkan_procurement_bpu_lora_adapter"
+}

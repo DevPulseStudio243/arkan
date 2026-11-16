@@ -1,0 +1,18 @@
+# planning_api_routes.py
+
+- generate_planning_endpoint · function · L42-L51 — async def generate_planning_endpoint(request: PlanningGenerationRequest)
+- start_planning_job · function · L55-L97 — async def start_planning_job(request: PlanningGenerationRequest, background_tasks: BackgroundTasks)
+- run_swarm_background · function · L71-L88 — async def run_swarm_background()
+- stream_cb · function · L72-L76 — def stream_cb(evt: Dict[str, Any])
+- stream_planning_progress · function · L101-L133 — async def stream_planning_progress(task_id: str)
+- event_generator · function · L110-L131 — async def event_generator()
+- validate_planning_task · function · L137-L157 — async def validate_planning_task(request: PlanningValidationRequest)
+- insert_gantt_into_project · function · L161-L180 — async def insert_gantt_into_project(data: Dict[str, Any])
+- get_referentiel_tasks · function · L184-L200 — async def get_referentiel_tasks(discipline: Optional[str] = Query(None, description="Filtre par discipline"))
+- get_planning_stats · function · L204-L213 — async def get_planning_stats()
+- get_commissioning_equipment_types · function · L221-L236 — async def get_commissioning_equipment_types()
+- get_commissioning_matrix · function · L240-L259 — async def get_commissioning_matrix(equipment_type: str)
+- generate_commissioning_package · function · L263-L292 — async def generate_commissioning_package(payload: Dict[str, Any])
+- upload_and_extract_bpu · function · L302-L339 — async def upload_and_extract_bpu(file: UploadFile = File(...))
+- parse_bpu_text · function · L343-L366 — async def parse_bpu_text(payload: Dict[str, Any])
+- generate_schedule_from_bpu · function · L370-L395 — async def generate_schedule_from_bpu(payload: Dict[str, Any])

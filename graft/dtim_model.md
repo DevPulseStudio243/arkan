@@ -1,0 +1,33 @@
+# dtim_model.py
+
+- NormalizedEntity · class · L10-L44 — class NormalizedEntity
+- __init__ · method · L12-L31 — def __init__( self, entity_type: str, geometry: Any = None, rotation: float = 0.0, scale: float = 1.0, layer: str = "0", source: str = "unknown", confidence: float = 1.0, metadata: Optional[Dict[str, Any]] = None )
+- to_dict · method · L33-L44 — def to_dict(self) -> Dict[str, Any]
+- PipeEntity · class · L47-L95 — class PipeEntity(NormalizedEntity)
+- __init__ · method · L49-L77 — def __init__( self, start_point: Tuple[float, float], end_point: Tuple[float, float], polyline: List[Tuple[float, float]], diameter: str = "", spec: str = "", line_number: str = "", service: str = "", fluid: str = "", pressure: float = 0.0, temperature: float = 0.0, material: str = "", insulation: str = "", **kwargs )
+- to_dict · method · L79-L95 — def to_dict(self) -> Dict[str, Any]
+- Port · class · L98-L120 — class Port
+- __init__ · method · L100-L111 — def __init__( self, name: str, port_type: str, # "IN", "OUT", "generic" position: Tuple[float, float], component_id: str )
+- to_dict · method · L113-L120 — def to_dict(self) -> Dict[str, Any]
+- EquipmentEntity · class · L123-L150 — class EquipmentEntity(NormalizedEntity)
+- __init__ · method · L125-L139 — def __init__( self, tag: str, equipment_type: str, bbox: List[float], ports: Optional[List[Port]] = None, attributes: Optional[Dict[str, Any]] = None, **kwargs )
+- to_dict · method · L141-L150 — def to_dict(self) -> Dict[str, Any]
+- InstrumentEntity · class · L153-L180 — class InstrumentEntity(NormalizedEntity)
+- __init__ · method · L155-L169 — def __init__( self, tag: str, loop: str, isa_symbol: str, bbox: List[float], thresholds: Optional[Dict[str, str]] = None, **kwargs )
+- to_dict · method · L171-L180 — def to_dict(self) -> Dict[str, Any]
+- TextEntity · class · L183-L207 — class TextEntity(NormalizedEntity)
+- __init__ · method · L185-L197 — def __init__( self, text: str, font: str, height: float, bbox: List[float], **kwargs )
+- to_dict · method · L199-L207 — def to_dict(self) -> Dict[str, Any]
+- DTIMNode · class · L210-L232 — class DTIMNode
+- __init__ · method · L212-L223 — def __init__( self, position: Tuple[float, float], node_type: str, # "TEE", "CROSS", "REDUCER", "NOZZLE", "PIPE_END", "EQUIPMENT" connected_edges: Optional[List[str]] = None, confidence: float = 1.0 )
+- to_dict · method · L225-L232 — def to_dict(self) -> Dict[str, Any]
+- DTIMEdge · class · L235-L266 — class DTIMEdge
+- __init__ · method · L237-L254 — def __init__( self, start_node_id: str, end_node_id: str, geometry: List[Tuple[float, float]], length: float = 0.0, diameter: str = "", spec: str = "", confidence: float = 1.0 )
+- to_dict · method · L256-L266 — def to_dict(self) -> Dict[str, Any]
+- DTIMProject · class · L269-L301 — class DTIMProject
+- __init__ · method · L271-L278 — def __init__(self, project_name: str)
+- add_component · method · L280-L281 — def add_component(self, comp: NormalizedEntity)
+- add_pipe · method · L283-L284 — def add_pipe(self, pipe: PipeEntity)
+- add_node · method · L286-L287 — def add_node(self, node: DTIMNode)
+- add_edge · method · L289-L290 — def add_edge(self, edge: DTIMEdge)
+- to_dict · method · L292-L301 — def to_dict(self) -> Dict[str, Any]

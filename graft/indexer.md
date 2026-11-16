@@ -1,0 +1,21 @@
+# indexer.py
+
+- tokenize_for_bm25 · function · L32-L62 — def tokenize_for_bm25(text: str) -> list
+- _contains_table · function · L67-L71 — def _contains_table(text: str) -> bool
+- _get_semantic_overlap · function · L73-L85 — def _get_semantic_overlap(previous_chunk: str, overlap_chars: int) -> str
+- adaptive_chunk · function · L89-L165 — def adaptive_chunk(text: str, base_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> list
+- _validate_embedding · function · L168-L205 — def _validate_embedding(embedding, source: str = "") -> list | None
+- _split_long_text · function · L208-L222 — def _split_long_text(text: str, size: int, overlap: int) -> list
+- _cached_ollama_embedding · function · L237-L253 — def _cached_ollama_embedding(text: str) -> tuple
+- get_embedding · function · L256-L298 — def get_embedding(text: str) -> list
+- get_embeddings_batch · function · L301-L306 — def get_embeddings_batch(texts: list, max_workers: int = 8) -> list
+- get_collection · function · L316-L379 — def get_collection()
+- DummyEF · class · L365-L367 — class DummyEF
+- __init__ · method · L366-L366 — def __init__(self, dim=EMBEDDING_DIM)
+- __call__ · method · L367-L367 — def __call__(self, texts)
+- build_bm25_index · function · L391-L400 — def build_bm25_index(documents: list, doc_ids: list, metadatas: list = None)
+- get_bm25_index · function · L403-L405 — def get_bm25_index()
+- index_document · function · L410-L544 — def index_document(text: str, metadata: dict, source: str)
+- flush_bm25 · function · L553-L564 — def flush_bm25()
+- _rebuild_bm25 · function · L567-L579 — def _rebuild_bm25()
+- ensure_bm25_loaded · function · L582-L586 — def ensure_bm25_loaded()

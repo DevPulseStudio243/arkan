@@ -1,0 +1,55 @@
+# ============================================================
+#  ARKAN EPC & ARH MANAGEMENT - Core Requirements v4.0
+#  Compatible Python 3.10, 3.11, 3.12, 3.13, 3.14 (Windows)
+# ============================================================
+
+# ── Web Framework & Server ──────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+httpx>=0.27.0
+aiofiles>=23.2.0
+requests>=2.31.0
+
+# ── Document & CAD Processing ───────────────────────────────
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.0
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+python-pptx>=0.6.23
+ezdxf>=1.2.0
+Pillow>=10.2.0
+
+# ── Vector & Graph Databases ────────────────────────────────
+chromadb>=0.4.24
+neo4j>=5.18.0
+networkx>=3.2.0
+lightrag-hku>=1.5.0
+
+# ── Neuro-Symbolic, Physics & AI ────────────────────────────
+pint>=0.24.0
+dspy>=3.0.0
+ollama>=0.3.0
+sentence-transformers>=2.7.0
+scikit-learn>=1.4.0
+rank-bm25>=0.2.2
+numpy>=1.24.0
+
+# ── Vision & High-Resolution CAD Tiling ─────────────────────
+sahi>=0.12.0
+rapidocr-onnxruntime>=1.2.0
+opencv-python>=4.9.0
+shapely>=2.0.0
+
+# ── System, File Watcher & Utilities ────────────────────────
+watchdog>=4.0.0
+python-dotenv>=1.0.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+rich>=13.7.0
+colorama>=0.4.6
+tqdm>=4.66.0
+APScheduler>=3.10.0

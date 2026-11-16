@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "total_pairs_discovered": 626,
+    "total_examples_generated": 286,
+    "examples_with_reserves": 158,
+    "examples_conforme": 128,
+    "errors": 0,
+    "output_file": "D:\\DATA BASE IA\\dataset_arh_ground_truth.jsonl"
+  },
+  "part_distribution": {
+    "GENERAL": 270,
+    "PART_10_ITP": 1,
+    "CERT_MATERIAU": 6,
+    "PART_5_CALCS": 1,
+    "PART_11_ELEC": 2,
+    "PART_8_SOUDAGE": 6
+  }
+}

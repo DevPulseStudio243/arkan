@@ -1,0 +1,51 @@
+# file_processor.py
+
+- ExtractionResult · class · L45-L86 — class ExtractionResult
+- to_dict · method · L63-L78 — def to_dict(self) -> Dict[str, Any]
+- __getitem__ · method · L82-L83 — def __getitem__(self, key: str) -> Any
+- get · method · L85-L86 — def get(self, key: str, default: Any = None) -> Any
+- SQLiteVisionCache · class · L96-L191 — class SQLiteVisionCache
+- __init__ · method · L100-L104 — def __init__(self, db_path: str)
+- _init_db · method · L106-L120 — def _init_db(self)
+- _migrate_json · method · L122-L146 — def _migrate_json(self): # The old JSON path is self.db_path with .db replaced by .json
+- __contains__ · method · L148-L158 — def __contains__(self, key: str) -> bool
+- __getitem__ · method · L160-L174 — def __getitem__(self, key: str) -> str
+- __setitem__ · method · L176-L185 — def __setitem__(self, key: str, value: str)
+- get · method · L187-L191 — def get(self, key: str, default=None)
+- _load_vision_cache · function · L196-L201 — def _load_vision_cache()
+- _save_vision_cache · function · L204-L212 — def _save_vision_cache(cache) -> None
+- _call_vision_model_b64 · function · L215-L243 — def _call_vision_model_b64(b64_image: str, context: str = "") -> str
+- EncodingDetector · class · L250-L298 — class EncodingDetector
+- detect · method · L268-L277 — def detect(cls, file_path: str, sample_size: int = 8192) -> str
+- detect_bytes · method · L280-L298 — def detect_bytes(cls, raw: bytes) -> str
+- MetadataExtractor · class · L305-L404 — class MetadataExtractor
+- extract_from_filename · method · L342-L367 — def extract_from_filename(cls, filename: str) -> Dict[str, Any]
+- extract_from_content · method · L370-L404 — def extract_from_content(cls, text: str) -> Dict[str, Any]
+- TableExtractor · class · L411-L491 — class TableExtractor
+- extract_from_text · method · L415-L437 — def extract_from_text(text: str) -> List[Dict[str, Any]]
+- extract_from_html · method · L440-L461 — def extract_from_html(html: str) -> List[Dict[str, Any]]
+- normalize_table · method · L464-L474 — def normalize_table(table: Dict[str, Any]) -> Dict[str, Any]
+- _rows_to_table · method · L477-L491 — def _rows_to_table(raw_rows: List[List[str]]) -> Dict[str, Any]
+- _detect_language · function · L498-L519 — def _detect_language(text: str) -> str
+- FileProcessor · class · L526-L1358 — class FileProcessor
+- __init__ · method · L555-L558 — def __init__(self) -> None
+- process · method · L564-L622 — def process(self, file_path: str) -> ExtractionResult
+- process_bytes · method · L624-L636 — def process_bytes(self, content: bytes, filename: str) -> ExtractionResult
+- _process_pdf · method · L646-L719 — def _process_pdf(self, file_path: str) -> ExtractionResult
+- _ocr_pdf_via_vision · method · L721-L757 — def _ocr_pdf_via_vision(self, file_path: str) -> str
+- _process_docx · method · L763-L808 — def _process_docx(self, file_path: str) -> ExtractionResult
+- _process_xlsx · method · L814-L873 — def _process_xlsx(self, file_path: str) -> ExtractionResult
+- _process_csv · method · L879-L916 — def _process_csv(self, file_path: str) -> ExtractionResult
+- _process_pptx · method · L922-L969 — def _process_pptx(self, file_path: str) -> ExtractionResult
+- _process_xml · method · L975-L1010 — def _process_xml(self, file_path: str) -> ExtractionResult
+- _walk · function · L988-L995 — def _walk(elem: ET.Element, depth: int = 0) -> None
+- _process_json · method · L1016-L1054 — def _process_json(self, file_path: str) -> ExtractionResult
+- _flatten · function · L1030-L1040 — def _flatten(obj: Any, prefix: str = "") -> None
+- _process_yaml · method · L1060-L1085 — def _process_yaml(self, file_path: str) -> ExtractionResult
+- _process_html · method · L1091-L1119 — def _process_html(self, file_path: str) -> ExtractionResult
+- _process_image · method · L1125-L1151 — def _process_image(self, file_path: str) -> ExtractionResult
+- _process_dxf · method · L1157-L1214 — def _process_dxf(self, file_path: str) -> ExtractionResult
+- _process_dwg · method · L1220-L1309 — def _process_dwg(self, file_path: str) -> ExtractionResult
+- _process_text · method · L1315-L1338 — def _process_text(self, file_path: str) -> ExtractionResult
+- get_processor · function · L1368-L1373 — def get_processor() -> FileProcessor
+- extract_file · function · L1376-L1379 — def extract_file(file_path: str) -> dict

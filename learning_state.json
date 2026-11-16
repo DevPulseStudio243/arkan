@@ -1,0 +1,87 @@
+{
+  "source_good": {},
+  "source_bad": {},
+  "feedback_count": 5,
+  "query_log": [
+    {
+      "query": "quels est la duree d'execution du projet",
+      "rating": "partial",
+      "confidence": 1.0,
+      "discipline": "",
+      "sources": [
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\DAO 99-2025-DT-HMD V S5 Pj Contrat I.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\DAO 99-2025-DT-HMD V S2 DPAO.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\DAO 99-2025-DT-HMD V S3 Dossier Technique.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\DAO 99-2025-DT-HMD V S4 Models Documents.pdf"
+      ],
+      "ts": 1777274785.4611905
+    },
+    {
+      "query": "quels sont les equipement du projet boosting ldbp5",
+      "rating": "partial",
+      "confidence": 1.0,
+      "discipline": "",
+      "sources": [
+        "D:\\DATA BASE IA\\uploads\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\LDBP5_Resume_Complet_Projet.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\DAO 99-2025-DT-HMD V S2 DPAO.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3151-101_AB_0001[1].pdf",
+        "uploads\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\03_Projet de Contrat\\Projet de  Contrat .pdf"
+      ],
+      "ts": 1777275060.917525
+    },
+    {
+      "query": "quels sont les equipement du projet boosting ldbp5",
+      "rating": "partial",
+      "confidence": 1.0,
+      "discipline": "",
+      "sources": [
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\03_Projet de Contrat\\Projet de  Contrat .pdf",
+        "D:\\DATA BASE IA\\uploads\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\LDBP5_Resume_Complet_Projet.docx",
+        "uploads\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3151-101_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\DAO 99-2025-DT-HMD V S2 DPAO.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\LDBP5_Resume_Complet_Projet2.docx"
+      ],
+      "ts": 1777276741.672875
+    },
+    {
+      "query": "quels sont les equipement electricite du projet boosting ldbp5",
+      "rating": "partial",
+      "confidence": 1.0,
+      "discipline": "",
+      "sources": [
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3160-101_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\02_Instructions aux soumissionaires\\Instructions aux soumissionaires.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3151-101_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3151-102_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\LDBP5_Resume_Complet_Projet.docx",
+        "uploads\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\03_Projet de Contrat\\Projet de  Contrat .pdf"
+      ],
+      "ts": 1777278055.7061696
+    },
+    {
+      "query": "quels sont les equipement d'instrumentation du projet boosting ldbp5",
+      "rating": "partial",
+      "confidence": 1.0,
+      "discipline": "",
+      "sources": [
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 01\\SOW\\SOW_A000.pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-1378-201_1_0010.pdf",
+        "uploads\\LDBP5_Resume_Complet_Projet2.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3151-101_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3160-101_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 05\\F-000-3151-102_AB_0001[1].pdf",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\LDBP5_Resume_Complet_Projet.docx",
+        "D:\\DATA BASE IA\\00-Projet\\10-Station boosting\\CDC - UNITE BOOSTING LDBP4 HMD - JGC - 2015\\Annexe 01\\SOW\\SOW_7000.pdf"
+      ],
+      "ts": 1777278954.1345646
+    }
+  ],
+  "active_queue": [],
+  "updated_at": 1777278954.1345646
+}

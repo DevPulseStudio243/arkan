@@ -1,0 +1,33 @@
+# convert_lora_to_gguf.py
+
+- PartialLoraTensor · class · L34-L36 — class PartialLoraTensor
+- LoraTorchTensor · class · L40-L266 — class LoraTorchTensor
+- __init__ · method · L45-L53 — def __init__(self, A: Tensor, B: Tensor)
+- get_lora_A_B · method · L55-L56 — def get_lora_A_B(self) -> tuple[Tensor, Tensor]
+- __getitem__ · method · L58-L114 — def __getitem__( self, indices: ( SupportsIndex | slice | tuple[SupportsIndex | slice | Tensor, ...] # TODO: add ellipsis in the type signature ), ) -> LoraTorchTensor
+- dtype · method · L117-L119 — def dtype(self) -> torch.dtype
+- shape · method · L122-L124 — def shape(self) -> tuple[int, ...]
+- size · method · L126-L128 — def size(self, dim=None)
+- contiguous · method · L130-L134 — def contiguous(self) -> LoraTorchTensor
+- reshape · method · L136-L160 — def reshape(self, *shape: int | tuple[int, ...]) -> LoraTorchTensor
+- reshape_as · method · L162-L163 — def reshape_as(self, other: Tensor) -> LoraTorchTensor
+- view · method · L165-L166 — def view(self, *size: int) -> LoraTorchTensor
+- permute · method · L168-L179 — def permute(self, *dims: int) -> LoraTorchTensor
+- transpose · method · L181-L185 — def transpose(self, dim0: int, dim1: int) -> LoraTorchTensor
+- swapaxes · method · L187-L188 — def swapaxes(self, axis0: int, axis1: int) -> LoraTorchTensor
+- split · method · L190-L206 — def split(self, split_size: int | Sequence[int], dim: int = 0) -> tuple[LoraTorchTensor, ...]
+- to · method · L208-L209 — def to(self, *args, **kwargs)
+- __mul__ · method · L211-L216 — def __mul__(self, other) -> LoraTorchTensor: # Only output-side multiplication for now # W = B @ A, so M_out * W == (M_out * B) @ A
+- __rmul__ · method · L218-L219 — def __rmul__(self, other) -> LoraTorchTensor
+- __torch_function__ · method · L222-L266 — def __torch_function__(cls, func: Callable, types, args=(), kwargs=None)
+- get_base_tensor_name · function · L269-L276 — def get_base_tensor_name(lora_tensor_name: str) -> str
+- parse_args · function · L279-L323 — def parse_args() -> argparse.Namespace
+- load_hparams_from_hf · function · L326-L334 — def load_hparams_from_hf(hf_model_id: str, trust_remote_code: bool) -> tuple[dict[str, Any], Path | None]
+- LoraModel · class · L407-L526 — class LoraModel(model_class): # ty: ignore[unsupported-base]
+- __init__ · method · L412-L417 — def __init__(self, *args, dir_lora_model: Path, lora_alpha: float, **kwargs)
+- set_vocab · method · L419-L420 — def set_vocab(self)
+- set_type · method · L422-L424 — def set_type(self)
+- set_gguf_parameters · method · L426-L451 — def set_gguf_parameters(self)
+- generate_extra_tensors · method · L453-L455 — def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]: # Never add extra tensors (e.g. rope_freqs) for LoRA adapters
+- get_tensors · method · L457-L499 — def get_tensors(self) -> Iterator[tuple[str, Tensor]]
+- modify_tensors · method · L501-L526 — def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]

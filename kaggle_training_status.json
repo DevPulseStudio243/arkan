@@ -1,0 +1,12 @@
+{
+  "timestamp": 1790852711.2307746,
+  "kernel_id": "adleneboulouisa/arkan-isometric-mto-finetune",
+  "raw_status": "adleneboulouisa/arkan-isometric-mto-finetune has status \"KernelWorkerStatus.RUNNING\"",
+  "is_complete": false,
+  "is_running": true,
+  "progress_pct": 0.0,
+  "current_step": 0,
+  "total_steps": 175,
+  "loss": "N/A",
+  "epoch": "0.0"
+}

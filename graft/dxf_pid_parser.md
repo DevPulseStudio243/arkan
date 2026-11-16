@@ -1,0 +1,46 @@
+# dxf_pid_parser.py
+
+- ensure_dxf · function · L43-L46 — def ensure_dxf(path: str) -> str
+- load_config · function · L108-L128 — def load_config(config_path: Optional[str | Path] = None) -> Dict[str, Any]
+- _kw_match · function · L131-L138 — def _kw_match(kw: str, name: str) -> bool
+- layer_role · function · L141-L150 — def layer_role(layer_name: str, cfg: Optional[Dict[str, Any]] = None) -> str
+- _role · function · L153-L157 — def _role(layer: str, cfg: dict) -> Optional[str]
+- normalize_review · function · L160-L180 — def normalize_review(review: dict) -> dict
+- _r · function · L193-L196 — def _r(v) -> float
+- _rp · function · L199-L201 — def _rp(v) -> float
+- _xy · function · L204-L205 — def _xy(p) -> list[float]
+- _xyz_if_needed · function · L208-L209 — def _xyz_if_needed(p) -> list[float]
+- _clean · function · L212-L228 — def _clean(txt: str) -> str
+- _is_flipped · function · L231-L236 — def _is_flipped(e) -> bool
+- _style · function · L239-L250 — def _style(e) -> dict
+- _path_bbox · function · L253-L269 — def _path_bbox(e)
+- _hatch_paths · function · L272-L299 — def _hatch_paths(h) -> list[dict]
+- _capture · function · L308-L397 — def _capture(e, t: str, r: dict, warns: list) -> bool
+- _text_common · function · L400-L417 — def _text_common(e, r: dict) -> None
+- flatten · function · L420-L540 — def flatten(doc, cfg: dict)
+- new_id · function · L429-L431 — def new_id(root: str) -> str
+- walk · function · L433-L526 — def walk(entities, path, root, depth, space, parent)
+- document_meta · function · L543-L573 — def document_meta(doc) -> dict
+- hv · function · L547-L552 — def hv(k, default=None)
+- coverage_report · function · L576-L600 — def coverage_report(stats: dict, raw: list[dict]) -> dict
+- classify · function · L606-L622 — def classify(text: str, cfg: dict) -> dict | None
+- seg_dist · function · L628-L632 — def seg_dist(p, a, b) -> float
+- Snap · class · L635-L648 — class Snap
+- __init__ · method · L636-L637 — def __init__(self, tol)
+- node · method · L639-L648 — def node(self, p) -> int
+- UF · class · L651-L663 — class UF
+- __init__ · method · L652-L653 — def __init__(self)
+- f · method · L655-L660 — def f(self, x)
+- u · method · L662-L663 — def u(self, a, b)
+- split_t_junctions · function · L666-L694 — def split_t_junctions(segs: list, tol: float) -> list
+- _length · function · L697-L698 — def _length(pl) -> float
+- normalize_valve_tag · function · L710-L733 — def normalize_valve_tag(name: str) -> str
+- split_runs_at_reductions · function · L736-L799 — def split_runs_at_reductions(comps: dict[int, list[dict]], ltags: list[dict], inserts: list[dict], cfg: dict) -> dict[int, list[dict]]
+- build_semantic · function · L805-L1211 — def build_semantic(raw: list[dict], cfg: dict, warnings: list[dict]) -> dict
+- nearest_comp · function · L934-L940 — def nearest_comp(p, tol)
+- bb_dist · function · L1032-L1035 — def bb_dist(p, bb)
+- build_digest · function · L1217-L1224 — def build_digest(sem: dict, sheet: str) -> dict
+- extract_titleblock · function · L1244-L1282 — def extract_titleblock(raw: list, cfg: dict, stem: str) -> dict
+- find_tag_prefix · function · L1288-L1295 — def find_tag_prefix(raw: list) -> Optional[dict]
+- parse_dxf_to_raw_and_semantic · function · L1303-L1369 — def parse_dxf_to_raw_and_semantic( dxf_or_dwg_path: str | Path, out_folder: Optional[str | Path] = None, cfg: Optional[Dict[str, Any]] = None, review: Optional[str | Path] = None, ) -> Tuple[Dict[str, Any], Dict[str, Any]]
+- parse_file · function · L1372-L1375 — def parse_file(dxf_or_dwg_path: str | Path, out_folder: Optional[str | Path] = None) -> Dict[str, Any]

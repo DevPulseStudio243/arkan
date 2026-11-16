@@ -1,0 +1,3320 @@
+{
+  "synthetic_mechanical_0091.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0136.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0255.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0179.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0070.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0044.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0072.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0010.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0015.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0050.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0207.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0128.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0107.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0204.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0145.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0092.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0056.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0076.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0084.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0254.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0255.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0046.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0087.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0071.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0210.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0070.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0140.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_planning_0118.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0215.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_mechanical_0229.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0201.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0197.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0108.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0256.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0060.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0001.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0051.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0284.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0059.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0066.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0283.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0161.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0173.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0226.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0004.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_planning_0062.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0257.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0176.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0205.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0020.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0093.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0287.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0047.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0095.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0285.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0180.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0270.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0263.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0174.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0005.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0281.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0063.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0159.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0160.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0237.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0119.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0157.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0252.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0030.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0293.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_safety_0269.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0030.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0235.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0016.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0034.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0122.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0233.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0243.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0000.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0251.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0026.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0168.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0058.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0077.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0236.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0156.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0156.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0277.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0250.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0241.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0222.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0245.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0182.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0010.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0169.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0175.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0085.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0161.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0043.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0000.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0013.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0120.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0228.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0263.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0131.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0127.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0031.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0214.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0117.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0268.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0026.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0236.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0223.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0048.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0006.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0057.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0195.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0073.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0046.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0230.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0126.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0018.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0200.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0163.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0176.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0148.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0135.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0287.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0196.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0208.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0108.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0011.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0290.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_instrumentation_0018.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0294.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_mechanical_0020.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0189.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0266.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0173.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0022.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0205.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0171.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0132.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0246.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0014.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0077.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0178.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0121.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0038.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0267.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0045.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0111.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0023.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0101.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0186.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0227.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0117.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0261.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0183.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0008.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0154.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0114.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0024.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0002.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0092.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0102.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0079.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0009.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0082.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0220.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0097.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0037.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0032.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0143.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_mechanical_0169.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0204.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0009.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0141.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0282.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0167.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0134.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0056.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0218.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0045.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0202.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0098.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0166.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0141.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0244.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0025.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0217.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0269.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0160.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0268.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0078.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0001.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0266.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0053.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0150.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0085.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0232.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0006.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0273.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0240.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0082.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0231.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0164.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0279.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0040.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0282.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0239.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0296.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_safety_0111.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0265.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0280.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0079.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0028.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0072.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0200.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0190.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0123.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0083.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0227.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0298.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_process_0089.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0005.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0192.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0208.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0206.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0142.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0086.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0242.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0151.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0184.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0276.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0069.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0278.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0142.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0199.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0135.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0217.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0253.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0054.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0068.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0044.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0036.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0203.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0109.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_mechanical_0049.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0290.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0286.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0055.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0060.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0090.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0116.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0138.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0166.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0031.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0238.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0021.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0073.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0095.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0260.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0148.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0050.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0103.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0153.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0158.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_planning_0213.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0083.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0191.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0181.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0262.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0281.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0207.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0230.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0219.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0291.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_piping_0099.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_mechanical_0137.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_planning_0034.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0257.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0272.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0089.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0172.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_planning_0256.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0048.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0124.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0248.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0038.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0113.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0042.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0198.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0157.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0057.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0069.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0039.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0288.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0088.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0247.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0272.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0193.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0075.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0017.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0114.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0129.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0165.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0280.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0278.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0171.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0298.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0037.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0283.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0104.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0011.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0170.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0185.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0216.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0240.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0220.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0146.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0094.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0067.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0150.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0014.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0019.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0153.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0218.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0258.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0041.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0118.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0242.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0299.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0175.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0277.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0251.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0036.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0152.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0028.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0149.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0185.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0062.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0146.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0271.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0229.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0162.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0152.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0189.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0113.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0209.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0144.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0049.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0258.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0015.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0182.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0219.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0075.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0043.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0253.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0164.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0288.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0134.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0279.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0183.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0047.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0017.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0129.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0074.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_mechanical_0264.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0234.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0033.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0139.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_electrical_0267.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0196.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0198.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0007.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0132.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0265.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0259.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0216.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0289.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0252.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0081.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0293.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0221.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0214.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0232.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0249.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_process_0297.pdf": {
+    "weight": 0.973,
+    "good_count": 35,
+    "bad_count": 0,
+    "total": 35
+  },
+  "synthetic_safety_0088.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0133.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0206.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0054.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0133.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0201.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0188.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_planning_0144.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0105.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_safety_0064.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0091.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0145.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0274.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0147.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0246.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0187.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0051.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0163.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0023.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0125.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0019.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0042.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0184.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0131.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0027.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0174.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0226.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0086.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0059.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0067.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0235.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0167.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0012.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0238.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0061.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0228.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0181.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0239.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0245.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0138.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0286.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0080.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0162.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0237.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0007.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0130.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0154.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0112.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0100.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0261.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0096.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0190.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0039.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0071.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0180.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0120.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0106.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0292.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0100.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0194.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0194.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0063.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0016.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0041.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0061.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0149.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0270.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0008.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0225.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0124.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0291.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0177.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0241.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0065.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_instrumentation_0292.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_safety_0275.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0294.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0224.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0195.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0035.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0084.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0029.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0191.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0076.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0299.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_instrumentation_0295.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0210.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0213.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0058.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0147.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0243.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0223.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0052.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0130.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0128.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0081.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0244.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0212.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0053.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0225.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0002.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0022.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0093.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0259.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0159.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0296.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0211.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0096.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0136.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0151.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0040.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0110.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0247.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0264.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0289.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_instrumentation_0193.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0110.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0276.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0202.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0097.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0260.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0090.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0112.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0068.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0224.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_electrical_0274.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0127.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0025.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0035.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0192.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0295.pdf": {
+    "weight": 0.96,
+    "good_count": 23,
+    "bad_count": 0,
+    "total": 23
+  },
+  "synthetic_safety_0013.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0078.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_piping_0211.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0233.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_electrical_0024.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0103.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0115.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_electrical_0170.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0212.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0102.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_safety_0012.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_process_0106.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0104.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0273.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0064.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0066.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0003.pdf": {
+    "weight": 0.9737,
+    "good_count": 36,
+    "bad_count": 0,
+    "total": 36
+  },
+  "synthetic_piping_0094.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0155.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0032.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0123.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0080.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_process_0126.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_mechanical_0155.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_planning_0168.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_instrumentation_0029.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_mechanical_0262.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_planning_0125.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0165.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_piping_0222.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0098.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  },
+  "synthetic_instrumentation_0221.pdf": {
+    "weight": 0.9286,
+    "good_count": 12,
+    "bad_count": 0,
+    "total": 12
+  },
+  "synthetic_safety_0187.pdf": {
+    "weight": 0.9615,
+    "good_count": 24,
+    "bad_count": 0,
+    "total": 24
+  }
+}

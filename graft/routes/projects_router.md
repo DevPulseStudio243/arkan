@@ -1,0 +1,36 @@
+# routes/projects_router.py
+
+- verify_api_key · function · L28-L29 — async def verify_api_key()
+- _get_analyzer · function · L31-L36 — def _get_analyzer()
+- _get_query_understanding · function · L38-L43 — def _get_query_understanding()
+- _get_executor · function · L45-L51 — def _get_executor()
+- _call_llm_fast · function · L53-L59 — async def _call_llm_fast(prompt: str, system_prompt: str = "") -> str
+- ProjectQuestionRequest · class · L64-L65 — class ProjectQuestionRequest(BaseModel)
+- WebhookRegistration · class · L67-L70 — class WebhookRegistration(BaseModel)
+- ResolveAnomalyRequest · class · L72-L75 — class ResolveAnomalyRequest(BaseModel)
+- AddExceptionRequest · class · L77-L83 — class AddExceptionRequest(BaseModel)
+- _get_workspace_folders_db · function · L88-L109 — def _get_workspace_folders_db() -> List[Dict[str, Any]]
+- get_project_dir_path · function · L112-L130 — def get_project_dir_path(project_id: str) -> Path
+- _build_projects_file_mapping · function · L133-L166 — def _build_projects_file_mapping() -> Dict[str, Dict[str, Any]]
+- _notify_webhooks · function · L172-L182 — async def _notify_webhooks(event_type: str, payload: dict)
+- get_project_summary · function · L188-L213 — async def get_project_summary()
+- get_equipment_detail · function · L217-L241 — async def get_equipment_detail(tag: str)
+- list_project_systems · function · L245-L262 — async def list_project_systems()
+- ask_project_question · function · L266-L314 — async def ask_project_question(request: ProjectQuestionRequest, api_key: str = Depends(verify_api_key))
+- assess_project_completeness · function · L318-L355 — async def assess_project_completeness()
+- list_projects · function · L361-L434 — async def list_projects()
+- get_project_equipments · function · L438-L541 — async def get_project_equipments(project_id: str)
+- get_project_synthesis · function · L545-L681 — async def get_project_synthesis(project_id: str)
+- get_project_equipments_synthesis · function · L685-L812 — async def get_project_equipments_synthesis(project_id: str)
+- get_scada_dashboard · function · L818-L825 — async def get_scada_dashboard(tags: str = "")
+- get_scada_trend · function · L829-L840 — async def get_scada_trend(tag: str, metric: str, samples: int = 20)
+- register_webhook · function · L846-L855 — async def register_webhook(req: WebhookRegistration)
+- list_webhooks · function · L859-L861 — async def list_webhooks()
+- generate_report_endpoint · function · L867-L881 — async def generate_report_endpoint(tag: str, format: str = "text")
+- import_equipment_list_endpoint · function · L885-L912 — async def import_equipment_list_endpoint( file: UploadFile = File(...), background_tasks: BackgroundTasks = None, )
+- verify_project · function · L918-L933 — def verify_project(project_id: str, api_key: str = Depends(verify_api_key))
+- get_verification_results · function · L937-L945 — async def get_verification_results(project_id: str, api_key: str = Depends(verify_api_key))
+- get_tag_registry · function · L949-L1008 — async def get_tag_registry(project_id: str, api_key: str = Depends(verify_api_key))
+- resolve_verification_anomaly · function · L1012-L1025 — async def resolve_verification_anomaly(request: ResolveAnomalyRequest, api_key: str = Depends(verify_api_key))
+- add_verification_exception · function · L1029-L1049 — async def add_verification_exception(request: AddExceptionRequest, api_key: str = Depends(verify_api_key))
+- get_verification_dashboard · function · L1053-L1065 — async def get_verification_dashboard()

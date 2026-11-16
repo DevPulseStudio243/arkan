@@ -1,0 +1,18 @@
+# test_brag_script.js
+
+- highlightActiveTabBtn · function · L647-L657 — function highlightActiveTabBtn(modId)
+- renderBragModuleDetails · function · L659-L688 — function renderBragModuleDetails(moduleId)
+- appendBragLog · function · L690-L698 — function appendBragLog(msg)
+- renderStageContent · function · L703-L754 — function renderStageContent(moduleId, scIdx)
+- generateVisualHTMLForType · function · L757-L1072 — function generateVisualHTMLForType(type, sc, modData)
+- startBragPlaybackWithRecording · function · L1254-L1296 — function startBragPlaybackWithRecording()
+- startBragSynthTrack · function · L1298-L1323 — function startBragSynthTrack()
+- speakSceneNarration · function · L1325-L1337 — function speakSceneNarration(sceneIdx)
+- runBragAnimationLoop · function · L1341-L1364 — function runBragAnimationLoop()
+- getCurrentSceneIndex · function · L1366-L1373 — function getCurrentSceneIndex(t)
+- updateSceneHighlight · function · L1375-L1397 — function updateSceneHighlight(scIdx)
+- updateTimelineDisplay · function · L1399-L1407 — function updateTimelineDisplay()
+- finishBragPlayback · function · L1409-L1425 — function finishBragPlayback()
+- updatePlayPauseIcon · function · L1449-L1453 — function updatePlayPauseIcon(playing)
+- showBragToast · function · L1506-L1513 — function showBragToast(msg)
+- drawBragFrame · function · L1518-L1573 — function drawBragFrame(timeSec)

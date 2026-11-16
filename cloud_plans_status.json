@@ -1,0 +1,9 @@
+{
+  "kernel": "psnuser/arkan-plan-reader-fine-tuning-multi-agents",
+  "platform": "Kaggle GPU T4 / Google Colab T4",
+  "status": "COMPLETE",
+  "iteration": 23,
+  "elapsed_minutes": 22.4,
+  "errors": 0,
+  "last_update": "2026-09-14T15:38:17.972830"
+}

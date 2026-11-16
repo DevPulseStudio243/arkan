@@ -1,0 +1,22 @@
+# arh_equipment_specialists.py
+
+- _normalize_text · function · L29-L34 — def _normalize_text(text: str) -> str
+- _extract_pages_dict · function · L36-L65 — def _extract_pages_dict(docs: List[Dict[str, Any]], full_text: str) -> Dict[int, str]
+- equipment_requires_welding · function · L68-L134 — def equipment_requires_welding(text: str, equipment_type: str = "") -> bool
+- _audit_universal_qaqc · function · L136-L278 — def _audit_universal_qaqc( target_doc: str, pages_text: Dict[int, str], full_text: str, agent_label: str, dossier_stage: str = "PRELIMINARY", skip_universal_qaqc: bool = False, ) -> List[Dict[str, Any]]
+- ARHValveSpecialist · class · L286-L698 — class ARHValveSpecialist
+- audit · method · L290-L698 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHFittingSpecialist · class · L705-L1221 — class ARHFittingSpecialist
+- audit · method · L709-L1221 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHFlangeSpecialist · class · L1228-L1446 — class ARHFlangeSpecialist
+- audit · method · L1232-L1446 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHPipelineSpecialist · class · L1453-L1577 — class ARHPipelineSpecialist
+- audit · method · L1457-L1577 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHPressureVesselSpecialist · class · L1584-L1623 — class ARHPressureVesselSpecialist
+- audit · method · L1588-L1623 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHElectricalInstrumentationSpecialist · class · L1630-L1669 — class ARHElectricalInstrumentationSpecialist
+- audit · method · L1634-L1669 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHUniversalSpecialist · class · L1676-L1684 — class ARHUniversalSpecialist
+- audit · method · L1680-L1684 — def audit(cls, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY") -> List[Dict[str, Any]]
+- ARHEquipmentSpecialistDispatcher · class · L1691-L1788 — class ARHEquipmentSpecialistDispatcher
+- audit · method · L1699-L1788 — def audit( cls, equipment_type: str, docs: List[Dict[str, Any]], full_text: str, file_names: List[str], dossier_stage: str = "PRELIMINARY", skip_universal_qaqc: bool = False, ) -> List[Dict[str, Any]]

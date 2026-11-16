@@ -1,0 +1,62 @@
+# arh_api_routes.py
+
+- verify_arh_auth · function · L43-L81 — def verify_arh_auth( request: Request = None, api_key_header: Optional[str] = Header(None, alias="X-API-Key"), bearer_auth: Optional[HTTPAuthorizationCredentials] = Depends(_bearer_scheme) ) -> bool
+- sanitize_dossier_id · function · L84-L97 — def sanitize_dossier_id(dossier_id: str) -> str
+- _restrict_filesystem_permissions · function · L110-L121 — def _restrict_filesystem_permissions(path: Path) -> None
+- _get_db · function · L133-L139 — def _get_db() -> sqlite3.Connection
+- _init_db · function · L142-L204 — def _init_db() -> None
+- _list_projects · function · L207-L218 — def _list_projects() -> List[Dict[str, Any]]
+- _save_project · function · L221-L251 — def _save_project(project_name: str, contract_code: str = "", vendor_name: str = "", version_dossier: str = "", description: str = "") -> Dict[str, Any]
+- _delete_project · function · L254-L275 — def _delete_project(project_name: str) -> bool
+- _save_dossier · function · L278-L330 — def _save_dossier(data: Dict[str, Any]) -> None
+- _load_dossier · function · L333-L372 — def _load_dossier(dossier_id: str) -> Optional[Dict[str, Any]]
+- _list_dossiers · function · L376-L399 — def _list_dossiers(search: str = "", project_filter: str = "", limit: int = 100, offset: int = 0) -> List[Dict[str, Any]]
+- _delete_dossier_from_db · function · L402-L422 — def _delete_dossier_from_db(dossier_id: str) -> bool
+- _count_dossiers · function · L425-L432 — def _count_dossiers(project_filter: str = "") -> int
+- list_arh_projects · function · L452-L459 — async def list_arh_projects()
+- create_arh_project · function · L463-L476 — async def create_arh_project( project_name: str = Form(...), contract_code: str = Form(""), vendor_name: str = Form(""), version_dossier: str = Form(""), description: str = Form("") )
+- delete_arh_project · function · L480-L486 — async def delete_arh_project(project_name: str)
+- update_arh_project · function · L490-L521 — async def update_arh_project( project_name: str, contract_code: str = Form(None), vendor_name: str = Form(None), version_dossier: str = Form(None), description: str = Form(None) )
+- upload_arh_dossier · function · L525-L654 — async def upload_arh_dossier( files: List[UploadFile] = File(...), project_name: str = Form("PROJET HYDROCARBURES ARH"), unit_name: str = Form("UNIT-100"), dossier_stage: str = Form("AUTO"), equipment_type: str = Form("AUTO") )
+- list_arh_dossiers · function · L658-L681 — async def list_arh_dossiers( search: str = Query("", description="Recherche par projet, tag ou type"), project_filter: str = Query("", description="Filtrer par nom de projet exact"), limit: int = Query(50, ge=1, le=200), offset: int = Query(0, ge=0) )
+- get_arh_dossier_detail · function · L685-L711 — async def get_arh_dossier_detail(dossier_id: str)
+- get_dossier_composition_endpoint · function · L715-L738 — async def get_dossier_composition_endpoint(dossier_id: str)
+- get_arh_dashboard_metrics · function · L742-L816 — async def get_arh_dashboard_metrics(project_filter: str = Query("", description="Filtrer par projet"))
+- download_arh_pdf_report · function · L820-L853 — async def download_arh_pdf_report(dossier_id: str)
+- get_arh_knowledge_graph · function · L857-L865 — async def get_arh_knowledge_graph(dossier_id: str)
+- export_arh_reserves_sheet · function · L873-L956 — async def export_arh_reserves_sheet(dossier_id: str)
+- export_arh_decision_letter · function · L960-L1009 — async def export_arh_decision_letter(dossier_id: str)
+- arh_expert_chat · function · L1013-L1047 — async def arh_expert_chat(payload: Dict[str, Any])
+- export_official_arh_pdf · function · L1051-L1072 — async def export_official_arh_pdf(dossier_id: str)
+- resolve_arh_reserve · function · L1076-L1131 — async def resolve_arh_reserve( dossier_id: str, reserve_id: str, payload: Optional[Dict[str, Any]] = Body(default=None) )
+- reopen_arh_reserve · function · L1135-L1185 — async def reopen_arh_reserve(dossier_id: str, reserve_id: str)
+- record_reserve_feedback · function · L1190-L1251 — async def record_reserve_feedback( dossier_id: str, reserve_id: Optional[str] = None, comment_id: Optional[str] = None, payload: Dict[str, Any] = Body(...) )
+- list_refine_rules · function · L1255-L1262 — async def list_refine_rules( vendor_name: Optional[str] = Query(None), equipment_type: Optional[str] = Query(None) )
+- view_annotated_pdf · function · L1266-L1300 — async def view_annotated_pdf(dossier_id: str, filename: str)
+- view_document_pdf · function · L1304-L1322 — async def view_document_pdf(dossier_id: str, filename: str)
+- view_annotated_page_png · function · L1326-L1361 — async def view_annotated_page_png( dossier_id: str, filename: str, page_num: int, q: Optional[str] = Query(None, description="Extrait textuel ou terme clé"), title: Optional[str] = Query(None, description="Titre de la réserve"), highlight: bool = Query(True, description="Activer le surlignage de la réserve") )
+- view_annotated_page_png_default · function · L1366-L1381 — async def view_annotated_page_png_default( dossier_id: str, page_num: int, q: Optional[str] = Query(None, description="Extrait textuel ou terme clé"), title: Optional[str] = Query(None, description="Titre de la réserve"), highlight: bool = Query(True, description="Activer le surlignage de la réserve") )
+- compare_arh_dossier_revisions_get · function · L1389-L1415 — async def compare_arh_dossier_revisions_get(rev0_id: str, rev1_id: str)
+- compare_arh_dossier_revisions_post · function · L1419-L1426 — async def compare_arh_dossier_revisions_post( rev0_dossier_id: str = Form(...), rev1_dossier_id: str = Form(...) )
+- get_dossier_material_certificates_analysis · function · L1434-L1490 — async def get_dossier_material_certificates_analysis(dossier_id: str)
+- get_dossier_descriptive_sheet · function · L1494-L1544 — async def get_dossier_descriptive_sheet(dossier_id: str)
+- extract_with_nuextract · function · L1548-L1580 — async def extract_with_nuextract( dossier_id: str, request_data: Optional[Dict[str, Any]] = Body(default=None) )
+- delete_arh_dossier · function · L1588-L1627 — async def delete_arh_dossier(dossier_id: str)
+- get_agent_network_topology · function · L1631-L1643 — async def get_agent_network_topology()
+- get_project_live_vision · function · L1647-L1664 — async def get_project_live_vision(project_name: str)
+- force_global_network_sync · function · L1668-L1681 — async def force_global_network_sync()
+- audit_dossier_via_dot_tm · function · L1686-L1702 — async def audit_dossier_via_dot_tm(dossier_id: str, project_name: Optional[str] = Query(None))
+- get_parametric_matrix · function · L1706-L1724 — async def get_parametric_matrix(dossier_id: str)
+- export_official_bordereau · function · L1732-L1747 — async def export_official_bordereau(dossier_id: str)
+- export_fiche_descriptive · function · L1751-L1766 — async def export_fiche_descriptive(dossier_id: str)
+- export_matrice_levee_reserves · function · L1770-L1785 — async def export_matrice_levee_reserves(dossier_id: str)
+- slice_arh_dossier_pieces · function · L1794-L1835 — async def slice_arh_dossier_pieces(dossier_id: str)
+- get_arh_sliced_pieces · function · L1839-L1886 — async def get_arh_sliced_pieces( dossier_id: str, auto_slice: bool = Query(True), force_reslice: bool = Query(False) )
+- download_sliced_piece · function · L1890-L1904 — async def download_sliced_piece(dossier_id: str, filename: str)
+- view_sliced_piece · function · L1908-L1922 — async def view_sliced_piece(dossier_id: str, filename: str)
+- index_arh_dossier_pieces · function · L1930-L1946 — async def index_arh_dossier_pieces(dossier_id: str)
+- search_arh_dossier_pieces · function · L1950-L1981 — async def search_arh_dossier_pieces( dossier_id: str, query: str = Query(..., min_length=2, description="Requête sémantique ou technique"), piece_code: Optional[str] = Query(None, description="Filtre par code pièce (ex: DOC-06)"), discipline: Optional[str] = Query(None, description="Filtre par discipline (ex: CALCUL_STRUCTURE)"), top_k: int = Query(5, ge=1, le=20, description="Nombre max de résultats") )
+- cross_validate_arh_dossier · function · L1990-L2007 — async def cross_validate_arh_dossier(dossier_id: str)
+- generate_finetuning_dataset · function · L2015-L2030 — async def generate_finetuning_dataset(dossier_id: str)
+- list_benchmark_equipment_folders · function · L2034-L2049 — async def list_benchmark_equipment_folders()
+- evaluate_against_human_expert · function · L2053-L2082 — async def evaluate_against_human_expert(payload: Dict[str, Any] = Body(...))

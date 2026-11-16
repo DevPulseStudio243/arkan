@@ -1,0 +1,50 @@
+# arh_document_processor.py
+
+- _normalize_text · function · L16-L27 — def _normalize_text(text: str) -> str
+- _fuzzy_contains · function · L38-L69 — def _fuzzy_contains(needle: str, haystack: str, threshold: float = 0.75) -> bool
+- ARHTechnicalSpecAgent · class · L75-L256 — class ARHTechnicalSpecAgent
+- __init__ · method · L80-L81 — def __init__(self, engine=None)
+- audit_specifications · method · L83-L256 — def audit_specifications(self, parsed_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str) -> List[Dict[str, Any]]
+- ARHCalculationVerifierAgent · class · L259-L512 — class ARHCalculationVerifierAgent
+- __init__ · method · L265-L266 — def __init__(self)
+- verify_calculations · method · L268-L512 — def verify_calculations(self, parsed_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str) -> List[Dict[str, Any]]
+- ARHDocumentProcessor · class · L516-L7639 — class ARHDocumentProcessor
+- __init__ · method · L517-L524 — def __init__(self, kg: ARHKnowledgeGraph = None)
+- process_dossier_batch · method · L526-L858 — def process_dossier_batch( self, file_paths: List[str], project_name: str = "PROJET HYDROCARBURES ARH", unit_name: str = "UNIT-100", dossier_id: str = None, dossier_stage: str = None, forced_equipment_type: str = None, force_single_equipment: bool = False, metadata: Dict[str, Any] = None ) -> Dict[str, Any]
+- _process_equipment_group · method · L860-L1360 — def _process_equipment_group( self, group_docs: List[Dict[str, Any]], group_tag: str, project_name: str, unit_name: str, dossier_id: str, dossier_stage: str, forced_equipment_type: str = None, metadata: Dict[str, Any] = None ) -> Dict[str, Any]
+- _norm_k · function · L1052-L1054 — def _norm_k(s: str) -> str
+- _generate_llm_semantic_synthesis · method · L1362-L1407 — def _generate_llm_semantic_synthesis( self, equipment_type: str, equipment_tag: str, status: str, concordance_matrix: List[Dict[str, Any]], all_comments: List[Dict[str, Any]] ) -> str
+- _build_parametric_concordance_matrix · method · L1410-L1642 — def _build_parametric_concordance_matrix( self, group_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str ) -> List[Dict[str, Any]]
+- _build_structured_arh_tree · method · L1646-L1703 — def _build_structured_arh_tree( self, group_docs: List[Dict[str, Any]], mandatory_checklist: List[Dict[str, Any]] ) -> List[Dict[str, Any]]
+- _extract_pdf_text · method · L1707-L1710 — def _extract_pdf_text(self, file_path: str) -> str
+- _extract_pdf_text_with_pages · method · L1712-L1864 — def _extract_pdf_text_with_pages(self, file_path: str) -> Tuple[str, List[Dict[str, Any]], List[Dict[str, Any]]]
+- _extract_page_blocks · method · L1866-L1903 — def _extract_page_blocks(self, file_path: str) -> list
+- _compute_extraction_confidence · method · L1905-L1944 — def _compute_extraction_confidence(self, extracted_value: str, field_name: str, ocr_source: str = "text_layer", cross_doc_matches: int = 0) -> dict
+- _page_at_offset · method · L1947-L1957 — def _page_at_offset(page_spans: List[Dict[str, Any]], offset: int) -> int
+- _locate_match · method · L1960-L1970 — def _locate_match(cls, doc: Dict[str, Any], pattern: str, flags=0) -> Optional[Dict[str, Any]]
+- _get_page_num_str · method · L1973-L1985 — def _get_page_num_str(cls, doc: Dict[str, Any], pattern: str = None, default_page: str = "Page 1") -> str
+- _extract_clean_verbatim_snippet · method · L1988-L2062 — def _extract_clean_verbatim_snippet(cls, text: str, start_pos: int, match_len: int = 0, max_before: int = 50, max_after: int = 65) -> str
+- _enrich_comment_locations · method · L2065-L2655 — def _enrich_comment_locations(cls, comments: list, parsed_docs: list) -> list
+- _clean_str · function · L2111-L2114 — def _clean_str(txt: str) -> str
+- _is_divider_or_cover · function · L2448-L2466 — def _is_divider_or_cover(p_no)
+- _extract_title_block_text · method · L2658-L2691 — def _extract_title_block_text(self, file_path: str) -> str
+- _extract_document_metadata · method · L2693-L2790 — def _extract_document_metadata(self, filename: str, text: str) -> Dict[str, Any]
+- _segment_arh_chapters · method · L2792-L2910 — def _segment_arh_chapters(self, text: str) -> Dict[str, Any]
+- _split_document_into_sections · method · L2912-L2926 — def _split_document_into_sections(self, text: str) -> Dict[str, str]
+- _auto_detect_material_grade · method · L2929-L2987 — def _auto_detect_material_grade(text: str) -> str
+- _run_phase2_documentary_audit · method · L2989-L3254 — def _run_phase2_documentary_audit( self, parsed_docs: List[Dict[str, Any]], mandatory_checklist: List[Dict[str, Any]], equipment_type: str = "PRESSURE_VESSEL" ) -> Dict[str, Any]
+- _extract_dossier_items · method · L3256-L3390 — def _extract_dossier_items(self, parsed_docs: List[Dict[str, Any]]) -> List[Dict[str, Any]]
+- _run_phase3_technical_control · method · L3392-L5883 — def _run_phase3_technical_control( self, parsed_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str, dossier_stage: str = "FINAL_RECEPTION" ) -> Dict[str, Any]
+- _find_ev_page · function · L3428-L3444 — def _find_ev_page(keywords, default_p=1)
+- _run_page_by_page_inspection · method · L5885-L6461 — def _run_page_by_page_inspection( self, parsed_docs: List[Dict[str, Any]], equipment_type: str, dossier_stage: str = "PRELIMINARY" ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]
+- _verify_dossier_authenticity_and_fidelity · method · L6464-L6611 — def _verify_dossier_authenticity_and_fidelity( self, parsed_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str ) -> List[Dict[str, Any]]
+- _run_phase4_historical_cross_check · method · L6613-L6624 — def _run_phase4_historical_cross_check( self, group_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str ) -> Dict[str, Any]
+- _enforce_strict_dossier_isolation · method · L6626-L6709 — def _enforce_strict_dossier_isolation( self, all_comments: List[Dict[str, Any]], group_docs: List[Dict[str, Any]], equipment_type: str ) -> List[Dict[str, Any]]
+- _search_per_doc · method · L6712-L6725 — def _search_per_doc(self, parsed_docs: List[Dict[str, Any]], pattern: str, flags=0)
+- _detect_visual_stamps_and_signatures · method · L6727-L6845 — def _detect_visual_stamps_and_signatures(self, file_paths: list, page_spans: list) -> dict
+- _verify_engineering_calculations · method · L6847-L7136 — def _verify_engineering_calculations( self, parsed_docs: List[Dict[str, Any]], equipment_type: str ) -> List[Dict[str, Any]]
+- _verify_equipment_certificate_reconciliation · method · L7138-L7359 — def _verify_equipment_certificate_reconciliation( self, parsed_docs: List[Dict[str, Any]], main_equipment_tag: str, equipment_type: str, dossier_stage: str = "FINAL_RECEPTION" ) -> List[Dict[str, Any]]
+- _check_cross_document_inconsistencies · method · L7362-L7639 — def _check_cross_document_inconsistencies(self, parsed_docs: List[Dict[str, Any]]) -> List[Dict[str, Any]]
+- _page_of · function · L7379-L7388 — def _page_of(fname: str, pattern: str) -> Any
+- _findall_pressure · function · L7405-L7413 — def _findall_pressure(pattern, text)
+- _tags_related · function · L7598-L7599 — def _tags_related(tag_a: str, tag_b: str) -> bool

@@ -1,0 +1,327 @@
+[
+  {
+    "cycle_id": "incr_2_1776848469",
+    "timestamp": "2026-04-22T09:01:09.912277+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 6,
+    "graph_node_count": 4,
+    "graph_edge_count": 6,
+    "duration_seconds": 0.001,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_3_1776848469",
+    "timestamp": "2026-04-22T09:01:09.913045+00:00",
+    "feedback_count": 0,
+    "document_count": 1,
+    "vocabulary_size": 9,
+    "graph_node_count": 6,
+    "graph_edge_count": 11,
+    "duration_seconds": 0.001,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_3_1776849905",
+    "timestamp": "2026-04-22T09:25:05.680847+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 123,
+    "graph_node_count": 35,
+    "graph_edge_count": 103,
+    "duration_seconds": 0.037,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_4_1776849983",
+    "timestamp": "2026-04-22T09:26:23.657778+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 196,
+    "graph_node_count": 36,
+    "graph_edge_count": 103,
+    "duration_seconds": 0.009,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_5_1776850078",
+    "timestamp": "2026-04-22T09:27:58.307666+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 236,
+    "graph_node_count": 36,
+    "graph_edge_count": 103,
+    "duration_seconds": 0.011,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_6_1776850196",
+    "timestamp": "2026-04-22T09:29:56.720996+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 268,
+    "graph_node_count": 36,
+    "graph_edge_count": 103,
+    "duration_seconds": 0.008,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_7_1776850257",
+    "timestamp": "2026-04-22T09:30:57.637016+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 316,
+    "graph_node_count": 37,
+    "graph_edge_count": 110,
+    "duration_seconds": 0.012,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_8_1776851566",
+    "timestamp": "2026-04-22T09:52:46.547181+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 416,
+    "graph_node_count": 38,
+    "graph_edge_count": 121,
+    "duration_seconds": 0.011,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_9_1776851642",
+    "timestamp": "2026-04-22T09:54:02.675647+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 474,
+    "graph_node_count": 38,
+    "graph_edge_count": 122,
+    "duration_seconds": 0.011,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_10_1776851728",
+    "timestamp": "2026-04-22T09:55:28.795513+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 522,
+    "graph_node_count": 38,
+    "graph_edge_count": 124,
+    "duration_seconds": 0.012,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_11_1776851869",
+    "timestamp": "2026-04-22T09:57:49.762868+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 542,
+    "graph_node_count": 38,
+    "graph_edge_count": 124,
+    "duration_seconds": 0.011,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_12_1776851916",
+    "timestamp": "2026-04-22T09:58:36.205247+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 549,
+    "graph_node_count": 38,
+    "graph_edge_count": 124,
+    "duration_seconds": 0.011,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_13_1776851969",
+    "timestamp": "2026-04-22T09:59:29.195230+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 594,
+    "graph_node_count": 38,
+    "graph_edge_count": 125,
+    "duration_seconds": 0.011,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_24_1776852237",
+    "timestamp": "2026-04-22T10:03:58.010095+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1044,
+    "graph_node_count": 38,
+    "graph_edge_count": 125,
+    "duration_seconds": 0.013,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_25_1776852348",
+    "timestamp": "2026-04-22T10:05:48.100787+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1060,
+    "graph_node_count": 38,
+    "graph_edge_count": 125,
+    "duration_seconds": 0.014,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_26_1776852428",
+    "timestamp": "2026-04-22T10:07:08.453689+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1100,
+    "graph_node_count": 45,
+    "graph_edge_count": 178,
+    "duration_seconds": 0.015,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_27_1776852490",
+    "timestamp": "2026-04-22T10:08:10.563390+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1162,
+    "graph_node_count": 45,
+    "graph_edge_count": 179,
+    "duration_seconds": 0.014,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_28_1776852939",
+    "timestamp": "2026-04-22T10:15:39.136577+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1173,
+    "graph_node_count": 45,
+    "graph_edge_count": 179,
+    "duration_seconds": 0.015,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_29_1776853579",
+    "timestamp": "2026-04-22T10:26:19.083698+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1185,
+    "graph_node_count": 45,
+    "graph_edge_count": 179,
+    "duration_seconds": 0.017,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_30_1776853710",
+    "timestamp": "2026-04-22T10:28:30.084381+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1195,
+    "graph_node_count": 45,
+    "graph_edge_count": 179,
+    "duration_seconds": 0.015,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_27_1776853812",
+    "timestamp": "2026-04-22T10:30:12.584837+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1203,
+    "graph_node_count": 45,
+    "graph_edge_count": 179,
+    "duration_seconds": 0.016,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_28_1776853874",
+    "timestamp": "2026-04-22T10:31:14.535795+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1252,
+    "graph_node_count": 47,
+    "graph_edge_count": 183,
+    "duration_seconds": 0.014,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_29_1776854171",
+    "timestamp": "2026-04-22T10:36:11.061603+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1304,
+    "graph_node_count": 47,
+    "graph_edge_count": 186,
+    "duration_seconds": 0.017,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_30_1776854442",
+    "timestamp": "2026-04-22T10:40:42.959475+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1317,
+    "graph_node_count": 47,
+    "graph_edge_count": 186,
+    "duration_seconds": 0.018,
+    "improvements": {
+      "type": "incremental"
+    }
+  },
+  {
+    "cycle_id": "incr_26_1776856328",
+    "timestamp": "2026-04-22T11:12:08.549670+00:00",
+    "feedback_count": 1,
+    "document_count": 0,
+    "vocabulary_size": 1319,
+    "graph_node_count": 47,
+    "graph_edge_count": 186,
+    "duration_seconds": 0.017,
+    "improvements": {
+      "type": "incremental"
+    }
+  }
+]

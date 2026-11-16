@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "total_expert_comments": 141,
+    "total_matched": 141,
+    "global_recall_pct": 100.0,
+    "total_arkan_findings": 333,
+    "complementary_findings": 192
+  },
+  "equipments": [
+    {
+      "id": "EQ-01",
+      "name": "01-Barred Tee PRIMEX (Rev.00)",
+      "matched": 7,
+      "total_expert": 7,
+      "recall_pct": 100.0,
+      "total_arkan": 25,
+      "complementary": 18
+    },
+    {
+      "id": "EQ-02",
+      "name": "02-GLOBE VALVE GOVAL (Rev.00)",
+      "matched": 7,
+      "total_expert": 7,
+      "recall_pct": 100.0,
+      "total_arkan": 41,
+      "complementary": 34
+    },
+    {
+      "id": "EQ-03",
+      "name": "03-DUAL-PLATE CHECK VALVE GOVAL 01 (Rev.00)",
+      "matched": 15,
+      "total_expert": 15,
+      "recall_pct": 100.0,
+      "total_arkan": 43,
+      "complementary": 28
+    },
+    {
+      "id": "EQ-04",
+      "name": "04-BALL VALVE GOVAL (Rev.00)",
+      "matched": 10,
+      "total_expert": 10,
+      "recall_pct": 100.0,
+      "total_arkan": 43,
+      "complementary": 33
+    },
+    {
+      "id": "EQ-05",
+      "name": "05-DDB VALVLE GOVAL (Rev.00)",
+      "matched": 11,
+      "total_expert": 11,
+      "recall_pct": 100.0,
+      "total_arkan": 44,
+      "complementary": 33
+    },
+    {
+      "id": "EQ-06",
+      "name": "06- WELL HEAD CONTROL PANEL (Rev A)",
+      "matched": 18,
+      "total_expert": 18,
+      "recall_pct": 100.0,
+      "total_arkan": 28,
+      "complementary": 10
+    },
+    {
+      "id": "EQ-07",
+      "name": "07- FITTING + flange (Rev A)",
+      "matched": 12,
+      "total_expert": 12,
+      "recall_pct": 100.0,
+      "total_arkan": 23,
+      "complementary": 11
+    },
+    {
+      "id": "EQ-08",
+      "name": "08-PIPE SMLS (REV 1)",
+      "matched": 23,
+      "total_expert": 23,
+      "recall_pct": 100.0,
+      "total_arkan": 21,
+      "complementary": 0
+    },
+    {
+      "id": "EQ-09",
+      "name": "09-DUAL-PLATE CHECK VALVE GOVAL 02 (Rev A)",
+      "matched": 28,
+      "total_expert": 28,
+      "recall_pct": 100.0,
+      "total_arkan": 42,
+      "complementary": 14
+    },
+    {
+      "id": "EQ-10",
+      "name": "10-SAMPLING SYSTEM (REV 00)",
+      "matched": 10,
+      "total_expert": 10,
+      "recall_pct": 100.0,
+      "total_arkan": 23,
+      "complementary": 13
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "filename": "C3421-ROK1-081-PRC-DM-300001_2.pdf",
+    "status": "PASS",
+    "lines_count": 13,
+    "valves_count": 23,
+    "instruments_count": 0,
+    "equipment_count": 3,
+    "cross_refs_count": 11,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-100-PRC-DM-300001_2_1.pdf",
+    "status": "PASS",
+    "lines_count": 77,
+    "valves_count": 64,
+    "instruments_count": 8,
+    "equipment_count": 0,
+    "cross_refs_count": 6,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-100-PRC-DM-300001_2_2.pdf",
+    "status": "PASS",
+    "lines_count": 83,
+    "valves_count": 63,
+    "instruments_count": 0,
+    "equipment_count": 0,
+    "cross_refs_count": 4,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-100-PRC-DM-300002_2.pdf",
+    "status": "PASS",
+    "lines_count": 25,
+    "valves_count": 18,
+    "instruments_count": 11,
+    "equipment_count": 3,
+    "cross_refs_count": 4,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-100-PRC-DM-300003_2.pdf",
+    "status": "PASS",
+    "lines_count": 37,
+    "valves_count": 22,
+    "instruments_count": 23,
+    "equipment_count": 4,
+    "cross_refs_count": 4,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-100-PRC-DM-300004_2_1.pdf",
+    "status": "PASS",
+    "lines_count": 16,
+    "valves_count": 16,
+    "instruments_count": 0,
+    "equipment_count": 0,
+    "cross_refs_count": 5,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-100-PRC-DM-300004_2_2.pdf",
+    "status": "PASS",
+    "lines_count": 6,
+    "valves_count": 11,
+    "instruments_count": 0,
+    "equipment_count": 0,
+    "cross_refs_count": 13,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-200-PRC-DM-300001_2.pdf",
+    "status": "PASS",
+    "lines_count": 70,
+    "valves_count": 59,
+    "instruments_count": 14,
+    "equipment_count": 2,
+    "cross_refs_count": 5,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-200-PRC-DM-300002_2.pdf",
+    "status": "PASS",
+    "lines_count": 104,
+    "valves_count": 93,
+    "instruments_count": 103,
+    "equipment_count": 6,
+    "cross_refs_count": 5,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-200-PRC-DM-300003_2.pdf",
+    "status": "PASS",
+    "lines_count": 28,
+    "valves_count": 20,
+    "instruments_count": 11,
+    "equipment_count": 1,
+    "cross_refs_count": 6,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-300-PRC-DM-300001_2.pdf",
+    "status": "PASS",
+    "lines_count": 74,
+    "valves_count": 74,
+    "instruments_count": 18,
+    "equipment_count": 2,
+    "cross_refs_count": 5,
+    "assoc_rate": 98.9,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-300-PRC-DM-300002_2_1.pdf",
+    "status": "PASS",
+    "lines_count": 54,
+    "valves_count": 51,
+    "instruments_count": 52,
+    "equipment_count": 4,
+    "cross_refs_count": 5,
+    "assoc_rate": 99.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-300-PRC-DM-300002_2_2.pdf",
+    "status": "PASS",
+    "lines_count": 55,
+    "valves_count": 54,
+    "instruments_count": 57,
+    "equipment_count": 4,
+    "cross_refs_count": 7,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-300-PRC-DM-300003_2.pdf",
+    "status": "PASS",
+    "lines_count": 60,
+    "valves_count": 27,
+    "instruments_count": 19,
+    "equipment_count": 7,
+    "cross_refs_count": 9,
+    "assoc_rate": 100.0,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-300-PRC-DM-300004_2.pdf",
+    "status": "PASS",
+    "lines_count": 23,
+    "valves_count": 15,
+    "instruments_count": 11,
+    "equipment_count": 2,
+    "cross_refs_count": 6,
+    "assoc_rate": 96.2,
+    "flaws": []
+  },
+  {
+    "filename": "C3421-ROK1-300-PRC-DM-300005_2.pdf",
+    "status": "PASS",
+    "lines_count": 31,
+    "valves_count": 52,
+    "instruments_count": 22,
+    "equipment_count": 3,
+    "cross_refs_count": 11,
+    "assoc_rate": 100.0,
+    "flaws": []
+  }
+]

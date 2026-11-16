@@ -1,0 +1,36 @@
+# arh_document_slicer.py
+
+- ContractDoc01DemandeAvis · class · L40-L50 — class ContractDoc01DemandeAvis(BaseModel)
+- ContractDoc02ChambreCommerce · class · L52-L60 — class ContractDoc02ChambreCommerce(BaseModel)
+- ContractDoc03VisiteUsine · class · L62-L70 — class ContractDoc03VisiteUsine(BaseModel)
+- ContractDoc04PaysOrigine · class · L72-L78 — class ContractDoc04PaysOrigine(BaseModel)
+- ContractDoc05EtatDescriptif · class · L80-L93 — class ContractDoc05EtatDescriptif(BaseModel)
+- ContractDoc06NoteCalcul · class · L95-L106 — class ContractDoc06NoteCalcul(BaseModel)
+- ContractDoc07DessinsPlans · class · L108-L116 — class ContractDoc07DessinsPlans(BaseModel)
+- ContractDoc08CahierSoudage · class · L118-L127 — class ContractDoc08CahierSoudage(BaseModel)
+- ContractDoc09TraitementThermique · class · L129-L136 — class ContractDoc09TraitementThermique(BaseModel)
+- ContractDoc10ITPControle · class · L138-L146 — class ContractDoc10ITPControle(BaseModel)
+- ContractDoc11EpreuveHydro · class · L148-L156 — class ContractDoc11EpreuveHydro(BaseModel)
+- ContractDoc12CertificatsMatiere · class · L158-L167 — class ContractDoc12CertificatsMatiere(BaseModel)
+- ContractDoc13CND · class · L169-L175 — class ContractDoc13CND(BaseModel)
+- ContractDoc14ControleDimensionnel · class · L177-L183 — class ContractDoc14ControleDimensionnel(BaseModel)
+- ContractGenericPiece · class · L185-L190 — class ContractGenericPiece(BaseModel)
+- SlicedPieceOutput · class · L197-L214 — class SlicedPieceOutput(BaseModel)
+- ARHDocumentSlicer · class · L221-L1840 — class ARHDocumentSlicer
+- __init__ · method · L406-L411 — def __init__(self, db_path: Optional[Union[Path, str]] = None, uploads_dir: Optional[Union[Path, str]] = None)
+- _get_ocr · method · L413-L420 — def _get_ocr(self)
+- _get_db · method · L422-L427 — def _get_db(self)
+- _init_sqlite_tables · method · L429-L454 — def _init_sqlite_tables(self)
+- _normalize · method · L457-L465 — def _normalize(text: str) -> str
+- parse_vendor_sommaire · method · L467-L775 — def parse_vendor_sommaire(self, doc: fitz.Document) -> List[Dict[str, Any]]
+- _is_running_header · function · L480-L486 — def _is_running_header(line_txt: str) -> bool
+- get_spec_for_title · method · L777-L827 — def get_spec_for_title(self, title: str, order_idx: int) -> Dict[str, Any]: # Nettoyer les notes de bas de page ou renvois (*)
+- parse_section_covers · method · L829-L932 — def parse_section_covers(self, doc: fitz.Document) -> List[Dict[str, Any]]
+- identify_boundaries · method · L934-L1195 — def identify_boundaries(self, doc: fitz.Document) -> List[Dict[str, Any]]
+- _is_running_header · function · L948-L954 — def _is_running_header(line_txt: str) -> bool
+- extract_piece_contract · method · L1198-L1627 — def extract_piece_contract(self, spec: Dict[str, Any], text: str) -> Tuple[Dict[str, Any], str, List[str]]
+- _find_val · function · L1213-L1223 — def _find_val(patterns, default=None)
+- _find_float · function · L1225-L1237 — def _find_float(patterns, default=None)
+- slice_dossier · method · L1630-L1786 — def slice_dossier(self, dossier_id: str) -> List[Dict[str, Any]]
+- _update_dossier_summary · method · L1788-L1816 — def _update_dossier_summary(self, dossier_id: str, pieces: List[Dict[str, Any]])
+- get_sliced_pieces · method · L1818-L1840 — def get_sliced_pieces(self, dossier_id: str) -> List[Dict[str, Any]]

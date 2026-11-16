@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the separator pressure?",
+    "answer": "The separator operates at 450 psig.",
+    "sources": [
+      "PFD-001"
+    ],
+    "rating": 5,
+    "query_type": "lookup",
+    "timestamp": "2026-04-22T09:01:09.911708+00:00"
+  },
+  {
+    "question": "",
+    "answer": "The compressor discharge pressure is 1200 psig.",
+    "sources": [
+      "DS-C-101"
+    ],
+    "rating": 3,
+    "query_type": "mechanical",
+    "timestamp": "2026-04-22T09:01:09.912620+00:00"
+  }
+]

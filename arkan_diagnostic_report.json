@@ -1,0 +1,129 @@
+{
+  "total_modules_checked": 40,
+  "working_modules": [
+    "arh_regulatory_engine",
+    "arh_multiagent_engine",
+    "arh_temporal_reasoner",
+    "arh_reconciliation_engine",
+    "arh_material_certificate_analyzer",
+    "arh_document_processor",
+    "arh_pdf_annotator",
+    "arh_report_generator",
+    "arh_revision_comparator",
+    "arh_reserve_comparator",
+    "arh_knowledge_graph",
+    "arh_model_router",
+    "arh_dataset_cleaner",
+    "arh_dataset_generator_v2",
+    "arh_dataset_merger",
+    "arh_ground_truth_extractor",
+    "arh_ocr_engine",
+    "arh_descriptive_sheet_extractor",
+    "arh_nuextract_engine",
+    "arh_api_routes",
+    "arh_ai_engine",
+    "arh_actors_knowledge",
+    "ai_engine",
+    "audit_engine",
+    "agents",
+    "agent_memory",
+    "causal_memory",
+    "conversation_memory",
+    "classifier",
+    "auto_indexer",
+    "boq_planner",
+    "autocad_worker",
+    "config",
+    "config_enhanced",
+    "api_enhanced"
+  ],
+  "broken_modules": [
+    [
+      "graph_engine",
+      "Fichier inexistant"
+    ],
+    [
+      "hybrid_retriever",
+      "Fichier inexistant"
+    ],
+    [
+      "wbs_planner",
+      "Fichier inexistant"
+    ],
+    [
+      "report_generator",
+      "Fichier inexistant"
+    ],
+    [
+      "excel_generator",
+      "Fichier inexistant"
+    ]
+  ],
+  "warnings": [],
+  "missing_dependencies": [
+    [
+      "unsloth",
+      "No module named 'unsloth'"
+    ]
+  ],
+  "databases_checked": [
+    {
+      "name": "arh_dossiers.db",
+      "status": "OK",
+      "tables": [
+        "arh_dossiers",
+        "arh_projects"
+      ]
+    },
+    {
+      "name": "arh_knowledge_graph.db",
+      "status": "OK",
+      "tables": [
+        "arh_nodes",
+        "arh_edges",
+        "sqlite_sequence"
+      ]
+    },
+    {
+      "name": "arh_training_benchmark.db",
+      "status": "OK",
+      "tables": [
+        "arh_benchmark_results",
+        "sqlite_sequence"
+      ]
+    },
+    {
+      "name": "arh_memory.db",
+      "status": "MISSING"
+    },
+    {
+      "name": "knowledge_graph.db",
+      "status": "OK",
+      "tables": [
+        "entities",
+        "relationships",
+        "sqlite_sequence",
+        "document_index",
+        "sentinel_incidents"
+      ]
+    },
+    {
+      "name": "vector_store.db",
+      "status": "MISSING"
+    },
+    {
+      "name": "epc_knowledge.db",
+      "status": "MISSING"
+    }
+  ],
+  "functional_tests": {
+    "arh_regulatory_engine": "FAILED: 'ARHRegulatoryEngine' object has no attribute 'classify_equipment_type'",
+    "arh_temporal_reasoner": "FAILED: 'ARHTemporalReasoningAgent' object has no attribute 'audit_document_dates'",
+    "arh_material_certificate_analyzer": "FAILED: ARHMaterialCertificateAnalyzer.analyze_certificate_text() got an unexpected keyword argument 'grade_hint'",
+    "arh_reconciliation_engine": "FAILED: 'ARHReconciliationEngine' object has no attribute 'reconcile_dossier'",
+    "arh_multiagent_engine": "PASSED",
+    "arh_model_router": "PASSED",
+    "arh_pdf_annotator": "PASSED",
+    "arh_report_generator": "PASSED"
+  }
+}

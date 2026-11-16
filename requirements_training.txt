@@ -1,0 +1,30 @@
+# ============================================================
+#  DEERFLOW LITE — Requirements Entraînement
+#  Pour le moteur d'entraînement train_deerflow.py
+# ============================================================
+
+# Core ML
+sentence-transformers>=2.7.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Affichage terminal
+rich>=13.7.0
+colorama>=0.4.6
+
+# Utilitaires
+tqdm>=4.66.0
+httpx>=0.25.0
+
+# Déjà dans requirements.txt du projet principal:
+# chromadb
+# fastapi
+# PyPDF2
+# python-docx
+# openpyxl
+
+# Optionnel (accélération GPU)
+# torch avec CUDA : installer depuis https://pytorch.org/
+# Pour RTX 3050 (CUDA 12.x) :
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121

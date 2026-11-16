@@ -1,0 +1,22 @@
+# sentinel_auditor.py
+
+- TechnicalClaim · class · L95-L102 — class TechnicalClaim
+- AnomalyFinding · class · L106-L130 — class AnomalyFinding
+- to_dict · method · L117-L118 — def to_dict(self)
+- to_text · method · L120-L130 — def to_text(self) -> str
+- AuditReport · class · L134-L197 — class AuditReport
+- errors · method · L144-L145 — def errors(self)
+- warnings · method · L148-L149 — def warnings(self)
+- to_dict · method · L151-L164 — def to_dict(self)
+- to_markdown · method · L166-L197 — def to_markdown(self) -> str
+- TechnicalExtractor · class · L202-L245 — class TechnicalExtractor
+- extract · method · L205-L245 — def extract(self, text: str, source: str = "") -> list
+- SentinelAuditor · class · L284-L481 — class SentinelAuditor
+- __init__ · method · L292-L294 — def __init__(self)
+- _call_llm · method · L296-L312 — def _call_llm(self, prompt: str) -> str
+- _get_knowledge · method · L314-L330 — def _get_knowledge(self, claims: list) -> str
+- _parse_findings · method · L332-L367 — def _parse_findings(self, raw: str, source: str) -> list
+- audit_text · method · L369-L461 — def audit_text(self, text: str, source: str = "Document projet", max_claims_per_batch: int = 15) -> AuditReport
+- audit_file · method · L463-L478 — def audit_file(self, file_path: str) -> AuditReport
+- close · method · L480-L481 — def close(self)
+- get_auditor · function · L487-L491 — def get_auditor() -> SentinelAuditor

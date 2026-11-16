@@ -1,0 +1,23 @@
+# mto_consolidator.py
+
+- _parse_number · function · L28-L48 — def _parse_number(val: Any) -> Optional[float]
+- _safe_float · function · L51-L54 — def _safe_float(val: Any, default: float = 0.0) -> float
+- _parse_confidence · function · L57-L64 — def _parse_confidence(val: Any) -> Optional[float]
+- sanitize_excel_val · function · L67-L75 — def sanitize_excel_val(val: Any) -> Any
+- _neutralize_formulas · function · L81-L99 — def _neutralize_formulas(wb) -> int
+- _norm_text · function · L148-L150 — def _norm_text(s: Any) -> str
+- _kw_pattern · function · L156-L168 — def _kw_pattern(keyword: str) -> "re.Pattern[str]"
+- _kw · function · L171-L173 — def _kw(text: str, keywords: List[str]) -> bool
+- classify_item_discipline · function · L176-L253 — def classify_item_discipline(item: Dict[str, Any]) -> str
+- expand_feeders · function · L256-L305 — def expand_feeders(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]
+- _pipe_od_m · function · L317-L337 — def _pipe_od_m(size: Any) -> Optional[float]
+- pipe_surface_stats · function · L340-L351 — def pipe_surface_stats(consolidated_items: List[Dict[str, Any]], effective_pipe_m: float) -> Dict[str, float]
+- normalize_item_key · function · L354-L372 — def normalize_item_key(item: Dict[str, Any]) -> Tuple[str, str, str, str, str, str, str]
+- _quantity_by_unit · function · L375-L380 — def _quantity_by_unit(items: List[Dict[str, Any]]) -> Dict[str, float]
+- consolidate_mto_items · function · L383-L541 — def consolidate_mto_items(plans_results: List[Dict[str, Any]]) -> Dict[str, Any]
+- generate_consolidated_excel · function · L544-L1358 — def generate_consolidated_excel( consolidation_data: Dict[str, Any], all_plans_raw: List[Dict[str, Any]], output_path: str ) -> str
+- _draw_kpi_card · function · L625-L650 — def _draw_kpi_card(ws, start_col, start_row, width, title, value_str, subtitle)
+- _add_reason · function · L1372-L1374 — def _add_reason(reasons: List[str], msg: str) -> None
+- build_cable_breakdown_summary · function · L1377-L1429 — def build_cable_breakdown_summary(cables: List[Dict[str, Any]]) -> List[Dict[str, Any]]
+- generate_master_multidiscipline_excel · function · L1432-L1842 — def generate_master_multidiscipline_excel( items: List[Dict[str, Any]], metadata: Optional[Dict[str, Any]] = None, anomalies: Optional[List[Dict[str, Any]]] = None, output_path: str = "MTO_GLOBAL_PROJET.xlsx" ) -> str
+- build_standard_tab · function · L1705-L1787 — def build_standard_tab(ws_name: str, item_list: List[Dict[str, Any]])

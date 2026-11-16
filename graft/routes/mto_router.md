@@ -1,0 +1,22 @@
+# routes/mto_router.py
+
+- verify_api_key · function · L20-L21 — async def verify_api_key()
+- get_cpu_status · function · L38-L44 — def get_cpu_status()
+- set_cpu_limit_endpoint · function · L47-L55 — def set_cpu_limit_endpoint(target_pct: float = 80.0)
+- extract_dwg_thumbnail_bytes · function · L63-L115 — def extract_dwg_thumbnail_bytes(dwg_path: str) -> Optional[tuple]
+- generate_cad_isometric_diagram · function · L118-L240 — def generate_cad_isometric_diagram(output_path: str, filename: str = "PLAN-DWG.dwg", line_number: str = "3\"-P-3001-A1A") -> str
+- render_cad_plan_visual · function · L243-L339 — def render_cad_plan_visual(cad_path: str, filename: str, stem: str) -> Optional[str]
+- parse_mto_table_from_text · function · L346-L497 — def parse_mto_table_from_text(text: str) -> List[Dict[str, Any]]
+- extract_mto_fallback · function · L504-L519 — def extract_mto_fallback(text: str, filename: str = "drawing.pdf") -> List[Dict[str, Any]]
+- calculate_mto_from_text · function · L549-L561 — async def calculate_mto_from_text(text: str, filename: str = "drawing.pdf") -> List[Dict[str, Any]]: # 1. Tenter d'abord d'extraire un tableau MTO structure present dans le texte brut (ex: Page 2 du PDF)
+- get_caesar_export · function · L569-L578 — async def get_caesar_export()
+- LearnFeedbackRequest · class · L581-L588 — class LearnFeedbackRequest(BaseModel)
+- learn_feedback · function · L592-L608 — async def learn_feedback(req: LearnFeedbackRequest, api_key: str = Depends(verify_api_key))
+- build_iso_mto_response · function · L611-L826 — def build_iso_mto_response( bom_items: List[Dict[str, Any]], metadata: Dict[str, Any], spools: List[Dict[str, Any]], filename: str, page_count: int, plan_preview_pages: List[str], visual_url: Optional[str], validation: Optional[Dict[str, Any]] = None, anomalies: Optional[List[Dict[str, Any]]] = None ) -> Dict[str, Any]
+- calculate_mto · function · L830-L1141 — async def calculate_mto( file: Optional[UploadFile] = File(None), file_path: Optional[str] = Form(None), api_key: str = Depends(verify_api_key) )
+- render_plan_preview · function · L1145-L1202 — async def render_plan_preview(file: UploadFile = File(...))
+- calculate_batch_mto · function · L1206-L1398 — async def calculate_batch_mto(files: List[UploadFile] = File(...), api_key: str = Depends(verify_api_key))
+- _process_single_isometric_file · function · L1257-L1352 — def _process_single_isometric_file(fp: Path)
+- MtoCustomExportRequest · class · L1401-L1405 — class MtoCustomExportRequest(BaseModel)
+- export_custom_mto_excel · function · L1408-L1447 — async def export_custom_mto_excel(req: MtoCustomExportRequest)
+- AIReportRequest · class · L1456-L1461 — class AIReportRequest(BaseModel)

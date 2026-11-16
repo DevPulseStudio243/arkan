@@ -1,0 +1,15 @@
+{
+  "agent": "arkan-planning-construction",
+  "step": 0,
+  "max_steps": 120,
+  "progress_pct": 0.0,
+  "loss": 0.0,
+  "status": "ALL_COMPLETED",
+  "instance": "gpu-t4-s-kkb-usw1b0-277zddw4yt2yy",
+  "completed_agents": [
+    "arkan-planning-cpm",
+    "arkan-planning-rendements",
+    "arkan-planning-wbs"
+  ],
+  "last_update": "2026-09-10T10:04:41.457672"
+}

@@ -1,0 +1,18 @@
+# tests/test_validator.py
+
+- test_pe_three_tiers · function · L12-L13 — def test_pe_three_tiers(phase, exp)
+- test_pe_beyond_table_is_none · function · L15-L16 — def test_pe_beyond_table_is_none()
+- test_parse_power · function · L23-L25 — def test_parse_power(spec, n, s, pe_core, red, role)
+- test_parse_parallel_and_pairs_and_garbage · function · L27-L31 — def test_parse_parallel_and_pairs_and_garbage()
+- feeder · function · L33-L34 — def feeder(spec, **kw)
+- rules · function · L36-L37 — def rules(items, cfg=CFG)
+- test_explicit_pe_too_small_is_critical · function · L39-L40 — def test_explicit_pe_too_small_is_critical()
+- test_unspecified_reduced_conductor_is_warning_not_critical · function · L42-L44 — def test_unspecified_reduced_conductor_is_warning_not_critical()
+- test_ok_cases_raise_nothing · function · L46-L48 — def test_ok_cases_raise_nothing()
+- test_unparseable_is_reported_not_guessed · function · L50-L51 — def test_unparseable_is_reported_not_guessed()
+- test_severities_are_in_schema · function · L53-L55 — def test_severities_are_in_schema()
+- test_iz_not_evaluated_without_table_no_invented_overcurrent · function · L57-L59 — def test_iz_not_evaluated_without_table_no_invented_overcurrent()
+- test_iz_with_table_flags_overcurrent_and_undersized · function · L61-L67 — def test_iz_with_table_flags_overcurrent_and_undersized()
+- test_fill_not_evaluated_without_routing_data · function · L69-L71 — def test_fill_not_evaluated_without_routing_data()
+- test_fill_ratio_uses_pi_over_4_d2 · function · L73-L78 — def test_fill_ratio_uses_pi_over_4_d2()
+- test_old_length_ratio_rule_is_gone · function · L80-L83 — def test_old_length_ratio_rule_is_gone(): # ancien code : (Σ longueurs câbles / Σ longueurs chemins) > 12 -> « remplissage > 40 % » (sans sens physique)

@@ -1,0 +1,18 @@
+# routes/agents_router.py
+
+- verify_api_key · function · L19-L20 — async def verify_api_key()
+- _get_orchestrator · function · L22-L27 — def _get_orchestrator()
+- _get_conv_memory · function · L29-L34 — def _get_conv_memory()
+- _get_trainer · function · L36-L41 — def _get_trainer()
+- TrainingCycleResponse · class · L46-L48 — class TrainingCycleResponse(BaseModel)
+- get_memory_sessions · function · L54-L61 — async def get_memory_sessions()
+- get_session_history · function · L65-L75 — async def get_session_history(session_id: str, limit: int = 50)
+- start_new_session · function · L79-L85 — async def start_new_session(title: str = "")
+- search_memory · function · L89-L99 — async def search_memory(query: str, limit: int = 5)
+- list_agents · function · L105-L142 — async def list_agents()
+- get_agent_detail · function · L146-L196 — async def get_agent_detail(discipline: str)
+- create_visual_summary · function · L202-L213 — async def create_visual_summary(project_name: str, data: dict, api_key: str = Depends(verify_api_key))
+- toggle_reranker · function · L219-L223 — async def toggle_reranker(request: Request, active: bool, api_key: str = Depends(verify_api_key))
+- get_training_status · function · L229-L240 — async def get_training_status()
+- trigger_training_cycle · function · L244-L255 — async def trigger_training_cycle(api_key: str = Depends(verify_api_key))
+- trigger_incremental_update · function · L259-L270 — async def trigger_incremental_update(api_key: str = Depends(verify_api_key))

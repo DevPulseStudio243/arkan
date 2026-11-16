@@ -1,0 +1,35 @@
+# arh_parametric_matrix_engine.py
+
+- StandardsError · class · L29-L30 — class StandardsError(RuntimeError)
+- load_standards · function · L33-L48 — def load_standards(path: str) -> Dict[str, Any]
+- combine · function · L51-L59 — def combine(statuses: List[str]) -> str
+- _res · function · L62-L64 — def _res(flag: Optional[bool], verdict: str, **extra) -> Dict[str, Any]
+- _f · function · L73-L74 — def _f(s: str) -> float
+- parse_pressure_bar · function · L77-L80 — def parse_pressure_bar(text: Any) -> Optional[float]
+- parse_temperature_c · function · L83-L85 — def parse_temperature_c(text: Any) -> Optional[float]
+- parse_thickness_mm · function · L88-L93 — def parse_thickness_mm(text: Any) -> Optional[float]
+- normalize_grade · function · L96-L104 — def normalize_grade(text: Any) -> Optional[str]
+- normalize_rating · function · L107-L113 — def normalize_rating(text: Any) -> Optional[str]
+- _norm_txt · function · L116-L118 — def _norm_txt(s: str) -> str
+- classify_parameter · function · L121-L137 — def classify_parameter(name: str) -> str
+- parse_source_key · function · L145-L147 — def parse_source_key(key: str)
+- _normalize_value · function · L150-L156 — def _normalize_value(kind: str, raw: Any)
+- ARHParametricMatrixEngine · class · L159-L561 — class ARHParametricMatrixEngine
+- __init__ · method · L160-L164 — def __init__(self, standards_path: Optional[str] = None, db_path: Optional[str] = None)
+- rules_info · method · L167-L168 — def rules_info(self) -> Dict[str, str]
+- _rule · method · L170-L180 — def _rule(self, path: List[str], used: List[str]) -> Optional[float]
+- compute_hydrotest · method · L183-L261 — def compute_hydrotest(self, pma_bar: Optional[float], p_test_bar: Optional[float] = None, equipment_kind: Optional[str] = None, design_code: Optional[str] = None, pipeline_zone: Optional[str] = None, s_test_mpa: Optional[float] = None, s_design_mpa: Optional[float] = None) -> Dict[str, Any]
+- compute_allowable_stress · method · L264-L292 — def compute_allowable_stress(self, re_mpa: Optional[float], rm_mpa: Optional[float], declared_stress_mpa: Optional[float] = None, decree: str = "21-261") -> Dict[str, Any]
+- material_group_from_grade · method · L295-L305 — def material_group_from_grade(self, grade: Optional[str]) -> Optional[str]
+- n · function · L296-L298 — def n(s)
+- compute_flange_rating · method · L307-L349 — def compute_flange_rating(self, rating_text: Optional[str], pma_bar: Optional[float], tma_c: Optional[float], material_group: Optional[str]) -> Dict[str, Any]
+- compute_weldability · method · L352-L384 — def compute_weldability(self, comp: Dict[str, Optional[float]], limits_override: Optional[Dict[str, float]] = None) -> Dict[str, Any]
+- evaluate_heats · method · L386-L393 — def evaluate_heats(self, heats: List[Dict[str, Any]], limits_override=None) -> Dict[str, Any]
+- check_sour_service · method · L395-L421 — def check_sour_service(self, sour_service: Optional[bool], ni_pct: Optional[float], hardness: Optional[float], hardness_unit: str = "HRC") -> Dict[str, Any]
+- compute_charpy_resilience · method · L423-L443 — def compute_charpy_resilience(self, energy_avg_j: Optional[float], temp_c: Optional[float], mdmt_c: Optional[float] = None, is_high_strength: bool = False) -> Dict[str, Any]
+- build_concordance · method · L446-L465 — def build_concordance(self, concordance_matrix: List[Dict[str, Any]], page_to_piece: Optional[Callable[[str, int], Optional[str]]] = None) -> List[Dict[str, Any]]
+- _judge · method · L468-L503 — def _judge(name, kind, entries, noise, tol, has_pieces) -> Dict[str, Any]
+- _consolidated · method · L506-L510 — def _consolidated(rows, kind)
+- analyze_dossier · method · L513-L543 — def analyze_dossier(self, concordance_matrix, context: Optional[Dict[str, Any]] = None, page_to_piece=None) -> Dict[str, Any]
+- generate_full_parametric_analysis · method · L545-L561 — def generate_full_parametric_analysis(self, dossier_id: str, context=None, page_to_piece=None) -> Dict[str, Any]
+- get_engine · function · L567-L572 — def get_engine() -> ARHParametricMatrixEngine

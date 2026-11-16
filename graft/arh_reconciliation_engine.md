@@ -1,0 +1,23 @@
+# arh_reconciliation_engine.py
+
+- ARHDocumentParameterExtractor · class · L64-L269 — class ARHDocumentParameterExtractor
+- extract · method · L70-L126 — def extract(self, text: str, file_name: str) -> Dict[str, Any]
+- _extract_pressure · method · L130-L146 — def _extract_pressure(self, tu: str, keywords: List[str]) -> Optional[float]
+- _extract_temp · method · L148-L160 — def _extract_temp(self, tu: str, keywords: List[str]) -> Optional[float]
+- _extract_material · method · L162-L177 — def _extract_material(self, tu: str) -> Optional[str]: # Ordre de spécificité décroissant
+- _extract_bars_material · method · L179-L186 — def _extract_bars_material(self, tu: str) -> Optional[str]
+- _extract_diameter · method · L188-L212 — def _extract_diameter(self, tu: str) -> Optional[float]
+- _extract_thickness · method · L214-L225 — def _extract_thickness(self, tu: str, keywords: List[str]) -> Optional[float]
+- _extract_heat_numbers · method · L227-L243 — def _extract_heat_numbers(self, tu: str) -> List[str]
+- _extract_fluid · method · L245-L263 — def _extract_fluid(self, tu: str) -> Optional[str]
+- _extract_flange_class · method · L265-L269 — def _extract_flange_class(self, tu: str) -> Optional[int]
+- ARHReconciliationEngine · class · L276-L762 — class ARHReconciliationEngine
+- __init__ · method · L282-L285 — def __init__(self)
+- run_reconciliation · method · L287-L366 — def run_reconciliation( self, docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str, ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]
+- _detect_numeric_contradiction · method · L370-L445 — def _detect_numeric_contradiction( self, param_values: Dict[str, float], param_name: str ) -> Optional[Dict[str, Any]]
+- _detect_material_contradiction · method · L449-L500 — def _detect_material_contradiction( self, material_values: Dict[str, str] ) -> Optional[Dict[str, Any]]
+- _normalize_material · method · L502-L509 — def _normalize_material(self, mat: str) -> str
+- _are_materials_equivalent · method · L511-L526 — def _are_materials_equivalent(self, materials: set) -> bool
+- _check_heat_number_traceability · method · L530-L619 — def _check_heat_number_traceability( self, heat_number_values: Dict[str, List[str]] ) -> List[Dict[str, Any]]
+- _check_mandatory_fields_missing · method · L624-L678 — def _check_mandatory_fields_missing( self, matrix: Dict[str, Dict[str, Any]], equipment_type: str, doc_params: List[Dict[str, Any]], ) -> List[Dict[str, Any]]
+- _check_na_validity · method · L682-L762 — def _check_na_validity( self, docs: List[Dict[str, Any]], equipment_type: str ) -> List[Dict[str, Any]]

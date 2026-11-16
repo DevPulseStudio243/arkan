@@ -1,0 +1,21 @@
+# xerengine_inline_1.js
+
+- $ · function · L2-L2 — $=id
+- esc · function · L3-L3 — esc=s
+- fmt · function · L4-L4 — fmt=v
+- setTok · function · L7-L7 — setTok=t
+- api · function · L8-L13 — async function api(path,opt={})
+- showTool · function · L14-L14 — function showTool(u)
+- signOut · function · L15-L15 — function signOut(msg)
+- doLogin · function · L16-L23 — async function doLogin()
+- render · function · L41-L68 — function render(j)
+- base · function · L69-L69 — base=()
+- downloadBytes · function · L70-L70 — function downloadBytes(name,str)
+- download · function · L71-L71 — function download(name,text)
+- q · function · L75-L75 — q=v
+- loadProjects · function · L88-L91 — async function loadProjects()
+- validEmail · function · L97-L97 — validEmail=e
+- mailto · function · L98-L101 — function mailto(subject,body,out)
+- showSign · function · L108-L108 — showSign=up
+- showDone · function · L109-L114 — function showDone(kind,email)
+- doSignup · function · L118-L127 — async function doSignup()

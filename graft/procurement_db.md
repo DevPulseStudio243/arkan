@@ -1,0 +1,31 @@
+# procurement_db.py
+
+- get_db_connection · function · L19-L25 — def get_db_connection()
+- init_procurement_db · function · L28-L177 — def init_procurement_db()
+- ensure_project_exists · function · L182-L209 — def ensure_project_exists(project_id_or_name: str) -> str
+- get_projects · function · L212-L233 — def get_projects() -> list
+- create_project · function · L236-L258 — def create_project(name: str, code: str = "", description: str = "") -> dict
+- delete_project · function · L261-L273 — def delete_project(project_id: str)
+- update_contract_project · function · L276-L290 — def update_contract_project(contract_id: str, project_id: str) -> dict
+- create_contract · function · L295-L318 — def create_contract(numero_contrat: str, fournisseur: str, objet: str, date_signature: str, date_debut: str, date_fin_prevue: str, montant: float, devise: str, statut: str, document_path: str = None, project_id: str = 'general', delai_livraison: str = '') -> str
+- get_contracts · function · L321-L355 — def get_contracts(include_items: bool = True, project_id: str = None) -> list
+- get_contract · function · L358-L373 — def get_contract(contract_id: str) -> dict
+- update_contract · function · L376-L397 — def update_contract(contract_id: str, numero_contrat: str, fournisseur: str, objet: str, date_signature: str, date_debut: str, date_fin_prevue: str, montant: float, devise: str, statut: str, document_path: str = None, project_id: str = 'general', delai_livraison: str = '')
+- delete_contract · function · L400-L408 — def delete_contract(contract_id: str)
+- import_contract_with_items · function · L411-L562 — def import_contract_with_items(contract_data: dict, project_id: str = 'general', document_path: str = None) -> dict
+- create_contract_item · function · L568-L586 — def create_contract_item(contract_id: str, designation: str, reference: str, quantite_contractuelle: float, unite: str, prix_unitaire: float, delai_livraison: str) -> str
+- get_contract_items · function · L589-L611 — def get_contract_items(contract_id: str) -> list
+- update_contract_item · function · L614-L630 — def update_contract_item(item_id: str, designation: str, reference: str, quantite_contractuelle: float, unite: str, prix_unitaire: float, delai_livraison: str, statut: str)
+- delete_contract_item · function · L633-L641 — def delete_contract_item(item_id: str)
+- get_item_stock_stats · function · L646-L683 — def get_item_stock_stats(item_id: str) -> dict
+- get_realtime_stock · function · L686-L708 — def get_realtime_stock() -> list
+- _generate_pv_number · function · L713-L729 — def _generate_pv_number(type_pv: str, cursor) -> str
+- receive_material · function · L732-L759 — def receive_material(item_id: str, date_reception: str, quantite_recue: float, numero_bl: str, lieu_stockage: str, etat: str, responsable: str, remarques: str = "", documents: str = "") -> dict
+- receive_materials_batch · function · L762-L847 — def receive_materials_batch(items_list: list, date_reception: str, numero_bl: str, responsable: str, remarques: str = "", documents: str = "", numero_pv: str = None) -> str
+- issue_material · function · L850-L871 — def issue_material(item_id: str, date_sortie: str, quantite_sortie: float, motif: str, destination: str, responsable: str) -> dict
+- issue_materials_batch · function · L874-L964 — def issue_materials_batch(items_list: list, date_sortie: str, motif: str, destination: str, responsable: str, numero_pv: str = None) -> str
+- return_materials_batch · function · L967-L1023 — def return_materials_batch(items_list: list, date_retour: str, motif: str, lieu_stockage: str, responsable: str, numero_pv: str = None) -> str
+- get_pvs · function · L1028-L1121 — def get_pvs() -> list
+- get_pv_by_number · function · L1124-L1196 — def get_pv_by_number(numero_pv: str) -> dict
+- delete_pv · function · L1199-L1225 — def delete_pv(numero_pv: str)
+- get_procurement_stats · function · L1230-L1376 — def get_procurement_stats() -> dict

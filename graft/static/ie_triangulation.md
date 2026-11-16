@@ -1,0 +1,15 @@
+# static/ie_triangulation.js
+
+- esc · function · L33-L37 — function esc(v)
+- get · function · L40-L48 — function get(obj, path, def)
+- apiBase · function · L50-L52 — function apiBase()
+- severityOf · function · L60-L62 — function severityOf(c)
+- value · function · L64-L66 — function value(v, unit, missing)
+- fileOf · function · L85-L88 — function fileOf(id)
+- setText · function · L150-L153 — function setText(id, text)
+- renderTriangulationDashboard · function · L155-L175 — function renderTriangulationDashboard()
+- matchesFilter · function · L177-L185 — function matchesFilter(c)
+- renderTriangulationCardsList · function · L187-L201 — function renderTriangulationCardsList()
+- bindGrid · function · L204-L215 — function bindGrid(grid)
+- renderSingleCardHtml · function · L217-L264 — function renderSingleCardHtml(c)
+- injectIntoLiveTable · function · L267-L273 — function injectIntoLiveTable(item)

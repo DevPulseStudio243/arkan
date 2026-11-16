@@ -1,0 +1,33 @@
+{
+  "total_examples": 16653,
+  "sources": {
+    "cleaned_dataset": 1500,
+    "generated_v2": 14800,
+    "ground_truth_gold": 286,
+    "quality_comments": 16
+  },
+  "part_distribution": {
+    "PART_5_CALCS": 3000,
+    "PART_4_ANNEXE_E": 2800,
+    "PART_8_SOUDAGE": 2518,
+    "PART_10_ITP": 2003,
+    "LEVEE_RESERVES": 2000,
+    "CERT_MATERIAU": 1518,
+    "PART_11_ELEC": 1206,
+    "GENERAL": 858,
+    "PART_2_CONSULAIRE": 712,
+    "PART_1_LETTRE": 38
+  },
+  "language_distribution": {
+    "FR": 8458,
+    "EN": 6145,
+    "ZH": 1025,
+    "AR": 1025
+  },
+  "quality_distribution": {
+    "STANDARD": 15747,
+    "GOLD": 906
+  },
+  "output_file": "D:\\DATA BASE IA\\dataset_arh_kaggle_full.jsonl",
+  "invalid_examples_skipped": 0
+}

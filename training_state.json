@@ -1,0 +1,12 @@
+{
+  "cycles_completed": 1,
+  "incremental_updates": 99,
+  "last_full_cycle": "2026-04-22T13:35:12.714476",
+  "last_incremental": "2026-10-15T14:07:18.930700+00:00",
+  "documents_processed": 4146,
+  "feedback_processed": 11,
+  "vocabulary_terms": 500,
+  "graph_entities": 65,
+  "graph_relationships": 148,
+  "errors": []
+}

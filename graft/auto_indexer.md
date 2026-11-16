@@ -1,0 +1,24 @@
+# auto_indexer.py
+
+- _Debouncer · class · L26-L51 — class _Debouncer
+- __init__ · method · L30-L32 — def __init__(self)
+- call · method · L34-L44 — def call(self, key, func, delay=3.0)
+- cancel_all · method · L46-L51 — def cancel_all(self)
+- _make_handler · function · L56-L82 — def _make_handler(auto_indexer)
+- _Handler · class · L64-L80 — class _Handler(FileSystemEventHandler)
+- on_created · method · L67-L70 — def on_created(self, event)
+- on_modified · method · L72-L75 — def on_modified(self, event)
+- on_deleted · method · L77-L80 — def on_deleted(self, event)
+- AutoIndexer · class · L87-L454 — class AutoIndexer
+- __init__ · method · L94-L118 — def __init__(self, data_path=None, extensions=None)
+- start · method · L122-L147 — def start(self)
+- stop · method · L149-L156 — def stop(self)
+- _is_supported · method · L160-L171 — def _is_supported(self, path)
+- on_file_created · method · L173-L178 — def on_file_created(self, path)
+- on_file_modified · method · L180-L185 — def on_file_modified(self, path)
+- on_file_deleted · method · L187-L197 — def on_file_deleted(self, path)
+- _remove_from_index · method · L199-L215 — def _remove_from_index(self, path)
+- _index_file · method · L219-L323 — def _index_file(self, path, is_new=True)
+- scan_all · method · L327-L417 — def scan_all(self, force=False)
+- trigger_synonym_learning · method · L419-L436 — def trigger_synonym_learning(self)
+- get_status · method · L440-L454 — def get_status(self)

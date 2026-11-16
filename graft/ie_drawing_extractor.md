@@ -1,0 +1,46 @@
+# ie_drawing_extractor.py
+
+- bare_copper_kg_per_m · function · L65-L66 — def bare_copper_kg_per_m(section_mm2: float) -> float
+- earth_rod_weight_kg · function · L69-L75 — def earth_rod_weight_kg(diameter_mm: float = 16.0, length_mm: float = 2000.0, copper_um: float = 250.0) -> float
+- _norm · function · L79-L81 — def _norm(s: Any) -> str
+- _fitz · function · L84-L89 — def _fitz()
+- _ie_cfg · function · L92-L110 — def _ie_cfg(options: Optional[Dict[str, Any]] = None) -> Dict[str, Any]
+- _file_sha256 · function · L113-L118 — def _file_sha256(path: str, nbytes: int = 16) -> str
+- _confidence · function · L121-L122 — def _confidence(*parts: float) -> float
+- resolve_units · function · L128-L161 — def resolve_units(doc, ie: Dict[str, Any], warnings: List[str]) -> Tuple[float, str, bool]
+- _plain_text · function · L164-L175 — def _plain_text(e) -> str
+- _text_pos · function · L178-L184 — def _text_pos(e) -> Tuple[float, float]
+- _hidden_layers · function · L187-L197 — def _hidden_layers(doc, ie) -> set
+- _matches · function · L200-L202 — def _matches(name: str, patterns: Iterable[str]) -> bool
+- iter_entities · function · L205-L239 — def iter_entities(container, hidden: set, cap: int, stop: Dict[str, Any], no_explode_patterns: List[str], parent_layer: str = "0", depth: int = 0) -> Iterator[Tuple[Any, str]]
+- entity_points_m · function · L245-L260 — def entity_points_m(e, scale: float) -> Optional[List[Tuple[float, float]]]
+- _signature · function · L263-L266 — def _signature(points: List[Tuple[float, float]]) -> Tuple
+- _segments · function · L269-L271 — def _segments(points: List[Tuple[float, float]]) -> List[Tuple[float, float, float, float]]
+- _Grid · class · L274-L290 — class _Grid
+- __init__ · method · L276-L278 — def __init__(self, cell: float)
+- key · method · L280-L281 — def key(self, x: float, y: float) -> Tuple[int, int]
+- add · method · L283-L284 — def add(self, idx: int, x: float, y: float) -> None
+- near · method · L286-L290 — def near(self, x: float, y: float, rings: int = 1) -> Iterator[int]
+- pair_parallel_segments · function · L294-L340 — def pair_parallel_segments(segs: List[Tuple[float, float, float, float]], min_gap: float, max_gap: float, min_len: float) -> Tuple[List[bool], float, float]
+- tray_centerline_weights · function · L343-L368 — def tray_centerline_weights(segs, ie: Dict[str, Any]) -> Tuple[List[float], Dict[str, Any]]
+- _point_segment_distance · function · L378-L382 — def _point_segment_distance(px, py, ax, ay, bx, by) -> float
+- _assign_by_annotation · function · L385-L420 — def _assign_by_annotation(segs, weights, annotations: List[Dict[str, Any]], radius: float)
+- extract_ie_from_dxf_doc · function · L424-L703 — def extract_ie_from_dxf_doc(doc, file_name: str, options: Optional[Dict[str, Any]] = None) -> Dict[str, Any]
+- item_base · function · L512-L517 — def item_base(category: str, tag: str, desc: str, unit: str, qty: float, handles: List[str], layer_group: str) -> Dict[str, Any]
+- _build_pull_boxes · function · L706-L782 — def _build_pull_boxes(texts, block_cands, ie, base_reasons, base_conf, file_name, ref_w, ignore_text)
+- convert_and_read_dxf · function · L785-L799 — def convert_and_read_dxf(path: str, original_filename: Optional[str], ie: Dict[str, Any])
+- extract_ie_from_dwg_native · function · L802-L806 — def extract_ie_from_dwg_native(dwg_path: str, original_filename: Optional[str] = None, options: Optional[Dict[str, Any]] = None) -> Dict[str, Any]
+- _fnum · function · L835-L836 — def _fnum(x: str) -> float
+- _tag_patterns · function · L839-L846 — def _tag_patterns(ie: Dict[str, Any]) -> List["re.Pattern[str]"]
+- _find_tags · function · L849-L862 — def _find_tags(text: str, pats) -> List[str]
+- _parse_feeder_fields · function · L865-L882 — def _parse_feeder_fields(text: str, tag_pats) -> Dict[str, Any]
+- _build_feeder · function · L885-L929 — def _build_feeder(fields: Dict[str, Any], designation: str, page: int, mode: str, file_name: str) -> Optional[Dict[str, Any]]
+- _header_map · function · L932-L942 — def _header_map(header_cells: List[str]) -> Dict[int, str]
+- _table_rows_by_clip · function · L945-L961 — def _table_rows_by_clip(page, tab) -> List[List[str]]
+- _extract_page_tables · function · L964-L1006 — def _extract_page_tables(page, tag_pats, page_no, file_name) -> List[Dict[str, Any]]
+- _spans_several_columns · function · L1009-L1019 — def _spans_several_columns(b, blocks) -> bool
+- _column_clusters · function · L1022-L1036 — def _column_clusters(blocks: List[Tuple[float, float, float, float, str]], page_width: float) -> List[List[Tuple]]
+- _extract_page_columns · function · L1039-L1052 — def _extract_page_columns(page, tag_pats, page_no, file_name) -> List[Dict[str, Any]]
+- classify_pdf · function · L1055-L1059 — def classify_pdf(doc, ie: Dict[str, Any]) -> str
+- extract_sld_from_pdf_matrix · function · L1062-L1121 — def extract_sld_from_pdf_matrix(pdf_path: str, original_filename: Optional[str] = None, options: Optional[Dict[str, Any]] = None) -> Dict[str, Any]
+- extract_ie_drawing · function · L1124-L1132 — def extract_ie_drawing(file_path: str, original_filename: Optional[str] = None, options: Optional[Dict[str, Any]] = None) -> Dict[str, Any]

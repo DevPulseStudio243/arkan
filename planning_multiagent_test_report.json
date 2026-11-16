@@ -1,0 +1,62 @@
+[
+  {
+    "id": "CASE_1_PIPELINE",
+    "title": "Pipeline de Transport Gaz 28'' (65 km) - Hassi Messaoud",
+    "nb_taches": 21,
+    "duree_jours": 4012.4,
+    "chemin_critique_count": 19,
+    "epcc_complete": true,
+    "missing_preds": 0,
+    "missing_succs": 0,
+    "dcma_score": 100,
+    "passed": true
+  },
+  {
+    "id": "CASE_2_CPF",
+    "title": "Central Processing Facility (CPF) Gaz 15 MMSCMD",
+    "nb_taches": 40,
+    "duree_jours": 315.5,
+    "chemin_critique_count": 38,
+    "epcc_complete": true,
+    "missing_preds": 0,
+    "missing_succs": 0,
+    "dcma_score": 100,
+    "passed": true
+  },
+  {
+    "id": "CASE_3_STORAGE_TANK",
+    "title": "2 Bacs de Stockage Pétrole Brut API 650 (30 000 m³ ch.)",
+    "nb_taches": 18,
+    "duree_jours": 369.9,
+    "chemin_critique_count": 16,
+    "epcc_complete": true,
+    "missing_preds": 0,
+    "missing_succs": 0,
+    "dcma_score": 100,
+    "passed": true
+  },
+  {
+    "id": "CASE_4_SUBSTATION",
+    "title": "Sous-Station Électrique 60/10 kV - 40 MVA",
+    "nb_taches": 19,
+    "duree_jours": 62.3,
+    "chemin_critique_count": 16,
+    "epcc_complete": true,
+    "missing_preds": 0,
+    "missing_succs": 0,
+    "dcma_score": 100,
+    "passed": true
+  },
+  {
+    "id": "CASE_5_SHUTDOWN",
+    "title": "Arrêt d'Unité (Shutdown & Revamping) - 14 Tie-ins",
+    "nb_taches": 26,
+    "duree_jours": 68.5,
+    "chemin_critique_count": 26,
+    "epcc_complete": true,
+    "missing_preds": 0,
+    "missing_succs": 0,
+    "dcma_score": 100,
+    "passed": true
+  }
+]

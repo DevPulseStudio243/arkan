@@ -1,0 +1,18 @@
+# traceability_db.py
+
+- get_db_connection · function · L16-L22 — def get_db_connection()
+- init_traceability_db · function · L25-L132 — def init_traceability_db()
+- add_isometric · function · L139-L169 — def add_isometric(line_number, revision="0", title="", project_id="Boosting LDBP5", file_path="", status="Draft")
+- add_bom_item · function · L172-L189 — def add_bom_item(iso_id, category, tag, description, size, material, quantity, unit="U", weight_unit=0.0, weight_total=0.0, remarks="", heat_number="", spool_number="", status="Pending")
+- clear_isometric_bom · function · L192-L203 — def clear_isometric_bom(iso_id)
+- get_isometrics_list · function · L206-L238 — def get_isometrics_list(project_id=None)
+- get_isometric_details · function · L241-L252 — def get_isometric_details(iso_id)
+- get_bom_items · function · L255-L266 — def get_bom_items(iso_id)
+- add_heat_number · function · L273-L303 — def add_heat_number(heat_number, material_spec="", diameter="", manufacturer="", mtr_file_path="", chemical_composition=None, mechanical_properties=None, inspector="", status="Accepted")
+- get_heat_numbers_list · function · L306-L333 — def get_heat_numbers_list()
+- allocate_heat_number_to_bom · function · L336-L354 — def allocate_heat_number_to_bom(bom_item_id, heat_number)
+- add_weld · function · L361-L390 — def add_weld(iso_id, weld_number, weld_type="Butt", size="", schedule="", welder_id="", weld_date="", fitup_status="Pending", fitup_date="", visual_status="Pending", visual_date="", ndt_type="RT", ndt_status="Pending", ndt_date="", heat_number_1="", heat_number_2="", status="Pending")
+- get_welds_list · function · L393-L418 — def get_welds_list(iso_id=None)
+- add_spool · function · L425-L453 — def add_spool(iso_id, spool_number, shop_field="Shop", fabricator="", fitup_date="", welding_date="", ndt_date="", painting_date="", status="Design")
+- get_spools_list · function · L456-L481 — def get_spools_list(iso_id=None)
+- get_traceability_kpi · function · L488-L549 — def get_traceability_kpi()

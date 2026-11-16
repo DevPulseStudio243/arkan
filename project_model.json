@@ -1,0 +1,482 @@
+{
+  "project_name": "Unnamed Project",
+  "project_type": "general",
+  "document_map": {
+    "LDBP5_Resume_Complet_Projet2.docx": {
+      "discipline": "safety",
+      "doc_type": "general"
+    },
+    "DAO 99-2025-DT-HMD V S1 IS.pdf": {
+      "discipline": "mechanical",
+      "doc_type": "specification"
+    },
+    "spec_ballon_v901.txt": {
+      "discipline": "process",
+      "doc_type": "specification"
+    },
+    "Data sheet CHOKE VALVE.pdf": {
+      "discipline": "process",
+      "doc_type": "datasheet"
+    },
+    "oil_gas_engineering_handbook.md": {
+      "discipline": "mechanical",
+      "doc_type": "specification"
+    },
+    "oil_gas_process_safety_handbook.md": {
+      "discipline": "hse",
+      "doc_type": "calculation"
+    },
+    "oil_gas_piping_stress_handbook.md": {
+      "discipline": "mechanical",
+      "doc_type": "general"
+    },
+    "oil_gas_control_systems_handbook.md": {
+      "discipline": "instrumentation",
+      "doc_type": "general"
+    },
+    "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf": {
+      "discipline": "civil",
+      "doc_type": "general"
+    },
+    "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf": {
+      "discipline": "civil",
+      "doc_type": "general"
+    },
+    "C3421-ROK1-081-PRC-DM-300001_2.dwg": {
+      "discipline": "general",
+      "doc_type": "general"
+    },
+    "C3421-ROK1-081-PRC-DM-300001_0.dwg": {
+      "discipline": "general",
+      "doc_type": "general"
+    },
+    "C3421-ROK1-100-PRC-DM-300001_2.dwg": {
+      "discipline": "general",
+      "doc_type": "general"
+    },
+    "C3421-ROK1-100-PRC-DM-300001_1.dwg": {
+      "discipline": "general",
+      "doc_type": "general"
+    }
+  },
+  "equipment_registry": {
+    "CB1335": {
+      "tag": "CB1335",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "LDBP5_Resume_Complet_Projet2.docx"
+      ],
+      "connected_to": []
+    },
+    "F3813": {
+      "tag": "F3813",
+      "type": "filter",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "LDBP5_Resume_Complet_Projet2.docx"
+      ],
+      "connected_to": []
+    },
+    "CB2235": {
+      "tag": "CB2235",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "LDBP5_Resume_Complet_Projet2.docx"
+      ],
+      "connected_to": []
+    },
+    "V-901": {
+      "tag": "V-901",
+      "type": "vessel",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "spec_ballon_v901.txt"
+      ],
+      "connected_to": []
+    },
+    "A516": {
+      "tag": "A516",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "spec_ballon_v901.txt"
+      ],
+      "connected_to": []
+    },
+    "A193-B8M": {
+      "tag": "A193-B8M",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "ZSC-0102": {
+      "tag": "ZSC-0102",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "HV-0102": {
+      "tag": "HV-0102",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "D-1115-1225": {
+      "tag": "D-1115-1225",
+      "type": "drum",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "PH-1115-10100": {
+      "tag": "PH-1115-10100",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "PH-1115-10101": {
+      "tag": "PH-1115-10101",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "A995-4ABL15A": {
+      "tag": "A995-4ABL15A",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "Data sheet CHOKE VALVE.pdf"
+      ],
+      "connected_to": []
+    },
+    "A105": {
+      "tag": "A105",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "A182": {
+      "tag": "A182",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "F316": {
+      "tag": "F316",
+      "type": "filter",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "F316L": {
+      "tag": "F316L",
+      "type": "filter",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "MR0175": {
+      "tag": "MR0175",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "A234": {
+      "tag": "A234",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "A106": {
+      "tag": "A106",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "A995": {
+      "tag": "A995",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "S31803": {
+      "tag": "S31803",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "S32750": {
+      "tag": "S32750",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_engineering_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "A335": {
+      "tag": "A335",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "oil_gas_piping_stress_handbook.md"
+      ],
+      "connected_to": []
+    },
+    "C3421-ROK1": {
+      "tag": "C3421-ROK1",
+      "type": "compressor",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf",
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf",
+        "C3421-ROK1-081-PRC-DM-300001_2.dwg",
+        "C3421-ROK1-081-PRC-DM-300001_0.dwg",
+        "C3421-ROK1-100-PRC-DM-300001_2.dwg",
+        "C3421-ROK1-100-PRC-DM-300001_1.dwg"
+      ],
+      "connected_to": []
+    },
+    "DW-300218": {
+      "tag": "DW-300218",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf"
+      ],
+      "connected_to": []
+    },
+    "HV-017": {
+      "tag": "HV-017",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf"
+      ],
+      "connected_to": []
+    },
+    "HV-018": {
+      "tag": "HV-018",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf"
+      ],
+      "connected_to": []
+    },
+    "OK134": {
+      "tag": "OK134",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf"
+      ],
+      "connected_to": []
+    },
+    "C3421": {
+      "tag": "C3421",
+      "type": "compressor",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf"
+      ],
+      "connected_to": []
+    },
+    "DC-300001": {
+      "tag": "DC-300001",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf",
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "RE-300087": {
+      "tag": "RE-300087",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf",
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "DG-300001": {
+      "tag": "DG-300001",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).pdf",
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "DG-300003": {
+      "tag": "DG-300003",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "DC-300002": {
+      "tag": "DC-300002",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "SP-300004": {
+      "tag": "SP-300004",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "IPE120": {
+      "tag": "IPE120",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    },
+    "UPN120": {
+      "tag": "UPN120",
+      "type": "equipment",
+      "description": "",
+      "system": "",
+      "specifications": {},
+      "related_documents": [
+        "C3421-ROK1-300-GCL-DW-300218_0 (chambre6).dxf"
+      ],
+      "connected_to": []
+    }
+  },
+  "systems": [],
+  "relationships": [],
+  "phases": []
+}

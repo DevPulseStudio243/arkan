@@ -1,0 +1,39 @@
+# arh_multiagent_engine.py
+
+- _get_standards · function · L34-L48 — def _get_standards() -> Dict[str, Any]
+- ARHAdministrativeAgent · class · L91-L225 — class ARHAdministrativeAgent
+- __init__ · method · L94-L96 — def __init__(self)
+- audit · method · L98-L225 — def audit(self, docs: List[Dict[str, Any]], equipment_type: str, dossier_stage: str) -> List[Dict[str, Any]]
+- _norm_str · function · L104-L105 — def _norm_str(s: str) -> str
+- ARHMetallurgyAgent · class · L231-L380 — class ARHMetallurgyAgent
+- __init__ · method · L234-L236 — def __init__(self)
+- audit · method · L238-L368 — def audit(self, docs: List[Dict[str, Any]], equipment_type: str, dossier_stage: str) -> List[Dict[str, Any]]
+- _extract_chem_elem · method · L370-L380 — def _extract_chem_elem(self, text: str, aliases: List[str]) -> Optional[float]
+- ARHMechanicalPipingAgent · class · L386-L612 — class ARHMechanicalPipingAgent
+- __init__ · method · L389-L391 — def __init__(self)
+- audit · method · L393-L612 — def audit(self, docs: List[Dict[str, Any]], equipment_type: str, dossier_stage: str) -> List[Dict[str, Any]]
+- ARHElectricalInstrumentationAgent · class · L618-L748 — class ARHElectricalInstrumentationAgent
+- __init__ · method · L621-L623 — def __init__(self)
+- audit · method · L625-L748 — def audit(self, docs: List[Dict[str, Any]], equipment_type: str, dossier_stage: str) -> List[Dict[str, Any]]
+- ARHQualityWeldingITPAgent · class · L754-L860 — class ARHQualityWeldingITPAgent
+- __init__ · method · L757-L759 — def __init__(self)
+- audit · method · L761-L860 — def audit(self, docs: List[Dict[str, Any]], equipment_type: str, dossier_stage: str) -> List[Dict[str, Any]]
+- ARHArbitratorCriticAgent · class · L867-L1049 — class ARHArbitratorCriticAgent
+- __init__ · method · L870-L872 — def __init__(self)
+- arbitrate · method · L874-L1049 — def arbitrate( self, all_findings: List[Dict[str, Any]], docs: List[Dict[str, Any]], equipment_type: str = "PRESSURE_VESSEL", equipment_tag: str = "" ) -> List[Dict[str, Any]]
+- _norm_remark_text · function · L1052-L1062 — def _norm_remark_text(s: str) -> str
+- consolidate_and_deduplicate_comments · function · L1065-L1205 — def consolidate_and_deduplicate_comments(comments: List[Dict[str, Any]]) -> List[Dict[str, Any]]
+- _rank · function · L1170-L1178 — def _rank(item: Dict[str, Any]) -> int
+- ARHSynthesizerAgent · class · L1211-L1262 — class ARHSynthesizerAgent
+- __init__ · method · L1214-L1216 — def __init__(self)
+- generate_synthesis · method · L1218-L1262 — def generate_synthesis( self, equipment_tag: str, equipment_type: str, score: float, status: str, findings: List[Dict[str, Any]], docs_count: int ) -> Dict[str, Any]
+- ARHMultiAgentSwarm · class · L1268-L1724 — class ARHMultiAgentSwarm
+- __init__ · method · L1271-L1279 — def __init__(self)
+- _execute_agent_safely · method · L1281-L1341 — def _execute_agent_safely( self, agent_name: str, discipline: str, audit_func, agents_status: Dict[str, Any], is_critical: bool = False, timeout_sec: float = 90.0 ) -> List[Dict[str, Any]]
+- _partition_rlm_weld_docs · method · L1344-L1378 — def _partition_rlm_weld_docs( group_docs: List[Dict[str, Any]], equipment_tag: str = "" ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]
+- _dispatch_rlm_subagents · method · L1380-L1408 — def _dispatch_rlm_subagents( self, group_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str, dossier_stage: str, agents_status: Dict[str, Any], precomputed_rlm_docs: Optional[List[Dict[str, Any]]] = None, ) -> List[Dict[str, Any]]
+- run_swarm_audit · method · L1410-L1602 — def run_swarm_audit( self, group_docs: List[Dict[str, Any]], equipment_type: str, equipment_tag: str, dossier_stage: str = "PRELIMINARY", reserves_list: Optional[List[Dict[str, Any]]] = None, vendor_name: Optional[str] = None, project_name: Optional[str] = None ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]
+- _run_specialist · function · L1478-L1490 — def _run_specialist()
+- _run_reconciliation · function · L1510-L1514 — def _run_reconciliation()
+- _run_reserve_comp · function · L1525-L1534 — def _run_reserve_comp()
+- _compute_multidimensional_score · method · L1604-L1724 — def _compute_multidimensional_score( self, findings: List[Dict[str, Any]], agents_status: Optional[Dict[str, Any]] = None ) -> Tuple[float, str]

@@ -1,0 +1,36 @@
+# project_understanding.py
+
+- DocumentInfo · class · L88-L91 — class DocumentInfo
+- EquipmentInfo · class · L95-L103 — class EquipmentInfo
+- SystemInfo · class · L107-L114 — class SystemInfo
+- PhaseInfo · class · L118-L122 — class PhaseInfo
+- QueryUnderstanding · class · L126-L133 — class QueryUnderstanding
+- CompletenessAssessment · class · L137-L141 — class CompletenessAssessment
+- ProjectModel · class · L146-L213 — class ProjectModel
+- __init__ · method · L149-L156 — def __init__(self) -> None
+- save · method · L158-L189 — def save(self, path: str) -> None
+- load · method · L192-L213 — def load(cls, path: str) -> "ProjectModel"
+- ProjectAnalyzer · class · L218-L338 — class ProjectAnalyzer
+- __init__ · method · L221-L226 — def __init__(self, model_path: str | None = None) -> None
+- project_model · method · L229-L230 — def project_model(self) -> ProjectModel
+- analyze_document · method · L233-L269 — def analyze_document( self, text: str = "", source: str = "", discipline: str = "general", **kwargs, ) -> DocumentInfo
+- _detect_doc_type · method · L272-L277 — def _detect_doc_type(self, text: str, source: str) -> str
+- _detect_discipline · method · L279-L288 — def _detect_discipline(self, text: str) -> str | None
+- _infer_project_type · method · L290-L308 — def _infer_project_type(self, text: str) -> str
+- _extract_equipment · method · L310-L324 — def _extract_equipment(self, text: str, source: str, discipline: str) -> None
+- _guess_equipment_type · method · L327-L338 — def _guess_equipment_type(tag: str) -> str
+- SemanticQueryUnderstanding · class · L343-L589 — class SemanticQueryUnderstanding
+- __init__ · method · L346-L347 — def __init__(self) -> None
+- understand_query · method · L349-L380 — def understand_query( self, question: str, project_model: ProjectModel ) -> QueryUnderstanding
+- decompose_complex_query · method · L382-L418 — def decompose_complex_query( self, question: str, project_model: ProjectModel ) -> list[str]
+- generate_follow_up_questions · method · L420-L486 — def generate_follow_up_questions( self, question: str, answer: str, project_model: ProjectModel ) -> list[str]
+- _detect_intent · method · L490-L494 — def _detect_intent(q_lower: str) -> str
+- _extract_subjects · method · L497-L511 — def _extract_subjects(q_lower: str, project_model: ProjectModel) -> list[str]
+- _extract_constraints · method · L514-L530 — def _extract_constraints(q_lower: str) -> list[str]
+- _infer_implicit_needs · method · L533-L551 — def _infer_implicit_needs( intent: str, subjects: list[str], project_model: ProjectModel ) -> list[str]
+- _recommend_sources · method · L554-L576 — def _recommend_sources( subjects: list[str], intent: str, project_model: ProjectModel ) -> list[str]
+- _build_reasoning_chain · method · L579-L589 — def _build_reasoning_chain( question: str, intent: str, subjects: list[str], constraints: list[str] ) -> list[str]
+- ContextEnricher · class · L594-L775 — class ContextEnricher
+- __init__ · method · L597-L598 — def __init__(self) -> None
+- enrich · method · L600-L662 — def enrich( self, question: str, results: list[dict[str, Any]], project_model: ProjectModel, ) -> list[dict[str, Any]]
+- assess_completeness · method · L664-L775 — def assess_completeness( self, question: str, results: list[dict[str, Any]], project_model: ProjectModel, ) -> CompletenessAssessment

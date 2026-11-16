@@ -1,0 +1,33 @@
+# learning.py
+
+- FeedbackEntry · class · L28-L36 — class FeedbackEntry
+- LearningEngine · class · L39-L324 — class LearningEngine
+- __init__ · method · L45-L51 — def __init__(self)
+- _load_state · method · L53-L63 — def _load_state(self)
+- _save_state · method · L65-L79 — def _save_state(self)
+- process_feedback · method · L81-L106 — def process_feedback(self, entry: FeedbackEntry)
+- _update_source_weights · method · L108-L128 — def _update_source_weights(self)
+- get_source_weights · method · L130-L139 — def get_source_weights(self) -> Dict[str, float]
+- apply_learned_weights_to_results · method · L141-L155 — def apply_learned_weights_to_results(self, results: list) -> list
+- get_learning_stats · method · L157-L183 — def get_learning_stats(self) -> dict
+- _add_to_active_learning · method · L185-L207 — def _add_to_active_learning(self, entry: FeedbackEntry)
+- get_active_learning_items · method · L209-L216 — def get_active_learning_items(self, limit: int = 20) -> list
+- _update_weak_patterns · method · L218-L230 — def _update_weak_patterns(self)
+- get_weak_patterns · method · L232-L239 — def get_weak_patterns(self) -> list
+- resolve_active_item · method · L241-L262 — def resolve_active_item(self, query: str, correct_answer: str, sources: list)
+- update_knowledge_graph · method · L264-L306 — def update_knowledge_graph(self, entities: List[Dict[str, Any]])
+- prune_knowledge_graph · method · L308-L316 — def prune_knowledge_graph(self)
+- force_consolidation · method · L318-L324 — def force_consolidation(self)
+- AutoRetrainScheduler · class · L329-L545 — class AutoRetrainScheduler
+- __init__ · method · L339-L348 — def __init__(self, check_interval_hours: int = 6, min_good_feedback: int = 10)
+- start · method · L350-L362 — def start(self)
+- stop · method · L364-L365 — def stop(self)
+- _run · method · L367-L374 — def _run(self)
+- _check_synthetic_generation · method · L377-L382 — def _check_synthetic_generation(self)
+- _generate_synthetic_data · method · L384-L447 — def _generate_synthetic_data(self)
+- _generate_synthetic_fallback · method · L449-L472 — def _generate_synthetic_fallback(self, data_dir, json_module)
+- _check_and_retrain · method · L476-L505 — def _check_and_retrain(self)
+- _check_embedding_finetune · method · L508-L519 — def _check_embedding_finetune(self)
+- _run_embedding_finetune · method · L521-L545 — def _run_embedding_finetune(self)
+- get_learning_engine · function · L556-L562 — def get_learning_engine() -> LearningEngine
+- get_auto_retrain_scheduler · function · L565-L571 — def get_auto_retrain_scheduler() -> AutoRetrainScheduler

@@ -1,0 +1,80 @@
+{
+  "description": "Ground Truth - Jeu de Référence ARKAN v3 pour validation métrologique",
+  "project_id": "C3421-ROK1-SP1-OK1",
+  "plans": {
+    "DW-300010": {
+      "filename": "C3421-ROK1-300-ELC-DW-300010-1",
+      "drawing_number": "C3421-ROK1-300-ELC-DW-300010",
+      "title": "PLAN DE CHEMINEMENT DE CABLE EXTERIEUR STATION PRINCIPALE",
+      "discipline": "ELEC_ROUTING",
+      "revision": "1",
+      "reference_items": {
+        "cable_trays": [
+          { "tag": "CDC-100x50", "size": "100x50", "unit": "m", "min_expected_qty": 15.0, "max_tolerance_percent": 5.0 },
+          { "tag": "CDC-200x50", "size": "200x50", "unit": "m", "min_expected_qty": 20.0, "max_tolerance_percent": 5.0 }
+        ],
+        "pull_boxes": [
+          { "size": "600x600x700mm", "tags": ["300-EL-312", "300-EL-236", "300-EL-244", "300-EL-256", "300-EL-268"], "expected_count": 5 }
+        ],
+        "conduits": [
+          { "tag": "BUSE-2x110", "type": "Buse PVC 2xØ110", "expected_present": true }
+        ]
+      }
+    },
+    "DN-300004_1": {
+      "filename": "C3421-ROK1-300-ELC-DN-300004_1.pdf",
+      "drawing_number": "C3421-ROK1-300-ELC-DN-300004",
+      "title": "SCHEMA UNIFILAIRE TABLEAU GENERAL BASSE TENSION",
+      "discipline": "ELEC_SLD_BT",
+      "revision": "1",
+      "total_pages": 19,
+      "reference_feeders": [
+        {
+          "tag": "300-TRP-003",
+          "designation": "Arrivée Transfo",
+          "calibre_a": 2500,
+          "poles": "4P4D"
+        },
+        {
+          "tag": "300-TRP-005",
+          "designation": "TR - ISOLEMENT",
+          "cable_section": "2X(3X240)"
+        },
+        {
+          "tag": "300-UPS-001",
+          "designation": "UPS 110VDC",
+          "cable_section": "5X6",
+          "poles": "4P4D"
+        },
+        {
+          "tag": "300-P-HUILE",
+          "designation": "Pompe refrigérant huile de travail",
+          "cable_section": "3x120+70"
+        },
+        {
+          "tag": "300-THVAC-005",
+          "designation": "Tableau HVAC",
+          "expected_present": true
+        }
+      ]
+    },
+    "ELE-DW-300001": {
+      "filename": "C3421-ROK1-300-ELE-DW-300001-0 29-10-2023",
+      "drawing_number": "C3421-ROK1-300-ELE-DW-300001",
+      "title": "PLAN RESEAU DE TERRE PRINCIPAL",
+      "discipline": "ELEC_EARTHING",
+      "revision": "0",
+      "reference_items": {
+        "bare_copper": [
+          { "section": "50mm²", "min_expected_linear_m": 50.0, "unit_weight_kg_m": 0.448 },
+          { "section": "70mm²", "min_expected_linear_m": 40.0, "unit_weight_kg_m": 0.627 }
+        ],
+        "earth_rods": {
+          "type": "Piquet de terre L=2m",
+          "material": "Acier cuivré",
+          "expected_min_count": 8
+        }
+      }
+    }
+  }
+}

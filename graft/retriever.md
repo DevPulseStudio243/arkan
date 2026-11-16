@@ -1,0 +1,27 @@
+# retriever.py
+
+- RetrievalResult · class · L63-L70 — class RetrievalResult
+- HybridRetriever · class · L73-L752 — class HybridRetriever
+- __init__ · method · L79-L89 — def __init__(self)
+- _ensure_initialized · method · L91-L96 — def _ensure_initialized(self)
+- _init_chroma · method · L98-L116 — def _init_chroma(self)
+- _build_bm25_index · method · L118-L179 — def _build_bm25_index(self)
+- _delayed_embed · function · L170-L175 — def _delayed_embed()
+- _load_or_build_embedding_cache · method · L181-L327 — def _load_or_build_embedding_cache(self)
+- _embed_one · function · L261-L274 — def _embed_one(idx: int)
+- _tokenize · method · L330-L352 — def _tokenize(text: str) -> list[str]
+- _load_source_weights · method · L354-L365 — def _load_source_weights(self)
+- _refresh_source_weights_if_needed · method · L367-L382 — def _refresh_source_weights_if_needed(self)
+- _embed_query · method · L384-L437 — def _embed_query(self, query: str) -> list[float]
+- _vector_search · method · L439-L497 — def _vector_search(self, query: str, top_k: int) -> list[RetrievalResult]
+- _bm25_search · method · L500-L528 — def _bm25_search(self, query: str, top_k: int) -> list[RetrievalResult]
+- _reciprocal_rank_fusion · method · L530-L584 — def _reciprocal_rank_fusion( self, vector_results: list[RetrievalResult], bm25_results: list[RetrievalResult], k: int = 60 ) -> list[RetrievalResult]
+- retrieve · method · L586-L637 — def retrieve(self, query: str, top_k: Optional[int] = None, discipline_filter: Optional[str] = None) -> list[RetrievalResult]
+- assess_context_sufficiency · method · L639-L699 — def assess_context_sufficiency(self, query: str, results: list[RetrievalResult], threshold: float = 0.3) -> dict
+- build_context_string · method · L701-L743 — def build_context_string(self, results: list[RetrievalResult], max_tokens: int = None) -> str
+- invalidate_cache · method · L745-L752 — def invalidate_cache(self)
+- top_k_default · function · L755-L756 — def top_k_default() -> int
+- get_retriever · function · L763-L769 — def get_retriever() -> HybridRetriever
+- hybrid_retrieve · function · L771-L772 — def hybrid_retrieve(query: str, top_k: int = None, discipline: str = None) -> list[RetrievalResult]
+- assess_context_sufficiency · function · L774-L775 — def assess_context_sufficiency(query: str, results: list[RetrievalResult]) -> dict
+- build_context_string · function · L777-L778 — def build_context_string(results: list[RetrievalResult], max_tokens: int = 3000) -> str

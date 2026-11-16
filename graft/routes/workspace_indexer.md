@@ -1,0 +1,45 @@
+# routes/workspace_indexer.py
+
+- validate_iec82045_codification · function · L55-L64 — def validate_iec82045_codification(doc_number: str) -> bool
+- is_path_in_projects · function · L84-L91 — def is_path_in_projects(path: Path) -> bool
+- init_workspace_db · function · L94-L377 — def init_workspace_db()
+- parse_drawing_root_and_rev · function · L384-L481 — def parse_drawing_root_and_rev(file_name: str) -> Dict[str, Any]
+- parse_fcd_file_comments · function · L484-L536 — def parse_fcd_file_comments(file_path: str, fcd_number: str) -> List[Dict[str, Any]]
+- get_workspace_root_info · function · L542-L553 — def get_workspace_root_info()
+- list_workspace_folders · function · L557-L622 — def list_workspace_folders()
+- create_workspace_folder · function · L626-L679 — def create_workspace_folder( name: str = Form(...), code: str = Form(...), folder_name: Optional[str] = Form(None), folder_path: Optional[str] = Form(None), description: str = Form("") )
+- delete_workspace_folder · function · L683-L729 — def delete_workspace_folder(folder_id: int)
+- index_folder_everything · function · L733-L894 — def index_folder_everything(folder_id: int)
+- search_workspace_drawings · function · L898-L1008 — def search_workspace_drawings( folder_id: int, q: str = Query("", description="Terme de recherche instantané"), doc_type: Optional[str] = Query(None, description="Filtre doc_type (ISO, PID, DWG...)"), latest_only: bool = Query(True, description="Uniquement la dernière révision en vigueur") )
+- get_master_drawing_details · function · L1012-L1048 — def get_master_drawing_details(master_id: int)
+- insert_single_plan · function · L1052-L1162 — async def insert_single_plan( folder_id: int, file: UploadFile = File(...) )
+- list_fcd_comments_dashboard · function · L1166-L1221 — def list_fcd_comments_dashboard( folder_id: int, status_filter: str = Query("ALL", description="ALL, NON_LEVE, EN_COURS, LEVE"), target_drawing: Optional[str] = Query(None) )
+- resolve_fcd_comment · function · L1225-L1256 — def resolve_fcd_comment( comment_id: int, status: str = Form("LEVE"), resolution_note: str = Form(""), resolved_in_revision: str = Form("") )
+- stream_plan_file · function · L1260-L1300 — def stream_plan_file(path: str = Query(...))
+- get_document_info · function · L1304-L1340 — def get_document_info(path: str = Query(...))
+- render_document_page · function · L1344-L1399 — def render_document_page( path: str = Query(...), page: int = Query(0), dpi: int = Query(150) )
+- open_file_in_native_app · function · L1403-L1428 — def open_file_in_native_app(path: str = Query(...))
+- get_document_preview_content · function · L1432-L1688 — def get_document_preview_content( path: str = Query(...), sheet: Optional[str] = Query(None), max_rows: int = Query(100), max_cols: int = Query(30) )
+- launch_mto_complete_from_folder · function · L1695-L1781 — def launch_mto_complete_from_folder(folder_id: int)
+- detect_dcc_metadata · function · L1888-L1957 — def detect_dcc_metadata(file_name: str) -> Dict[str, Any]
+- resolve_dcc_physical_path · function · L1959-L1966 — def resolve_dcc_physical_path(folder_path: Path, discipline: str, doc_type: str) -> Path
+- archive_previous_revision_physical · function · L1968-L1986 — def archive_previous_revision_physical(target_dir: Path, active_file_name: str, old_rev_label: str) -> Optional[Path]
+- preview_dcc_upload · function · L1995-L2062 — async def preview_dcc_upload( folder_id: int = Form(...), files: List[UploadFile] = File(...) )
+- commit_dcc_ingestion · function · L2066-L2225 — async def commit_dcc_ingestion( folder_id: int = Form(...), manifest_json: str = Form(...) )
+- get_tdr_list · function · L2229-L2357 — async def get_tdr_list( folder_id: int, discipline: Optional[str] = None, status: Optional[str] = None, search: Optional[str] = None )
+- update_tdr_entry · function · L2361-L2396 — async def update_tdr_entry( doc_id: int = Form(...), title: Optional[str] = Form(None), discipline: Optional[str] = Form(None), doc_type: Optional[str] = Form(None) )
+- create_transmittal · function · L2400-L2477 — async def create_transmittal( folder_id: int = Form(...), transmittal_no: str = Form(...), direction: str = Form("OUTGOING"), recipient: str = Form("SONATRACH / CLIENT"), purpose: str = Form("IFR"), doc_ids_json: str = Form(...), remarks: str = Form("") )
+- record_client_return · function · L2481-L2566 — async def record_client_return( folder_id: int = Form(...), return_transmittal_no: str = Form(...), return_date: str = Form(...), client_code: str = Form(...), doc_ids_json: str = Form(...), comments: str = Form("") )
+- list_transmittals · function · L2570-L2585 — async def list_transmittals(folder_id: int)
+- get_next_transmittal_number · function · L2590-L2635 — def get_next_transmittal_number( folder_id: int, prefix: str = Query("TR", description="Préfixe du bordereau (ex: TR, TRANS)"), purpose: str = Query("IFR", description="Motif contractuel (IFR, IFA, IFC, ASB)") )
+- audit_tdr_compliance · function · L2639-L2690 — async def audit_tdr_compliance(folder_id: int)
+- export_tdr_excel · function · L2694-L2841 — async def export_tdr_excel(folder_id: int)
+- get_transmittal_sheet · function · L2845-L2955 — async def get_transmittal_sheet(transmittal_id: int)
+- get_lifecycle_templates · function · L2964-L2986 — async def get_lifecycle_templates()
+- upload_mdr_file · function · L2990-L3112 — async def upload_mdr_file(file: UploadFile = File(...))
+- find_col_idx · function · L3024-L3029 — def find_col_idx(candidates: List[str]) -> Optional[int]
+- api_auto_generate_codification · function · L3116-L3172 — async def api_auto_generate_codification( deliverables_json: str = Form(...), project_code: str = Form("PRJ"), area_code: str = Form("U10"), standard: str = Form("IEC_82045"), padding_digits: int = Form(4), step_increment: int = Form(1), separator: str = Form("-"), initial_rev: str = Form("0"), counter_scope: str = Form("DISCIPLINE_TYPE"), overwrite_all: bool = Form(False) )
+- confirm_project_setup · function · L3176-L3348 — async def confirm_project_setup( project_name: str = Form(...), project_code: str = Form(...), codification_standard: str = Form("IEC_82045"), custom_regex: Optional[str] = Form(None), client_sla_days: int = Form(21), engineer_sla_days: int = Form(14), deliverables_json: str = Form(...), custom_lifecycles_json: Optional[str] = Form(None) )
+- advance_document_step · function · L3352-L3494 — async def advance_document_step( doc_id: int = Form(...), target_step_code: Optional[str] = Form(None), transmittal_no: Optional[str] = Form(None), remarks: Optional[str] = Form("") )
+- get_tdr_dashboard_analytics · function · L3498-L3660 — async def get_tdr_dashboard_analytics(folder_id: int)
+- extract_and_index_document · function · L3664-L3716 — async def extract_and_index_document(doc_id: int)

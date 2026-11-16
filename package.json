@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nanonets/graft": "^0.20.0",
+    "codebase-memory-mcp": "^0.11.0"
+  }
+}

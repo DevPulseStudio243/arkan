@@ -1,0 +1,26 @@
+# arh_nuextract_engine.py
+
+- ARHNuExtractEngine · class · L179-L2499 — class ARHNuExtractEngine
+- __init__ · method · L182-L194 — def __init__(self, ollama_url: str = "http://localhost:11434", nuextract_port: int = 11435)
+- ensure_nuextract_service · method · L196-L243 — def ensure_nuextract_service(self) -> bool
+- format_nuextract_prompt · method · L245-L256 — def format_nuextract_prompt(self, text: str, schema_template: Dict[str, Any]) -> str
+- extract_structured · method · L258-L310 — def extract_structured(self, text: str, schema_type: str) -> Dict[str, Any]
+- _try_nuextract_extraction · method · L312-L328 — def _try_nuextract_extraction(self, text: str, template: Dict[str, Any]) -> Optional[Dict[str, Any]]
+- _try_ollama_extraction · method · L330-L356 — def _try_ollama_extraction(self, text: str, template: Dict[str, Any]) -> Optional[Dict[str, Any]]
+- _deterministic_extract · method · L358-L564 — def _deterministic_extract(self, text: str, schema_type: str, template: Dict[str, Any]) -> Dict[str, Any]
+- _get_ocr_engine · method · L571-L631 — def _get_ocr_engine(cls)
+- _gpu_patched_session · function · L590-L603 — def _gpu_patched_session(model_path, sess_options=None, providers=None, **kwargs)
+- _ocr_pdf_page · method · L637-L749 — def _ocr_pdf_page(self, page, dpi: int = 135) -> str
+- _clean_number · method · L752-L797 — def _clean_number(val: Any, default: float = 0.0, dot_thousands_hint: bool = False) -> float
+- _normalize_date · method · L800-L819 — def _normalize_date(raw_date: str) -> str
+- _parse_pdf_tables_for_bpu · method · L821-L935 — def _parse_pdf_tables_for_bpu(self, doc, default_delai: str = "", page_indices: Optional[List[int]] = None) -> List[Dict[str, Any]]
+- _extract_filename_hints · method · L938-L1080 — def _extract_filename_hints(filename: str) -> Dict[str, str]
+- _extract_procurement_contract_deterministic · method · L1082-L1359 — def _extract_procurement_contract_deterministic(self, text: str, filename: str = "") -> Dict[str, Any]
+- _solve_row_numbers_and_text · method · L1361-L1606 — def _solve_row_numbers_and_text( self, raw_cells: List[str], units_regex: str, dot_thousands_hint: bool = False ) -> Optional[Dict[str, Any]]
+- _parse_bpu_lines_from_text · method · L1608-L2174 — def _parse_bpu_lines_from_text( self, text: str, default_delai: str = "", objet_fallback: str = "", montant_fallback: float = 0.0, dot_thousands_hint: bool = False ) -> List[Dict[str, Any]]
+- _match_subitem_start · function · L1727-L1734 — def _match_subitem_start(line_s: str)
+- _register_item · function · L1749-L1789 — def _register_item(item_dict: Dict[str, Any], is_bpu_unit_only: bool = False)
+- extract_contract_from_pdf · method · L2176-L2419 — def extract_contract_from_pdf(self, pdf_path: str, filename: str = "") -> Dict[str, Any]
+- _read_page · function · L2214-L2223 — def _read_page(p_idx: int) -> str
+- audit_complete_dossier · method · L2421-L2499 — def audit_complete_dossier(self, pdf_path: str, equipment_type: str = "FITTING") -> Dict[str, Any]
+- extract_contract_from_pdf · function · L2506-L2508 — def extract_contract_from_pdf(pdf_path: str, filename: str = "") -> Dict[str, Any]

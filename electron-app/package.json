@@ -1,0 +1,15 @@
+{
+  "name": "arkan-desktop",
+  "version": "1.0.0",
+  "description": "Arkan - Assistant d'Analyse de Plans Techniques",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Arkan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

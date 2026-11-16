@@ -1,0 +1,15 @@
+# xerengine_report.js
+
+- esc · function · L5-L5 — esc = function (s)
+- D · function · L6-L6 — D = function (t)
+- fmt · function · L7-L7 — fmt = function (t, y)
+- money · function · L8-L8 — money = function (n)
+- gantt · function · L12-L38 — function gantt(r)
+- x · function · L15-L15 — x = function (t)
+- histogram · function · L40-L48 — function histogram(r)
+- scurve · function · L50-L60 — function scurve(r)
+- X · function · L52-L52 — X = function (i)
+- Y · function · L52-L52 — Y = function (v)
+- chip · function · L62-L62 — function chip(s)
+- verdictOf · function · L64-L71 — function verdictOf(r)
+- buildReport · function · L73-L116 — function buildReport(r)

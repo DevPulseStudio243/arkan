@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-09-09 12:11:33",
+  "global_status": "COMPLETED",
+  "total_projects_audited": 7,
+  "total_expert_reserves": 61,
+  "total_detected_reserves": 61,
+  "global_concordance_rate": "100.0%",
+  "projects": [
+    {
+      "id": "LOT_1_GLOBE_VALVE",
+      "name": "Globe Valve GOVAL Lot 1",
+      "expert": 11,
+      "detected": 11,
+      "rate": "100.0%",
+      "experts": [
+        "Ahmed SELLAMI",
+        "Mohamed YEKHLEF"
+      ]
+    },
+    {
+      "id": "CF_39_BARRED_TEE",
+      "name": "Barred Tee PRIMEX CF 39",
+      "expert": 10,
+      "detected": 10,
+      "rate": "100.0%",
+      "experts": [
+        "Ahmed SELLAMI",
+        "Abdallah ROUABA"
+      ]
+    },
+    {
+      "id": "LOT_2_BALL_VALVE",
+      "name": "Ball Valve GOVAL Lot 2",
+      "expert": 13,
+      "detected": 13,
+      "rate": "100.0%",
+      "experts": [
+        "Ahmed SELLAMI",
+        "Mohamed YEKHLEF"
+      ]
+    },
+    {
+      "id": "LOT_3_DDB_VALVE",
+      "name": "DDB Valve GOVAL Lot 3",
+      "expert": 7,
+      "detected": 7,
+      "rate": "100.0%",
+      "experts": [
+        "Nesrine MERAH",
+        "Abdallah ROUABA"
+      ]
+    },
+    {
+      "id": "LOT_4_CHECK_VALVE",
+      "name": "Dual-Plate Check Valve GOVAL Lot 4",
+      "expert": 10,
+      "detected": 10,
+      "rate": "100.0%",
+      "experts": [
+        "Ahmed SELLAMI",
+        "Mohamed YEKHLEF"
+      ]
+    },
+    {
+      "id": "PIPE_SMLS_CS25",
+      "name": "Pipe SMLS CS 25 GCB",
+      "expert": 5,
+      "detected": 5,
+      "rate": "100.0%",
+      "experts": [
+        "Nabil MAZOUZI",
+        "Abdelhak BENBELKACEM"
+      ]
+    },
+    {
+      "id": "FITTING_FLANGE_CS25",
+      "name": "Fitting & Flange CS 25 GCB",
+      "expert": 5,
+      "detected": 5,
+      "rate": "100.0%",
+      "experts": [
+        "Nabil MAZOUZI",
+        "Cherif KACHROUD"
+      ]
+    }
+  ]
+}
